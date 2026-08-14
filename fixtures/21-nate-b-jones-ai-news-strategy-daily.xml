@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UC0C-17n9iuUQPylguM1d-lQ"/>
+ <id>yt:channel:0C-17n9iuUQPylguM1d-lQ</id>
+ <yt:channelId>0C-17n9iuUQPylguM1d-lQ</yt:channelId>
+ <title>AI News &amp; Strategy Daily | Nate B Jones</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UC0C-17n9iuUQPylguM1d-lQ"/>
+ <author>
+  <name>AI News &amp; Strategy Daily | Nate B Jones</name>
+  <uri>https://www.youtube.com/channel/UC0C-17n9iuUQPylguM1d-lQ</uri>
+ </author>
+ <published>2024-05-20T20:46:52+00:00</published>
+ <entry>
+  <id>yt:video:NRCFWQC6Mx4</id>
+  <yt:videoId>NRCFWQC6Mx4</yt:videoId>
+  <yt:channelId>UC0C-17n9iuUQPylguM1d-lQ</yt:channelId>
+  <title>Everyone's watching the wrong AI scoreboard #AI #OpenAI #AInews #tech #bigtech</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/NRCFWQC6Mx4"/>
+  <author>
+   <name>AI News &amp; Strategy Daily | Nate B Jones</name>
+   <uri>https://www.youtube.com/channel/UC0C-17n9iuUQPylguM1d-lQ</uri>
+  </author>
+  <published>2026-07-27T03:00:11+00:00</published>
+  <updated>2026-07-27T08:01:03+00:00</updated>
+  <media:group>
+   <media:title>Everyone's watching the wrong AI scoreboard #AI #OpenAI #AInews #tech #bigtech</media:title>
+   <media:content url="https://www.youtube.com/v/NRCFWQC6Mx4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/NRCFWQC6Mx4/hqdefault.jpg" width="480" height="360"/>
+   <media:description>For two years, one number ran the entire AI industry: who has the best model this month. Every launch, every earnings call, every leak got scored against it, and that scoreboard justified the biggest capital buildout in the history of technology. It was not irrational. The model race was real and it produced real jumps.
+
+But the tell is what the leaders are doing now. When the companies at the front quietly stop competing on the thing everyone else is still measuring, the game has already moved. The best model stops being the prize, and the fight shifts to who owns the context, the distribution, and the permission to ship. If you are still keeping score the old way, you are going to watch the wrong companies win and never quite understand why.
+
+Here's the new race the leaders are actually running: https://natesnewsletter.substack.com/p/ai-race-context?r=1z4sm5&amp;utm_campaign=post&amp;utm_medium=web&amp;showWelcomeOnShare=true
+
+
+My Links 🔗 Newsletter: https://natesnewsletter.substack.com/
+👉🏻 X: https://x.com/natebjones
+👉🏻 TikTok: https://www.tiktok.com/@nate.b.jones
+👉🏻 Instagram: https://www.instagram.com/nate.b.jones</media:description>
+   <media:community>
+    <media:starRating count="57" average="5.00" min="1" max="5"/>
+    <media:statistics views="2656"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:7pqRRxrdr0c</id>
+  <yt:videoId>7pqRRxrdr0c</yt:videoId>
+  <yt:channelId>UC0C-17n9iuUQPylguM1d-lQ</yt:channelId>
+  <title>You Can Hand One AI Agent Your Worst Recurring Task. It Cleared 60% Of Mine.</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=7pqRRxrdr0c"/>
+  <author>
+   <name>AI News &amp; Strategy Daily | Nate B Jones</name>
+   <uri>https://www.youtube.com/channel/UC0C-17n9iuUQPylguM1d-lQ</uri>
+  </author>
+  <published>2026-07-26T17:00:16+00:00</published>
+  <updated>2026-07-26T17:00:54+00:00</updated>
+  <media:group>
+   <media:title>You Can Hand One AI Agent Your Worst Recurring Task. It Cleared 60% Of Mine.</media:title>
+   <media:content url="https://www.youtube.com/v/7pqRRxrdr0c?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/7pqRRxrdr0c/hqdefault.jpg" width="480" height="360"/>
+   <media:description>How to give an AI agent a real job: start with the customer support problem your team keeps fixing by hand. We closed 51 of 52 support issues, then rebuilt the process so our biggest category stopped happening at all.
+
+How to find the first problem your agent should solve (guide):  https://natesnewsletter.substack.com/p/first-ai-agent-use-case?r=1z4sm5&amp;utm_campaign=post&amp;utm_medium=web&amp;showWelcomeOnShare=true
+
+My Links 🔗
+👉🏻 Newsletter: https://natesnewsletter.substack.com/
+👉🏻 X: https://x.com/natebjones
+👉🏻 TikTok: https://www.tiktok.com/@nate.b.jones
+👉🏻 Instagram: https://www.instagram.com/nate.b.jones
+
+What's really happening inside AI automation for customer support?
+
+The common story is that AI helps you answer tickets faster — but the real question is whether the ticket had to exist at all.
+
+In this video, I share the inside scoop on how we used AI to root-cause our support work instead of speeding it up:
+
+- How we took a comparable support week from 52 cases down to 19
+- Why you group cases by root cause, not by subject line
+- What still needs human approval when access or money is involved
+- Where this same repeated pain shows up in sales, finance, and IT
+
+Agents can carry the research and prepare the work, and the cases left over will be the harder ones that still need your judgment.
+
+Chapters:
+00:00 Fifty-one of fifty-two support issues, fixed with AI
+01:21 The hidden work behind a single support ticket
+02:09 Rebuilding the access path so the question stops
+05:49 Writing down the process before automating anything
+07:34 Recording the pain: one ticket per problem
+08:51 Keeping human approval on access and money
+09:56 Twenty-six patterns and two upstream failures
+11:31 Gumroad: an agent that shipped a bug fix
+12:18 When the customer became the approver
+14:43 Pull 50 to 100 cases and strip the PII
+16:23 Picking a boring, reversible first problem
+19:02 Keep a scorecard and count again next week
+
+Listen to this video as a podcast.
+
+Spotify: https://open.spotify.com/show/0gkFdjd1wptEKJKLu9LbZ4
+Apple Podcasts: https://podcasts.apple.com/us/podcast/ai-news-strategy-daily-with-nate-b-jones/id1877109372</media:description>
+   <media:community>
+    <media:starRating count="390" average="5.00" min="1" max="5"/>
+    <media:statistics views="11626"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:nYL2tunaHxA</id>
+  <yt:videoId>nYL2tunaHxA</yt:videoId>
+  <yt:channelId>UC0C-17n9iuUQPylguM1d-lQ</yt:channelId>
+  <title>Why does everything look the same now? #AI #creativity #marketing #futureofwork #AItools</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/nYL2tunaHxA"/>
+  <author>
+   <name>AI News &amp; Strategy Daily | Nate B Jones</name>
+   <uri>https://www.youtube.com/channel/UC0C-17n9iuUQPylguM1d-lQ</uri>
+  </author>
+  <published>2026-07-25T04:30:32+00:00</published>
+  <updated>2026-07-25T11:04:42+00:00</updated>
+  <media:group>
+   <media:title>Why does everything look the same now? #AI #creativity #marketing #futureofwork #AItools</media:title>
+   <media:content url="https://www.youtube.com/v/nYL2tunaHxA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/nYL2tunaHxA/hqdefault.jpg" width="480" height="360"/>
+   <media:description>You have probably felt this without putting words to it. Everything coming out of AI is competent and clean and completely forgettable, and it all rhymes. Your post, the post right under it, the thing your competitor shipped, they could swap bylines and no one would notice. The reflex is to blame the tool, so people go shopping for a better model, and the sameness follows them there too.
+
+Here is what actually happened. AI drove the cost of producing things to almost nothing, and the moment execution gets that cheap, execution stops being where the value lives. It does not vanish. It moves. It moves to the parts a model cannot hand you: taste, a real point of view, and knowing which thing is even worth making in the first place. If your work still competes on producing the artifact, you are competing in the one spot that just got commoditized.
+
+More on where the value actually went: https://natesnewsletter.substack.com/p/beyond-model-routing?r=1z4sm5&amp;utm_campaign=post&amp;utm_medium=web&amp;showWelcomeOnShare=true
+
+
+My Links 🔗 Newsletter: https://natesnewsletter.substack.com/
+👉🏻 X: https://x.com/natebjones
+👉🏻 TikTok: https://www.tiktok.com/@nate.b.jones
+👉🏻 Instagram: https://www.instagram.com/nate.b.jones</media:description>
+   <media:community>
+    <media:starRating count="321" average="5.00" min="1" max="5"/>
+    <media:statistics views="19777"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:EuVvLwWZ5wc</id>
+  <yt:videoId>EuVvLwWZ5wc</yt:videoId>
+  <yt:channelId>UC0C-17n9iuUQPylguM1d-lQ</yt:channelId>
+  <title>How to Use AI on Files You're Not Allowed to Upload</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=EuVvLwWZ5wc"/>
+  <author>
+   <name>AI News &amp; Strategy Daily | Nate B Jones</name>
+   <uri>https://www.youtube.com/channel/UC0C-17n9iuUQPylguM1d-lQ</uri>
+  </author>
+  <published>2026-07-24T14:00:31+00:00</published>
+  <updated>2026-07-24T18:15:12+00:00</updated>
+  <media:group>
+   <media:title>How to Use AI on Files You're Not Allowed to Upload</media:title>
+   <media:content url="https://www.youtube.com/v/EuVvLwWZ5wc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/EuVvLwWZ5wc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>How to use AI on sensitive files you can't upload. I built an on-device Mac app that strips what a model doesn't need and rebuilds a clean copy, so your private data never leaves your computer.
+
+Get Airlock: https://natesnewsletter.substack.com/p/use-ai-sensitive-files?r=1z4sm5&amp;utm_campaign=post&amp;utm_medium=web&amp;showWelcomeOnShare=true
+
+My Links 🔗
+👉🏻 Newsletter: https://natesnewsletter.substack.com/
+👉🏻 X: https://x.com/natebjones
+👉🏻 TikTok: https://www.tiktok.com/@nate.b.jones
+👉🏻 Instagram: https://www.instagram.com/nate.b.jones
+
+What's really happening when the AI you're told to use meets the files you're told not to upload?
+
+The common story is that you just shouldn't paste sensitive data into a chatbot. The real question is what a model actually needs to see, and who has to decide it.
+
+In this video, I share the inside scoop on using AI without handing over the sensitive stuff:
+
+- Why &quot;don't upload the file&quot; stopped being useful advice
+- How to separate what a task needs from what a file contains
+- What Airlock strips out, and what it deliberately leaves alone
+- Where a clean copy can safely go, and where it cannot
+
+The upside is real work moving faster on private material, but a sanitized copy is not authorization, so you still read what leaves before it goes.
+
+Chapters:
+00:00 The file I would never upload
+00:39 Why the warning stops too soon
+01:16 Airlock demo and protected terms
+02:39 Keep or cut: what the model actually needs
+04:03 Rebuild the file instead of redacting it
+04:50 Hand the clean copy to a frontier model
+05:57 Why this suddenly feels urgent
+07:45 What people in my community really do
+09:26 Verizon on shadow AI at work
+10:09 Security fatigue and better defaults
+11:06 Redaction that keeps the work useful
+12:44 Begin with the job
+
+Listen to this video as a podcast.
+
+Spotify: https://open.spotify.com/show/0gkFdjd1wptEKJKLu9LbZ4
+Apple Podcasts: https://podcasts.apple.com/us/podcast/ai-news-strategy-daily-with-nate-b-jones/id1877109372</media:description>
+   <media:community>
+    <media:starRating count="379" average="5.00" min="1" max="5"/>
+    <media:statistics views="11379"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:X-h3qWWoZiE</id>
+  <yt:videoId>X-h3qWWoZiE</yt:videoId>
+  <yt:channelId>UC0C-17n9iuUQPylguM1d-lQ</yt:channelId>
+  <title>OpenAI's AI broke loose in Hugging Face. Their defense? A Chinese model.</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=X-h3qWWoZiE"/>
+  <author>
+   <name>AI News &amp; Strategy Daily | Nate B Jones</name>
+   <uri>https://www.youtube.com/channel/UC0C-17n9iuUQPylguM1d-lQ</uri>
+  </author>
+  <published>2026-07-23T19:47:48+00:00</published>
+  <updated>2026-07-24T08:33:28+00:00</updated>
+  <media:group>
+   <media:title>OpenAI's AI broke loose in Hugging Face. Their defense? A Chinese model.</media:title>
+   <media:content url="https://www.youtube.com/v/X-h3qWWoZiE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/X-h3qWWoZiE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>OpenAI ran an internal cybersecurity test on its most capable AI models. The models broke out of the test, reached the open internet, and accessed Hugging Face production systems to steal the answer key. Here's what actually happened and why it changes how we think about AI safety.
+
+My Links 🔗
+- 👉🏻 Newsletter: https://natesnewsletter.substack.com/
+- 👉🏻 X: https://x.com/natebjones
+- 👉🏻 TikTok: https://www.tiktok.com/@nate.b.jones
+- 👉🏻 Instagram: https://www.instagram.com/nate.b.jones
+
+What's really happening inside frontier AI cyber testing?
+
+The common story is that a model escaped its sandbox. The real question is who was allowed to stop it once it did.
+
+In this video, I break down what the Hugging Face incident says about AI safety, access, and where model capability actually lives:
+
+- How an offensive eval let a model reach the open internet
+- Why Hugging Face had to defend with a Chinese open-weight model
+- What a safe autopilot for AI models actually means
+- Why slower rollouts push more capability inside the labs
+
+The models did not run wild on the internet; they pursued the goal they were given in a way nobody authorized, and that gap is the thing we have to engineer around before these systems get stronger.
+
+Chapters:
+00:00 Inside OpenAI's cyber test, the model broke out
+01:15 Why Hugging Face investigated with a Chinese open-weight model
+02:00 What actually happened: refusals off, zero-day, escape
+02:38 The models pursued their goal, they didn't run wild
+03:15 An access policy nobody designed
+04:37 Trusted access before the emergency
+06:01 Safe autopilots for models
+09:27 Slower rollouts and the capability overhang
+10:31 First-party value harvesting before the IPO
+11:35 Who deserves to use frontier intelligence
+12:44 What comes next
+
+Listen to this video as a podcast.
+
+Spotify: https://open.spotify.com/show/0gkFdjd1wptEKJKLu9LbZ4
+Apple Podcasts: https://podcasts.apple.com/us/podcast/ai-news-strategy-daily-with-nate-b-jones/id1877109372</media:description>
+   <media:community>
+    <media:starRating count="1118" average="5.00" min="1" max="5"/>
+    <media:statistics views="31061"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:WWvb_S6AQr0</id>
+  <yt:videoId>WWvb_S6AQr0</yt:videoId>
+  <yt:channelId>UC0C-17n9iuUQPylguM1d-lQ</yt:channelId>
+  <title>What if AI isn't the problem anymore? #AI #productivity #AItransformation #futureofwork #aitools</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/WWvb_S6AQr0"/>
+  <author>
+   <name>AI News &amp; Strategy Daily | Nate B Jones</name>
+   <uri>https://www.youtube.com/channel/UC0C-17n9iuUQPylguM1d-lQ</uri>
+  </author>
+  <published>2026-07-23T03:00:26+00:00</published>
+  <updated>2026-07-24T06:00:28+00:00</updated>
+  <media:group>
+   <media:title>What if AI isn't the problem anymore? #AI #productivity #AItransformation #futureofwork #aitools</media:title>
+   <media:content url="https://www.youtube.com/v/WWvb_S6AQr0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/WWvb_S6AQr0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Most people bought AI and then pointed it at the exact same to-do list they had two years ago. The emails still get written, just faster. The decks still get built, just cheaper. It feels like progress, and the tools genuinely are better, so it is easy to call that a transformation.
+
+But look closely and nothing actually changed except the speed. Same tasks, same outputs, same shape of the work. When execution gets this cheap, doing your old list faster is the least interesting thing you can do with it. The people pulling ahead are not running the old list quicker. They are asking for things that were not even on the table a year ago, work they never would have attempted because it used to be too expensive or too slow.
+
+That gap is not a tools gap. It is an imagination gap. Here's how to find the work actually worth pointing AI at: https://natesnewsletter.substack.com/p/beyond-model-routing?r=1z4sm5&amp;utm_campaign=post&amp;utm_medium=web&amp;showWelcomeOnShare=true
+
+
+My Links 🔗 Newsletter: https://natesnewsletter.substack.com/
+👉🏻 X: https://x.com/natebjones
+👉🏻 TikTok: https://www.tiktok.com/@nate.b.jones
+👉🏻 Instagram: https://www.instagram.com/nate.b.jones</media:description>
+   <media:community>
+    <media:starRating count="86" average="5.00" min="1" max="5"/>
+    <media:statistics views="4840"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:m_ZyTNmCDeY</id>
+  <yt:videoId>m_ZyTNmCDeY</yt:videoId>
+  <yt:channelId>UC0C-17n9iuUQPylguM1d-lQ</yt:channelId>
+  <title>The AI Slop Problem Nobody's Talking About | Substack CEO Interview</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=m_ZyTNmCDeY"/>
+  <author>
+   <name>AI News &amp; Strategy Daily | Nate B Jones</name>
+   <uri>https://www.youtube.com/channel/UC0C-17n9iuUQPylguM1d-lQ</uri>
+  </author>
+  <published>2026-07-22T17:00:11+00:00</published>
+  <updated>2026-07-22T17:00:47+00:00</updated>
+  <media:group>
+   <media:title>The AI Slop Problem Nobody's Talking About | Substack CEO Interview</media:title>
+   <media:content url="https://www.youtube.com/v/m_ZyTNmCDeY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/m_ZyTNmCDeY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Substack just shipped AI detection, and I sat down with co-founder and CEO Chris Best to talk about what a detector can and cannot see in your writing.
+
+Full post:
+https://natesnewsletter.substack.com/p/ai-detection-ideas-not-words?r=1z4sm5&amp;utm_campaign=post&amp;utm_medium=web&amp;showWelcomeOnShare=true
+
+My Links 🔗
+👉🏻 Newsletter: https://natesnewsletter.substack.com/
+👉🏻 X: https://x.com/natebjones
+👉🏻 TikTok: https://www.tiktok.com/@nate.b.jones
+👉🏻 Instagram: https://www.instagram.com/nate.b.jones
+
+What's really happening inside AI detection on Substack?
+
+The common story is that a detector tells you whether writing is real, but the real question is whether anyone meant what they published.
+
+In this video, I share the inside scoop on AI slop, detection, and what still counts as thinking:
+
+- Why over 40% of LinkedIn long-form posts scan as fully AI-generated
+- How Substack's new Pangram scan works, and what it misses
+- What a denial of service attack on the public square looks like
+- Where human attention still holds value as language gets cheap
+
+Detection gives readers a real signal about how text was made, but it cannot tell you whether anyone thought about it, and that is still the part only a person can supply.
+
+Chapters:
+00:00 What AI slop is, and the Pangram numbers
+02:43 The same problem inside companies
+05:01 A denial of service attack on the public square
+07:56 What Substack shipped
+11:27 How I actually write with AI
+17:41 Proof of work is dead
+20:01 Why models pull toward the same ideas
+22:35 A Pangram for ideas
+26:09 The Odyssey and what lasts
+34:46 Anti-slop is a pro-AI stance
+41:41 Claude-fishing and the new norms
+43:57 Human attention, the last scarce resource
+
+Listen to this video as a podcast.
+
+Spotify: https://open.spotify.com/show/0gkFdjd1wptEKJKLu9LbZ4
+Apple Podcasts: https://podcasts.apple.com/us/podcast/ai-news-strategy-daily-with-nate-b-jones/id1877109372</media:description>
+   <media:community>
+    <media:starRating count="668" average="5.00" min="1" max="5"/>
+    <media:statistics views="25127"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:fKJ_hlvqM2o</id>
+  <yt:videoId>fKJ_hlvqM2o</yt:videoId>
+  <yt:channelId>UC0C-17n9iuUQPylguM1d-lQ</yt:channelId>
+  <title>Yes, AI agents hallucinate. Here's how mine caught itself. Get the multi-agent system below ⬇️</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/fKJ_hlvqM2o"/>
+  <author>
+   <name>AI News &amp; Strategy Daily | Nate B Jones</name>
+   <uri>https://www.youtube.com/channel/UC0C-17n9iuUQPylguM1d-lQ</uri>
+  </author>
+  <published>2026-07-22T03:00:26+00:00</published>
+  <updated>2026-07-22T10:46:19+00:00</updated>
+  <media:group>
+   <media:title>Yes, AI agents hallucinate. Here's how mine caught itself. Get the multi-agent system below ⬇️</media:title>
+   <media:content url="https://www.youtube.com/v/fKJ_hlvqM2o?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/fKJ_hlvqM2o/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Everyone's first objection to AI agents is the same, and it is a fair one. They hallucinate. You cannot trust them. So you end up hovering over every step, checking the work, and at that point you may as well have done it yourself.
+
+Here is the thing that changes the math. The fix for an agent you cannot trust is not a smarter single agent. It is a second agent whose only job is to check the first one, and a third that checks that. When one of mine made something up, another one caught it and corrected it before it ever reached me. No hovering, no cleanup, no lifting a finger. The system polices itself, which is the only version of this that actually saves you time instead of handing you a babysitting job.
+
+That is the whole trick, and it is surprisingly old. Here's how to set it up yourself, no code required: https://natesnewsletter.substack.com/p/trust-ai-agents?r=1z4sm5&amp;utm_campaign=post&amp;utm_medium=web&amp;showWelcomeOnShare=true
+
+
+#AI #aiagents #multiagent #automation #AItools
+
+
+My Links 🔗 Newsletter: https://natesnewsletter.substack.com/
+👉🏻 X: https://x.com/natebjones
+👉🏻 TikTok: https://www.tiktok.com/@nate.b.jones
+👉🏻 Instagram: https://www.instagram.com/nate.b.jones</media:description>
+   <media:community>
+    <media:starRating count="351" average="5.00" min="1" max="5"/>
+    <media:statistics views="14225"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:D64_UhhSj6A</id>
+  <yt:videoId>D64_UhhSj6A</yt:videoId>
+  <yt:channelId>UC0C-17n9iuUQPylguM1d-lQ</yt:channelId>
+  <title>Stop building AI agents that just click buttons #AI #aiagents #automation #productivity #AItools</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/D64_UhhSj6A"/>
+  <author>
+   <name>AI News &amp; Strategy Daily | Nate B Jones</name>
+   <uri>https://www.youtube.com/channel/UC0C-17n9iuUQPylguM1d-lQ</uri>
+  </author>
+  <published>2026-07-21T03:00:31+00:00</published>
+  <updated>2026-07-21T08:08:53+00:00</updated>
+  <media:group>
+   <media:title>Stop building AI agents that just click buttons #AI #aiagents #automation #productivity #AItools</media:title>
+   <media:content url="https://www.youtube.com/v/D64_UhhSj6A?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/D64_UhhSj6A/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Most agent demos show you the wrong magic trick. Watch, it clicked send. Watch, it booked the meeting. That is the easy part. You could always click send. What actually eats your week is everything that happens before the click: digging through a messy folder, making sense of a denial letter, pulling the right numbers out of a pile of unstructured junk that was never meant to be read quickly.
+
+That is the part worth automating. An agent earns its place when it takes the bureaucratic mess and turns it into something clean enough that the final action is trivial. It does the reading, the sorting, the assembling. You stay in the seat for the one decision that actually carries risk, and you click the button yourself.
+
+I built exactly this for insurance denials and tax piles, an agent that assembles the whole cited packet and then stops so you can review and send: https://natesnewsletter.substack.com/p/reusable-ai-agent?r=1z4sm5&amp;utm_campaign=post&amp;utm_medium=web&amp;showWelcomeOnShare=true
+
+My Links 🔗 Newsletter: https://natesnewsletter.substack.com/
+👉🏻 X: https://x.com/natebjones
+👉🏻 TikTok: https://www.tiktok.com/@nate.b.jones
+👉🏻 Instagram: https://www.instagram.com/nate.b.jones</media:description>
+   <media:community>
+    <media:starRating count="174" average="5.00" min="1" max="5"/>
+    <media:statistics views="8022"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:2ZpZhsjoUK4</id>
+  <yt:videoId>2ZpZhsjoUK4</yt:videoId>
+  <yt:channelId>UC0C-17n9iuUQPylguM1d-lQ</yt:channelId>
+  <title>China's K3 Model Reveals the Problem With Open Weights</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=2ZpZhsjoUK4"/>
+  <author>
+   <name>AI News &amp; Strategy Daily | Nate B Jones</name>
+   <uri>https://www.youtube.com/channel/UC0C-17n9iuUQPylguM1d-lQ</uri>
+  </author>
+  <published>2026-07-20T14:00:15+00:00</published>
+  <updated>2026-07-22T01:37:36+00:00</updated>
+  <media:group>
+   <media:title>China's K3 Model Reveals the Problem With Open Weights</media:title>
+   <media:content url="https://www.youtube.com/v/2ZpZhsjoUK4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/2ZpZhsjoUK4/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Full post:
+https://natesnewsletter.substack.com/p/kimi-k3-open-weights-cost?r=1z4sm5&amp;utm_campaign=post&amp;utm_medium=web&amp;showWelcomeOnShare=true
+
+Kimi K3 is Moonshot's new open-weight AI model, and it complicates the story that Chinese open models are cheap, efficient, and closing the gap on the frontier. Here's what it actually costs to run, and what it means for OpenAI, Anthropic, and the future of open source.
+
+My Links 🔗
+👉🏻 Newsletter: https://natesnewsletter.substack.com/
+👉🏻 X: https://x.com/natebjones
+👉🏻 TikTok: https://www.tiktok.com/@nate.b.jones
+👉🏻 Instagram: https://www.instagram.com/nate.b.jones
+
+What's really happening with China's new open-weight AI model?
+
+The common story is that Chinese open models are cheap, efficient, and catching the frontier, but the real question is what K3 costs to run and what still needs a closed model.
+
+In this video, I share the inside scoop on Kimi K3 and the real economics of open-weight AI:
+
+- Why downloadable weights still need 64 accelerator chips to run
+- How K3's heavy token use erodes its apparent price advantage
+- What the &quot;efficient Chinese model&quot; narrative gets wrong about serving
+- Why open weights raise real cyber and governance risks
+
+K3 is a genuinely strong open model and a useful pricing check on the closed labs, but treating open weights as cheap, safe, or frontier-equal will cost you.
+
+Chapters:
+00:00 Kimi K3 is Moonshot's new open-weight model
+00:53 Why K3 is a big, heavy model to run
+06:20 The cheap-and-easy open source narrative is outdated
+14:05 Governments may restrict model distribution
+17:04 Why K3 is an inflection point in open source
+
+Listen to this video as a podcast.
+
+Spotify: https://open.spotify.com/show/0gkFdjd1wptEKJKLu9LbZ4
+Apple Podcasts: https://podcasts.apple.com/us/podcast/ai-news-strategy-daily-with-nate-b-jones/id1877109372</media:description>
+   <media:community>
+    <media:starRating count="1769" average="5.00" min="1" max="5"/>
+    <media:statistics views="57089"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:F7bFbQSTPq8</id>
+  <yt:videoId>F7bFbQSTPq8</yt:videoId>
+  <yt:channelId>UC0C-17n9iuUQPylguM1d-lQ</yt:channelId>
+  <title>The real thing gating AI now isn't the technology #OpenAI #AI #AIregulation #AInews #tech</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/F7bFbQSTPq8"/>
+  <author>
+   <name>AI News &amp; Strategy Daily | Nate B Jones</name>
+   <uri>https://www.youtube.com/channel/UC0C-17n9iuUQPylguM1d-lQ</uri>
+  </author>
+  <published>2026-07-20T03:00:38+00:00</published>
+  <updated>2026-07-20T07:04:47+00:00</updated>
+  <media:group>
+   <media:title>The real thing gating AI now isn't the technology #OpenAI #AI #AIregulation #AInews #tech</media:title>
+   <media:content url="https://www.youtube.com/v/F7bFbQSTPq8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/F7bFbQSTPq8/hqdefault.jpg" width="480" height="360"/>
+   <media:description>For two years the whole AI race was about one thing: who has the most compute and the best model. That story is quietly ending. The labs at the frontier are bumping into a different wall now, and it is not a technical one. It is political. When a government can decide whether and when your flagship model is allowed to ship, raw capability stops being the thing that wins, and access to permission becomes the real asset.
+
+That is what the OpenAI government move is actually about. It is not goodwill and it is not safety theater. It is a company paying for regulatory headroom the same way it pays for data centers, because getting the model out the door is now a political problem as much as an engineering one. Once you see the race this way, a lot of the recent moves stop looking random.
+
+The old &quot;who has the best model&quot; scoreboard is over. Here's the race that replaced it: https://natesnewsletter.substack.com/p/ai-race-context?r=1z4sm5&amp;utm_campaign=post&amp;utm_medium=web&amp;showWelcomeOnShare=true
+
+
+
+My Links 🔗 Newsletter: https://natesnewsletter.substack.com/
+👉🏻 X: https://x.com/natebjones
+👉🏻 TikTok: https://www.tiktok.com/@nate.b.jones
+👉🏻 Instagram: https://www.instagram.com/nate.b.jones</media:description>
+   <media:community>
+    <media:starRating count="193" average="5.00" min="1" max="5"/>
+    <media:statistics views="9909"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:5slsNizN6MQ</id>
+  <yt:videoId>5slsNizN6MQ</yt:videoId>
+  <yt:channelId>UC0C-17n9iuUQPylguM1d-lQ</yt:channelId>
+  <title>I Cut the Internet and Let AI Read the File I Could Never Upload. It Caught the Leak.</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=5slsNizN6MQ"/>
+  <author>
+   <name>AI News &amp; Strategy Daily | Nate B Jones</name>
+   <uri>https://www.youtube.com/channel/UC0C-17n9iuUQPylguM1d-lQ</uri>
+  </author>
+  <published>2026-07-19T05:00:22+00:00</published>
+  <updated>2026-07-26T14:15:59+00:00</updated>
+  <media:group>
+   <media:title>I Cut the Internet and Let AI Read the File I Could Never Upload. It Caught the Leak.</media:title>
+   <media:content url="https://www.youtube.com/v/5slsNizN6MQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/5slsNizN6MQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Full post with a guide to clean sensitive documents: https://natesnewsletter.substack.com/p/run-ai-offline-private-files?r=1z4sm5&amp;utm_campaign=post&amp;utm_medium=web&amp;showWelcomeOnShare=true
+
+How to use AI on the files you can't upload: run a downloaded model on your own laptop, with the internet off, and grade what's actually safe to send. Microsoft is building this for enterprises. This is the version that fits on one machine.
+
+My Links 🔗
+👉🏻 Newsletter: https://natesnewsletter.substack.com/
+👉🏻 X: https://x.com/natebjones
+👉🏻 TikTok: https://www.tiktok.com/@nate.b.jones
+👉🏻 Instagram: https://www.instagram.com/nate.b.jones
+
+What's really happening with AI and the data you can't put in the cloud?
+
+The common story is that private AI means a bigger enterprise contract. The real question is which of your files ever needed to leave your laptop at all.
+
+In this video, I share the inside scoop on running AI locally on sensitive work:
+
+- How to run a downloaded model on a document with the internet off
+- What Microsoft, Bayer, and Discovery Bank do with data they can't upload
+- Why a model can obey while the product still uploads your file
+- Why &quot;free&quot; open-weight AI can still deepen your dependence on Microsoft
+
+You can finally put AI on your most sensitive work, but only if you stay honest about where the file goes and who you now depend on.
+
+Chapters:
+00:00 The offline proof
+00:49 Discovery Bank and Bayer go private
+02:21 Do the small version on your laptop
+03:13 The Grok Build leak
+04:19 LM Studio and the sensitivity preset
+05:41 What the offline model caught
+07:19 How Microsoft does it with LoRA
+10:05 For leaders: enterprise versus SMB
+11:40 The catch: dependence on Microsoft
+12:28 Open source is not automatically free
+13:40 Get the guide
+
+Listen to this video as a podcast.
+
+Spotify: https://open.spotify.com/show/0gkFdjd1wptEKJKLu9LbZ4
+Apple Podcasts: https://podcasts.apple.com/us/podcast/ai-news-strategy-daily-with-nate-b-jones/id1877109372</media:description>
+   <media:community>
+    <media:starRating count="1293" average="5.00" min="1" max="5"/>
+    <media:statistics views="48299"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:5Ho0NYVhL14</id>
+  <yt:videoId>5Ho0NYVhL14</yt:videoId>
+  <yt:channelId>UC0C-17n9iuUQPylguM1d-lQ</yt:channelId>
+  <title>Applying for jobs stopped working. Here's the fix ⬇️ #ATS #careeradvice #jobmarket #AI</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/5Ho0NYVhL14"/>
+  <author>
+   <name>AI News &amp; Strategy Daily | Nate B Jones</name>
+   <uri>https://www.youtube.com/channel/UC0C-17n9iuUQPylguM1d-lQ</uri>
+  </author>
+  <published>2026-07-18T03:30:14+00:00</published>
+  <updated>2026-07-20T23:48:23+00:00</updated>
+  <media:group>
+   <media:title>Applying for jobs stopped working. Here's the fix ⬇️ #ATS #careeradvice #jobmarket #AI</media:title>
+   <media:content url="https://www.youtube.com/v/5Ho0NYVhL14?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/5Ho0NYVhL14/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Here is the part the numbers do not tell you: you cannot win this by playing harder. More applications, better keywords, another resume rewrite. All of that just feeds the same broken machine faster, and it is why doing everything &quot;right&quot; still gets you nowhere.
+
+The actual fix is to stop competing inside the pile at all. Instead of being one more document a filter throws out, you build something a hiring manager has to engage with directly, as a person, on your own terms. It is not networking harder and it is not a cleaner resume. It is a completely different move, and it works precisely because it steps outside the arms race instead of trying to win it.
+
+I built the exact site that does this in a weekend, no code required, and wrote up every step so you can copy it: https://natesnewsletter.substack.com/p/grab-the-fit-assessment-prompt-that?r=1z4sm5&amp;utm_campaign=post&amp;utm_medium=web&amp;showWelcomeOnShare=true
+
+My Links 🔗 Newsletter: https://natesnewsletter.substack.com/
+👉🏻 X: https://x.com/natebjones
+👉🏻 TikTok: https://www.tiktok.com/@nate.b.jones
+👉🏻 Instagram: https://www.instagram.com/nate.b.jones</media:description>
+   <media:community>
+    <media:starRating count="276" average="5.00" min="1" max="5"/>
+    <media:statistics views="11489"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:uCWKXIyvM_8</id>
+  <yt:videoId>uCWKXIyvM_8</yt:videoId>
+  <yt:channelId>UC0C-17n9iuUQPylguM1d-lQ</yt:channelId>
+  <title>Codex vs Fable: Which AI Agent Picked the Better Problem?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=uCWKXIyvM_8"/>
+  <author>
+   <name>AI News &amp; Strategy Daily | Nate B Jones</name>
+   <uri>https://www.youtube.com/channel/UC0C-17n9iuUQPylguM1d-lQ</uri>
+  </author>
+  <published>2026-07-17T14:00:33+00:00</published>
+  <updated>2026-07-20T23:36:36+00:00</updated>
+  <media:group>
+   <media:title>Codex vs Fable: Which AI Agent Picked the Better Problem?</media:title>
+   <media:content url="https://www.youtube.com/v/uCWKXIyvM_8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/uCWKXIyvM_8/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Full post w/ Guide + Automation Skill:
+https://natesnewsletter.substack.com/p/let-ai-pick-what-to-automate?r=1z4sm5&amp;utm_campaign=post&amp;utm_medium=web&amp;showWelcomeOnShare=true
+
+AI agents are getting good enough to help pick the problem worth automating, not only run the task you hand them. I gave Fable and Codex the same open brief—inspect my real business and build the automation that matters—and they chose different problems.
+
+My Links 🔗
+👉🏻 Newsletter: https://natesnewsletter.substack.com/
+👉🏻 X: https://x.com/natebjones
+👉🏻 TikTok: https://www.tiktok.com/@nate.b.jones
+👉🏻 Instagram: https://www.instagram.com/nate.b.jones
+
+What's really happening when you let AI pick the problem, not just the tool?
+
+The common story is that agents need a tightly specified task. The real question is what happens when a model can inspect your work and tell you what deserves automating in the first place.
+
+In this video, I share the inside scoop on giving Fable and Codex the same open brief:
+
+- Why Codex picked the safe, finishable problem
+- How Fable found the higher-leverage one
+- What &quot;big model smell&quot; looks like in practice
+- Where model routing now starts, before the task is defined
+
+Letting AI help choose the problem is a real unlock, but the judgment of which consequence matters most still sits with you.
+
+Chapters:
+00:00 Same brief, two different outcomes
+02:10 Why agent scale changes the workflow
+03:10 Fable's preflight build
+04:45 Codex's handoff proof
+06:20 Strategic discovery versus execution
+08:00 The reusable automation skill
+10:40 The final verdict
+
+Listen to this video as a podcast.
+
+Spotify: https://open.spotify.com/show/0gkFdjd1wptEKJKLu9LbZ4
+Apple Podcasts: https://podcasts.apple.com/us/podcast/ai-news-strategy-daily-with-nate-b-jones/id1877109372</media:description>
+   <media:community>
+    <media:starRating count="632" average="5.00" min="1" max="5"/>
+    <media:statistics views="17357"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:7KCPeQFWJv0</id>
+  <yt:videoId>7KCPeQFWJv0</yt:videoId>
+  <yt:channelId>UC0C-17n9iuUQPylguM1d-lQ</yt:channelId>
+  <title>A 3-person team vs 50-person agency #AI #FutureOfWork #agency</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/7KCPeQFWJv0"/>
+  <author>
+   <name>AI News &amp; Strategy Daily | Nate B Jones</name>
+   <uri>https://www.youtube.com/channel/UC0C-17n9iuUQPylguM1d-lQ</uri>
+  </author>
+  <published>2026-07-17T03:00:30+00:00</published>
+  <updated>2026-07-17T20:33:59+00:00</updated>
+  <media:group>
+   <media:title>A 3-person team vs 50-person agency #AI #FutureOfWork #agency</media:title>
+   <media:content url="https://www.youtube.com/v/7KCPeQFWJv0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/7KCPeQFWJv0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>For twenty years, size was the signal. A bigger agency meant more capacity, more safety, more reasons to trust them with the work. That signal is breaking. When a handful of people with good tools can turn around the same volume of work, the client starts doing math they never used to do, and the big team's headcount stops looking like strength and starts looking like the reason the invoice is so high.
+
+The small shop will not win on reputation, and it does not need to. It wins on being faster, cheaper, and close enough on quality that the gap no longer justifies the premium. If you run a lean team, this is the biggest edge you have had in a generation. If you run the big one, the ground is moving under you.
+
+I broke down exactly which firms AI protects and which ones it quietly guts here: https://natesnewsletter.substack.com/p/executive-briefing-the-bifurcated?r=1z4sm5&amp;utm_campaign=post&amp;utm_medium=web&amp;showWelcomeOnShare=true
+
+
+My Links 🔗 Newsletter: https://natesnewsletter.substack.com/
+👉🏻 X: https://x.com/natebjones
+👉🏻 TikTok: https://www.tiktok.com/@nate.b.jones
+👉🏻 Instagram: https://www.instagram.com/nate.b.jones</media:description>
+   <media:community>
+    <media:starRating count="323" average="5.00" min="1" max="5"/>
+    <media:statistics views="12026"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>

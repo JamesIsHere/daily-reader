@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UC6t1O76G0jYXOAoYCm153dA"/>
+ <id>yt:channel:6t1O76G0jYXOAoYCm153dA</id>
+ <yt:channelId>6t1O76G0jYXOAoYCm153dA</yt:channelId>
+ <title>Lenny's Podcast</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UC6t1O76G0jYXOAoYCm153dA"/>
+ <author>
+  <name>Lenny's Podcast</name>
+  <uri>https://www.youtube.com/channel/UC6t1O76G0jYXOAoYCm153dA</uri>
+ </author>
+ <published>2006-12-20T04:49:22+00:00</published>
+ <entry>
+  <id>yt:video:tivaWTTVRhY</id>
+  <yt:videoId>tivaWTTVRhY</yt:videoId>
+  <yt:channelId>UC6t1O76G0jYXOAoYCm153dA</yt:channelId>
+  <title>How Anthropic builds products like Claude Code before the AI models are ready | Dianne Penn</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=tivaWTTVRhY"/>
+  <author>
+   <name>Lenny's Podcast</name>
+   <uri>https://www.youtube.com/channel/UC6t1O76G0jYXOAoYCm153dA</uri>
+  </author>
+  <published>2026-07-26T12:30:06+00:00</published>
+  <updated>2026-07-26T19:14:22+00:00</updated>
+  <media:group>
+   <media:title>How Anthropic builds products like Claude Code before the AI models are ready | Dianne Penn</media:title>
+   <media:content url="https://www.youtube.com/v/tivaWTTVRhY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/tivaWTTVRhY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Dianne Penn is Head of Product for Anthropic’s AI Research and Labs teams. She joined in 2023 as Anthropic’s first technical product manager, when the entire product team was five engineers, and has since helped ship every model from Claude 2 through Fable, and helped incubate Claude Code, MCP, Skills, computer use, tool use, and reasoning. Before Anthropic, she helped build Alexa’s AI at Amazon and, before that, traded high-yield bonds at JP Morgan Chase.
+
+*In our in-depth conversation, we discuss:*
+1. What Anthropic’s early days were like
+2. The inflection points that turned Anthropic from an underdog into the fastest-growing company in history
+3. How exactly Claude got so good at coding
+4. The eval-driven development loop her team is pioneering
+5. How to find joy in AI when everything is moving this fast
+6. Why Claude’s willingness to push back is key to its success
+7. Where human judgment remains irreplaceable
+
+*Brought to you by:*
+WorkOS—Make your app enterprise-ready, with SSO, SCIM, RBAC, and more: https://workos.com/lenny
+Mercury—Radically different banking, now with Command: https://mercury.com/
+
+*Episode transcript:* https://www.lennysnewsletter.com/p/anthropics-first-technical-pm-on
+*Archive of all Lenny's Podcast transcripts:* https://www.dropbox.com/scl/fo/yxi4s2w998p1gvtpu4193/AMdNPR8AOw0lMklwtnC0TrQ?rlkey=j06x0nipoti519e0xgm23zsn9&amp;st=ahz0fj11&amp;dl=0
+
+*Where to find Dianne Penn:*
+• LinkedIn: https://www.linkedin.com/in/dianne-na-penn
+
+Where to find Lenny:*
+• Newsletter: https://www.lennysnewsletter.com
+• X: https://twitter.com/lennysan
+• LinkedIn: https://www.linkedin.com/in/lennyrachitsky/
+
+*In this episode, we cover:*
+(00:00) Introduction
+(02:31) Early Anthropic days
+(08:55) Big milestones
+(13:50) Inside the exponential
+(20:02) Token maxing
+(23:30) Anthropic Labs and the incubation model
+(27:30) How the research role works
+(31:35) How to become a top researcher
+(35:18) Frontier model safeguards
+(39:38) Hiring in the AI era
+(44:16) Building an eval set
+(47:48) Evals vs PRDs
+(49:55) The importance of hands-on leadership
+(52:46) Finding joy in AI
+(58:10) How Dianne uses Claude
+(01:01:05) Avoiding overreliance on AI
+(01:03:50) The constitution that makes Claude better
+(01:07:11) AI writing and verification
+(01:11:40) Where human brains will continue to be valuable
+(01:14:10) Navigating AI with kids
+(01:16:26) Alignment, the future of the PM role, and burnout
+(01:21:54) Lightning round and final thoughts
+
+*Referenced:*
+• Anthropic: https://www.anthropic.com
+• Golden Gate Claude: https://www.anthropic.com/news/golden-gate-claude
+• Dario Amodei’s website: https://darioamodei.com
+• Scaling Laws and Interpretability of Learning from Repeated Data: https://www.anthropic.com/research/scaling-laws-and-interpretability-of-learning-from-repeated-data
+• Tokenmaxxing: How Top Builders Use AI To Do The Work Of 400 Engineers: https://www.ycombinator.com/library/Pa-tokenmaxxing-how-top-builders-use-ai-to-do-the-work-of-400-engineers
+• Garry Tan on X: https://x.com/garrytan
+• Anthropic co-founder on quitting OpenAI, AGI predictions, $100M talent wars, 20% unemployment, and the nightmare scenarios keeping him up at night | Ben Mann: https://www.lennysnewsletter.com/p/anthropic-co-founder-benjamin-mann
+• Anthropic’s CPO on what comes next | Mike Krieger (co-founder of Instagram): https://www.lennysnewsletter.com/p/anthropics-cpo-heres-what-comes-next
+• Introducing Labs: https://www.anthropic.com/news/introducing-anthropic-labs
+• Louis CK | about airplane Wi Fi: https://www.youtube.com/watch?v=me4BZBsHwZs
+• What happens after coding is solved? | Fiona Fung (Manager of the Claude Code and Cowork Teams): https://www.lennysnewsletter.com/p/building-the-most-ai-pilled-engineering
+• The Anthropic Hive Mind: https://steve-yegge.medium.com/the-anthropic-hive-mind-d01f768f3d7b
+• How to build a company that withstands any era | Eric Ries, Lean Startup author: https://www.lennysnewsletter.com/p/how-to-build-a-company-that-withstands
+• Fallout on Prime Video: https://www.amazon.com/dp/B0CN4GGGQ2
+• Fallout (video game): https://fallout.bethesda.net
+• Claude Tag: https://www.anthropic.com/news/introducing-claude-tag
+
+*Recommended books:*
+• Crucial Conversations: Tools for Talking When Stakes Are High: https://www.amazon.com/dp/0071771328
+• How to Raise an Adult: Break Free of the Overparenting Trap and Prepare Your Kid for Success: https://www.amazon.com/How-Raise-Adult-Overparenting-Prepare/dp/1627791779
+• Incorruptible: Why Good Companies Go Bad... and How Great Companies Stay Great: https://www.amazon.com/dp/B0FWZZBPZB
+
+_Production and marketing by https://penname.co/._
+_For inquiries about sponsoring the podcast, email podcast@lennyrachitsky.com._
+
+Lenny may be an investor in the companies discussed.</media:description>
+   <media:community>
+    <media:starRating count="275" average="5.00" min="1" max="5"/>
+    <media:statistics views="12263"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Ld57aoBSwq0</id>
+  <yt:videoId>Ld57aoBSwq0</yt:videoId>
+  <yt:channelId>UC6t1O76G0jYXOAoYCm153dA</yt:channelId>
+  <title>Why Boris Cherny came back to Anthropic from Cursor</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/Ld57aoBSwq0"/>
+  <author>
+   <name>Lenny's Podcast</name>
+   <uri>https://www.youtube.com/channel/UC6t1O76G0jYXOAoYCm153dA</uri>
+  </author>
+  <published>2026-07-24T11:27:29+00:00</published>
+  <updated>2026-07-25T11:05:43+00:00</updated>
+  <media:group>
+   <media:title>Why Boris Cherny came back to Anthropic from Cursor</media:title>
+   <media:content url="https://www.youtube.com/v/Ld57aoBSwq0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/Ld57aoBSwq0/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="79" average="5.00" min="1" max="5"/>
+    <media:statistics views="5578"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:vyKPMWhcEBk</id>
+  <yt:videoId>vyKPMWhcEBk</yt:videoId>
+  <yt:channelId>UC6t1O76G0jYXOAoYCm153dA</yt:channelId>
+  <title>Netflix's CPTO on whether teams need specialists</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/vyKPMWhcEBk"/>
+  <author>
+   <name>Lenny's Podcast</name>
+   <uri>https://www.youtube.com/channel/UC6t1O76G0jYXOAoYCm153dA</uri>
+  </author>
+  <published>2026-07-24T11:00:07+00:00</published>
+  <updated>2026-07-25T18:09:22+00:00</updated>
+  <media:group>
+   <media:title>Netflix's CPTO on whether teams need specialists</media:title>
+   <media:content url="https://www.youtube.com/v/vyKPMWhcEBk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/vyKPMWhcEBk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>#product #ai #netflix</media:description>
+   <media:community>
+    <media:starRating count="42" average="5.00" min="1" max="5"/>
+    <media:statistics views="2509"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:ol7ZuT3Hm3c</id>
+  <yt:videoId>ol7ZuT3Hm3c</yt:videoId>
+  <yt:channelId>UC6t1O76G0jYXOAoYCm153dA</yt:channelId>
+  <title>The skill Netflix is hiring for</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/ol7ZuT3Hm3c"/>
+  <author>
+   <name>Lenny's Podcast</name>
+   <uri>https://www.youtube.com/channel/UC6t1O76G0jYXOAoYCm153dA</uri>
+  </author>
+  <published>2026-07-21T11:00:22+00:00</published>
+  <updated>2026-07-22T21:25:05+00:00</updated>
+  <media:group>
+   <media:title>The skill Netflix is hiring for</media:title>
+   <media:content url="https://www.youtube.com/v/ol7ZuT3Hm3c?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/ol7ZuT3Hm3c/hqdefault.jpg" width="480" height="360"/>
+   <media:description>#netflix #ai #hiring</media:description>
+   <media:community>
+    <media:starRating count="77" average="5.00" min="1" max="5"/>
+    <media:statistics views="3123"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:0v_RqRo6waQ</id>
+  <yt:videoId>0v_RqRo6waQ</yt:videoId>
+  <yt:channelId>UC6t1O76G0jYXOAoYCm153dA</yt:channelId>
+  <title>AI is Changing How Netflix Operates</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/0v_RqRo6waQ"/>
+  <author>
+   <name>Lenny's Podcast</name>
+   <uri>https://www.youtube.com/channel/UC6t1O76G0jYXOAoYCm153dA</uri>
+  </author>
+  <published>2026-07-20T13:00:32+00:00</published>
+  <updated>2026-07-21T09:02:05+00:00</updated>
+  <media:group>
+   <media:title>AI is Changing How Netflix Operates</media:title>
+   <media:content url="https://www.youtube.com/v/0v_RqRo6waQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/0v_RqRo6waQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>AI is Changing How Netflix Operates</media:description>
+   <media:community>
+    <media:starRating count="111" average="5.00" min="1" max="5"/>
+    <media:statistics views="3903"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:NiDZmfkQbcU</id>
+  <yt:videoId>NiDZmfkQbcU</yt:videoId>
+  <yt:channelId>UC6t1O76G0jYXOAoYCm153dA</yt:channelId>
+  <title>The Answer to &quot;What's My Job in the Age of AI?”</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/NiDZmfkQbcU"/>
+  <author>
+   <name>Lenny's Podcast</name>
+   <uri>https://www.youtube.com/channel/UC6t1O76G0jYXOAoYCm153dA</uri>
+  </author>
+  <published>2026-07-19T16:00:16+00:00</published>
+  <updated>2026-07-20T06:15:58+00:00</updated>
+  <media:group>
+   <media:title>The Answer to &quot;What's My Job in the Age of AI?”</media:title>
+   <media:content url="https://www.youtube.com/v/NiDZmfkQbcU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/NiDZmfkQbcU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>The Answer to &quot;What's My Job in the Age of AI?”</media:description>
+   <media:community>
+    <media:starRating count="70" average="5.00" min="1" max="5"/>
+    <media:statistics views="3973"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:t0GiTyz4syY</id>
+  <yt:videoId>t0GiTyz4syY</yt:videoId>
+  <yt:channelId>UC6t1O76G0jYXOAoYCm153dA</yt:channelId>
+  <title>Why Netflix is betting on systems thinkers—not specialists—in the AI era | Elizabeth Stone (CPTO)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=t0GiTyz4syY"/>
+  <author>
+   <name>Lenny's Podcast</name>
+   <uri>https://www.youtube.com/channel/UC6t1O76G0jYXOAoYCm153dA</uri>
+  </author>
+  <published>2026-07-19T12:30:35+00:00</published>
+  <updated>2026-07-26T14:06:49+00:00</updated>
+  <media:group>
+   <media:title>Why Netflix is betting on systems thinkers—not specialists—in the AI era | Elizabeth Stone (CPTO)</media:title>
+   <media:content url="https://www.youtube.com/v/t0GiTyz4syY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/t0GiTyz4syY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Elizabeth Stone is the Chief Product and Technology Officer (CPTO) at Netflix, where she oversees Engineering, Product, and Design. Since her first appearance on the podcast two years ago—which remained my second-most-popular episode for more than a year—she has expanded her role to lead product, in addition to engineering. Before Netflix, Elizabeth was VP of Science at Lyft, Chief Operating Officer at Nuna, an economist at Analysis Group, and a trader at Merrill Lynch.
+
+*In our in-depth conversation, we discuss:*
+1. Why “systems thinking” is now the most important skill she looks for
+2. How to manage the flood of AI-generated output without losing quality or signal
+3. How Netflix thinks about AI fluency as a universal expectation rather than a level-specific skill
+4. What “excellence as an operating system” means
+
+*Brought to you by:*
+WorkOS—Make your app enterprise-ready, with SSO, SCIM, RBAC, and more: https://workos.com/lenny
+Mercury—Radically different banking, now with Command: https://mercury.com/
+
+*Episode transcript:* https://www.lennysnewsletter.com/p/netflix-cpto-on-ai-and-the-future
+*Archive of all Lenny's Podcast transcripts:* https://www.dropbox.com/scl/fo/yxi4s2w998p1gvtpu4193/AMdNPR8AOw0lMklwtnC0TrQ?rlkey=j06x0nipoti519e0xgm23zsn9&amp;st=ahz0fj11&amp;dl=0
+
+*Where to find Elizabeth Stone:*
+• LinkedIn: https://www.linkedin.com/in/elizabeth-stone-608a754
+
+*Where to find Lenny:*
+• Newsletter: https://www.lennysnewsletter.com
+• X: https://twitter.com/lennysan
+• LinkedIn: https://www.linkedin.com/in/lennyrachitsky/
+
+*In this episode, we cover:*
+(00:00) Introduction
+(02:25) AI and role confusion: the storming phase before the forming phase
+(07:36) How roles have changed in the past two and a half years
+(11:55) Will functions survive? The case for craft specialism
+(13:26) What Netflix is hiring more of—and less of
+(17:22) Why systems thinking is the rising skill across every function
+(20:20) Is the design process dead?
+(22:08) Skills trending down
+(28:33) AI fluency and Netflix’s career ladder overlay
+(31:00) AI use cases beyond coding
+(35:12) Netflix’s AI history
+(38:36) Excellence as an operating system
+(41:11) The pillars of the excellence OS
+(46:41) The keeper’s test—and why it’s mostly a positive conversation
+(50:21) Attracting top talent in the age of frontier AI labs
+(52:54) Junior talent, craft mastery, and the mentorship question
+(56:25) Where engineering goes in 5 to 10 years
+(59:45) The future of entertainment: beyond film and TV
+(1:02:18) AI in Hollywood: Netflix’s creator-enablement position
+(1:06:15) Lightning round and final thoughts
+
+*Referenced:*
+• How Netflix builds a culture of excellence | Elizabeth Stone (CTO): https://www.lennysnewsletter.com/p/how-netflix-builds-a-culture-of-excellence
+• Brian Chesky’s new playbook: https://www.lennysnewsletter.com/p/brian-cheskys-contrarian-approach
+• The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude): https://www.lennysnewsletter.com/p/the-design-process-is-dead
+• Claude Code: https://www.anthropic.com/product/claude-code
+• Claude Cowork: https://www.anthropic.com/product/claude-cowork
+• Netflix’s “Keeper Test” and Why You Need It | Lorne Rubis: https://www.highlights.lornerubis.com/2015/08/the-netflix-keeper-test-and-the-courage-to-take-it
+• Innovation for Filmmaking, By Filmmakers: Why InterPositive Is Joining Netflix: https://about.netflix.com/en/news/why-interpositive-is-joining-netflix
+• InterPositive: https://weareinterpositive.com
+• Netflix Prize: https://en.wikipedia.org/wiki/Netflix_Prize
+• Quarterback on Netflix: https://www.netflix.com/title/81482895
+• The Bill Simmons Podcast on Netflix: https://www.netflix.com/title/82186214
+• Spencer Pratt on Instagram: https://www.instagram.com/spencerpratt
+• Salman Rushdie’s Substack: https://salmanrushdie.substack.com
+• Remarkably Bright Creatures on Netflix: https://www.netflix.com/title/81911351
+• Eight Sleep: https://www.eightsleep.com
+• Tour de France: https://www.letour.fr/en
+
+*Recommended books:*
+• Thinking in Systems: https://www.amazon.com/Thinking-Systems-Donella-H-Meadows/dp/1603580557
+• Into Thin Air: A Personal Account of the Mt. Everest Disaster: https://www.amazon.com/Into-Thin-Air-Personal-Disaster/dp/0385494785
+• Liar’s Poker: https://www.amazon.com/Liars-Poker-Norton-Paperback-Michael/dp/039333869X
+
+_Production and marketing by https://penname.co/._
+_For inquiries about sponsoring the podcast, email podcast@lennyrachitsky.com._
+
+Lenny may be an investor in the companies discussed.</media:description>
+   <media:community>
+    <media:starRating count="4996" average="5.00" min="1" max="5"/>
+    <media:statistics views="173870"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:zshnOIH-8Qs</id>
+  <yt:videoId>zshnOIH-8Qs</yt:videoId>
+  <yt:channelId>UC6t1O76G0jYXOAoYCm153dA</yt:channelId>
+  <title>AI is both addicting and exhausting</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/zshnOIH-8Qs"/>
+  <author>
+   <name>Lenny's Podcast</name>
+   <uri>https://www.youtube.com/channel/UC6t1O76G0jYXOAoYCm153dA</uri>
+  </author>
+  <published>2026-07-15T11:00:04+00:00</published>
+  <updated>2026-07-19T19:57:20+00:00</updated>
+  <media:group>
+   <media:title>AI is both addicting and exhausting</media:title>
+   <media:content url="https://www.youtube.com/v/zshnOIH-8Qs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/zshnOIH-8Qs/hqdefault.jpg" width="480" height="360"/>
+   <media:description>#ai #claude #chatgpt #product</media:description>
+   <media:community>
+    <media:starRating count="57" average="5.00" min="1" max="5"/>
+    <media:statistics views="3095"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:2De481hOI4g</id>
+  <yt:videoId>2De481hOI4g</yt:videoId>
+  <yt:channelId>UC6t1O76G0jYXOAoYCm153dA</yt:channelId>
+  <title>The 4 types of tech workers in 2026</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/2De481hOI4g"/>
+  <author>
+   <name>Lenny's Podcast</name>
+   <uri>https://www.youtube.com/channel/UC6t1O76G0jYXOAoYCm153dA</uri>
+  </author>
+  <published>2026-07-14T11:00:39+00:00</published>
+  <updated>2026-07-18T01:45:50+00:00</updated>
+  <media:group>
+   <media:title>The 4 types of tech workers in 2026</media:title>
+   <media:content url="https://www.youtube.com/v/2De481hOI4g?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/2De481hOI4g/hqdefault.jpg" width="480" height="360"/>
+   <media:description>#technology #ai #claude #chatgpt</media:description>
+   <media:community>
+    <media:starRating count="35" average="5.00" min="1" max="5"/>
+    <media:statistics views="2344"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:_cmpIveXnvE</id>
+  <yt:videoId>_cmpIveXnvE</yt:videoId>
+  <yt:channelId>UC6t1O76G0jYXOAoYCm153dA</yt:channelId>
+  <title>Why the AI’s honeymoon is ending (and tech workers are feeling it) | Noam Segal</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=_cmpIveXnvE"/>
+  <author>
+   <name>Lenny's Podcast</name>
+   <uri>https://www.youtube.com/channel/UC6t1O76G0jYXOAoYCm153dA</uri>
+  </author>
+  <published>2026-07-12T12:30:31+00:00</published>
+  <updated>2026-07-24T09:18:03+00:00</updated>
+  <media:group>
+   <media:title>Why the AI’s honeymoon is ending (and tech workers are feeling it) | Noam Segal</media:title>
+   <media:content url="https://www.youtube.com/v/_cmpIveXnvE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/_cmpIveXnvE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Noam Segal is a longtime research leader across Airbnb, Meta, Twitter, Zapier, Intercom, and Figma, a certified coach, AI builder, and my community research lead. Together, we run the annual Tech Worker Sentiment Survey, now in its second year and one of the largest of its kind: a quantitative study of how people in tech actually feel about their jobs, AI, burnout, and the future of their careers. This year’s survey captured responses from thousands of workers across product, engineering, design, research, marketing, data, and sales, and the results are striking.
+
+*In our in-depth conversation, we discuss:*
+1. Why AI has split the tech workforce almost exactly in half—one half that’s thriving, another that’s shaken
+2. The four emotional archetypes defining tech workers right now (the Energized, the Conflicted, the Disoriented, and the Resentful)
+3. Why burnout has jumped an alarming 11 points in a single year
+4. Why nobody in tech would recommend their job to someone entering the industry today
+5. The #1 fear in tech right now (it’s not job loss to AI)
+6. Why managers are the single biggest lever for employee well-being
+7. Concrete advice for what employees and leaders can do right now
+
+*Brought to you by:*
+WorkOS—Make your app enterprise-ready, with SSO, SCIM, RBAC, and more: https://workos.com/lenny
+Mercury—Radically different banking, now with Command: https://mercury.com/
+
+*Episode transcript:* https://www.lennysnewsletter.com/p/how-tech-workers-actually-feel-about
+*Archive of all Lenny's Podcast transcripts:* https://www.dropbox.com/scl/fo/yxi4s2w998p1gvtpu4193/AMdNPR8AOw0lMklwtnC0TrQ?rlkey=j06x0nipoti519e0xgm23zsn9&amp;st=ahz0fj11&amp;dl=0
+
+*Where to find Noam Segal:*
+• X: https://x.com/noamseg
+• LinkedIn: https://www.linkedin.com/in/noamsegal
+
+*Where to find Lenny:*
+• Newsletter: https://www.lennysnewsletter.com
+• X: https://twitter.com/lennysan
+• LinkedIn: https://www.linkedin.com/in/lennyrachitsky/
+
+*In this episode, we cover:*
+(00:00) Introduction to Noam Segal
+(02:34) About the survey: methodology and scope
+(06:04) The core finding: AI has split the tech workforce in half
+(13:03) The AI identity stance
+(14:40) The four archetypes: Energized, Conflicted, Disoriented, Resentful
+(19:35) Burnout is surging (and why shipping faster is making it worse)
+(22:53) A glimmer of hope
+(24:55) Layoff worries
+(29:15) The career recommendation NPS score
+(36:45) The ladder metaphor: rungs disappearing beneath our feet
+(45:14) AI is making us faster, not better
+(52:53) The #1 fear: being squeezed to do more for the same pay
+(55:55) The emotional landscape and “smiling exhaustion”
+(01:01:02) Designers and researchers: the most negative group two years running
+(01:06:27) Who’s happiest
+(01:12:18) Managers: the single biggest lever on well-being
+(01:18:47) The industry is “chaotic”
+(01:24:53) What employees and leaders can do right now
+(01:31:32) AI guilt and closing thoughts
+
+*Referenced:*
+• How tech workers are feeling in 2026: a workforce splitting in two: https://www.lennysnewsletter.com/p/how-tech-workers-are-feeling-in-2026
+• How tech’s most resilient workers handle burnout: https://www.lennysnewsletter.com/p/how-techs-most-resilient-workers
+• Please stop the AI Confidence Theater: https://www.elenaverna.com/p/please-stop-the-ai-confidence-theater
+• Velocity over everything: How Ramp became the fastest-growing SaaS startup of all time | Geoff Charles (VP of Product): https://www.lennysnewsletter.com/p/velocity-over-everything-how-ramp
+• NPS Is The Worst: https://www.npsistheworst.com
+• The Terminator: https://www.imdb.com/title/tt0088247
+• Skynet: https://terminator.fandom.com/wiki/Skynet
+• Inside Devin: The world’s first autonomous AI engineer that’s set to write 50% of its company’s code by end of year | Scott Wu (CEO and co-founder of Cognition): https://www.lennysnewsletter.com/p/inside-devin-scott-wu
+• Devin: https://devin.ai
+• An AI state of the union: We’ve passed the inflection point, dark factories are coming, and automation timelines | Simon Willison: https://www.lennysnewsletter.com/p/an-ai-state-of-the-union
+• Redeploying Fable 5: https://www.anthropic.com/news/redeploying-fable-5
+• Why half of product managers are in trouble | Nikhyl Singhal (Meta, Google): https://www.lennysnewsletter.com/p/why-half-of-product-managers-are-in-trouble
+• Inside Linear: Building with taste, craft, and focus | Karri Saarinen (co-founder, designer, CEO): https://www.lennysnewsletter.com/p/inside-linear-building-with-taste
+• Building beautiful products with Stripe’s Head of Design | Katie Dill (Stripe, Airbnb, Lyft): https://www.lennysnewsletter.com/p/building-beautiful-products-with
+...References continued at: https://www.lennysnewsletter.com/p/how-tech-workers-actually-feel-about
+
+_Production and marketing by https://penname.co/._
+_For inquiries about sponsoring the podcast, email podcast@lennyrachitsky.com._
+
+Lenny may be an investor in the companies discussed.</media:description>
+   <media:community>
+    <media:starRating count="450" average="5.00" min="1" max="5"/>
+    <media:statistics views="30050"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:TNyVjLUy9ck</id>
+  <yt:videoId>TNyVjLUy9ck</yt:videoId>
+  <yt:channelId>UC6t1O76G0jYXOAoYCm153dA</yt:channelId>
+  <title>The head of Instagram on why AI content is a tailwind, not a headwind.</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/TNyVjLUy9ck"/>
+  <author>
+   <name>Lenny's Podcast</name>
+   <uri>https://www.youtube.com/channel/UC6t1O76G0jYXOAoYCm153dA</uri>
+  </author>
+  <published>2026-07-12T12:09:37+00:00</published>
+  <updated>2026-07-15T23:30:55+00:00</updated>
+  <media:group>
+   <media:title>The head of Instagram on why AI content is a tailwind, not a headwind.</media:title>
+   <media:content url="https://www.youtube.com/v/TNyVjLUy9ck?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/TNyVjLUy9ck/hqdefault.jpg" width="480" height="360"/>
+   <media:description>The head of Instagram on why AI content is a tailwind, not a headwind.</media:description>
+   <media:community>
+    <media:starRating count="29" average="5.00" min="1" max="5"/>
+    <media:statistics views="3037"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:vr13eFx8BEk</id>
+  <yt:videoId>vr13eFx8BEk</yt:videoId>
+  <yt:channelId>UC6t1O76G0jYXOAoYCm153dA</yt:channelId>
+  <title>The best product leaders aren't the ones with the most ideas.</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/vr13eFx8BEk"/>
+  <author>
+   <name>Lenny's Podcast</name>
+   <uri>https://www.youtube.com/channel/UC6t1O76G0jYXOAoYCm153dA</uri>
+  </author>
+  <published>2026-07-11T12:48:53+00:00</published>
+  <updated>2026-07-15T03:08:44+00:00</updated>
+  <media:group>
+   <media:title>The best product leaders aren't the ones with the most ideas.</media:title>
+   <media:content url="https://www.youtube.com/v/vr13eFx8BEk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/vr13eFx8BEk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>The best product leaders aren't the ones with the most ideas.</media:description>
+   <media:community>
+    <media:starRating count="118" average="5.00" min="1" max="5"/>
+    <media:statistics views="6567"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:h_1x1UqI5ro</id>
+  <yt:videoId>h_1x1UqI5ro</yt:videoId>
+  <yt:channelId>UC6t1O76G0jYXOAoYCm153dA</yt:channelId>
+  <title>Don't worship AI tools</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/h_1x1UqI5ro"/>
+  <author>
+   <name>Lenny's Podcast</name>
+   <uri>https://www.youtube.com/channel/UC6t1O76G0jYXOAoYCm153dA</uri>
+  </author>
+  <published>2026-07-11T11:00:35+00:00</published>
+  <updated>2026-07-15T03:08:13+00:00</updated>
+  <media:group>
+   <media:title>Don't worship AI tools</media:title>
+   <media:content url="https://www.youtube.com/v/h_1x1UqI5ro?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/h_1x1UqI5ro/hqdefault.jpg" width="480" height="360"/>
+   <media:description>The people who will get the most out of this moment are the ones who are clear-eyed about what AI is actually good at</media:description>
+   <media:community>
+    <media:starRating count="22" average="5.00" min="1" max="5"/>
+    <media:statistics views="2330"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:CBqNhKZgFmk</id>
+  <yt:videoId>CBqNhKZgFmk</yt:videoId>
+  <yt:channelId>UC6t1O76G0jYXOAoYCm153dA</yt:channelId>
+  <title>The shape of product teams in 2026</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/CBqNhKZgFmk"/>
+  <author>
+   <name>Lenny's Podcast</name>
+   <uri>https://www.youtube.com/channel/UC6t1O76G0jYXOAoYCm153dA</uri>
+  </author>
+  <published>2026-07-10T11:00:18+00:00</published>
+  <updated>2026-07-14T02:05:20+00:00</updated>
+  <media:group>
+   <media:title>The shape of product teams in 2026</media:title>
+   <media:content url="https://www.youtube.com/v/CBqNhKZgFmk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/CBqNhKZgFmk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>#product #ai #instagram #meta</media:description>
+   <media:community>
+    <media:starRating count="114" average="5.00" min="1" max="5"/>
+    <media:statistics views="5860"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:JzDuRXjU3V0</id>
+  <yt:videoId>JzDuRXjU3V0</yt:videoId>
+  <yt:channelId>UC6t1O76G0jYXOAoYCm153dA</yt:channelId>
+  <title>AI content will help Instagram</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/JzDuRXjU3V0"/>
+  <author>
+   <name>Lenny's Podcast</name>
+   <uri>https://www.youtube.com/channel/UC6t1O76G0jYXOAoYCm153dA</uri>
+  </author>
+  <published>2026-07-09T18:00:14+00:00</published>
+  <updated>2026-07-12T22:31:32+00:00</updated>
+  <media:group>
+   <media:title>AI content will help Instagram</media:title>
+   <media:content url="https://www.youtube.com/v/JzDuRXjU3V0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/JzDuRXjU3V0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>#instagram #ai #artificialintelligence #content</media:description>
+   <media:community>
+    <media:starRating count="27" average="5.00" min="1" max="5"/>
+    <media:statistics views="2537"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>

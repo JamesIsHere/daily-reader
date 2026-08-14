@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCnpBg7yqNauHtlNSpOl5-cg"/>
+ <id>yt:channel:npBg7yqNauHtlNSpOl5-cg</id>
+ <yt:channelId>npBg7yqNauHtlNSpOl5-cg</yt:channelId>
+ <title>Peter Yang</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UCnpBg7yqNauHtlNSpOl5-cg"/>
+ <author>
+  <name>Peter Yang</name>
+  <uri>https://www.youtube.com/channel/UCnpBg7yqNauHtlNSpOl5-cg</uri>
+ </author>
+ <published>2013-08-30T04:44:48+00:00</published>
+ <entry>
+  <id>yt:video:ydTeb_I0b94</id>
+  <yt:videoId>ydTeb_I0b94</yt:videoId>
+  <yt:channelId>UCnpBg7yqNauHtlNSpOl5-cg</yt:channelId>
+  <title>ChatGPT Work + Codex Tutorial: My Complete System at OpenAI | Jason Liu</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=ydTeb_I0b94"/>
+  <author>
+   <name>Peter Yang</name>
+   <uri>https://www.youtube.com/channel/UCnpBg7yqNauHtlNSpOl5-cg</uri>
+  </author>
+  <published>2026-07-26T13:00:06+00:00</published>
+  <updated>2026-07-26T18:54:10+00:00</updated>
+  <media:group>
+   <media:title>ChatGPT Work + Codex Tutorial: My Complete System at OpenAI | Jason Liu</media:title>
+   <media:content url="https://www.youtube.com/v/ydTeb_I0b94?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/ydTeb_I0b94/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Jason is a DevEx engineer on the Codex team. In our episode, he showed me how he runs his entire workday using Codex, from his chief of staff thread for Slack and email to setting up long-running tasks that have verifiable goals. Jason wrote the official OpenAI guidebook on how to get the most out of Codex, so don’t miss this episode.
+
+Jason and I talked about:
+
+(00:00) The only job left after AI can do the work
+(02:40) Turn pinned threads into long-running workspaces
+(05:50) Build a chief of staff across Slack, email, and Linear
+(10:12) Teach Codex to write like you for every audience
+(13:33) Mine past sessions for new skills and workflows
+(20:01) How Codex revised a launch video while Jason was out
+(24:23) Build a drum practice site around how you learn
+(25:59) Goal, plan, and worklog for long-running Codex tasks
+(33:52) Why taste starts with knowing what feels wrong
+
+Thanks to our sponsors:
+
+Google AI Studio: The fastest way to go from prompt to production https://aistudio.google.com/?utm_source=peteryang&amp;utm_medium=partner&amp;utm_campaign=26Q3-peteryang_ais
+
+Riverside: All-in-one AI studio for podcasts and video https://creators.riverside.com/PeterYang
+
+📌 Get the takeaways: https://creatoreconomy.so/p/how-to-use-codex-for-work-my-complete-system-at-openai-jason-liu
+
+📌 Get my personal AI OS with useful AI skills, $270 in AI tool credits, live monthly workshops, and courses on Hermes and Codex agents: https://www.behindthecraft.com/
+
+Where to find Jason:
+
+X: https://x.com/jxnlco
+
+Subscribe to this channel - more interviews coming soon!</media:description>
+   <media:community>
+    <media:starRating count="213" average="5.00" min="1" max="5"/>
+    <media:statistics views="6740"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:dirwLJRLaMM</id>
+  <yt:videoId>dirwLJRLaMM</yt:videoId>
+  <yt:channelId>UCnpBg7yqNauHtlNSpOl5-cg</yt:channelId>
+  <title>When to use Claude subagents</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/dirwLJRLaMM"/>
+  <author>
+   <name>Peter Yang</name>
+   <uri>https://www.youtube.com/channel/UCnpBg7yqNauHtlNSpOl5-cg</uri>
+  </author>
+  <published>2026-07-21T14:15:39+00:00</published>
+  <updated>2026-07-21T14:16:01+00:00</updated>
+  <media:group>
+   <media:title>When to use Claude subagents</media:title>
+   <media:content url="https://www.youtube.com/v/dirwLJRLaMM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/dirwLJRLaMM/hqdefault.jpg" width="480" height="360"/>
+   <media:description>“When a model prefers its own outputs, it’s going to be more lenient at verifying them.”
+
+From Thariq (Anthropic):
+
+“For example, for ‘Is this a good video short or not?’ you should have a rubric and a separate verification agent that reviews the short to make sure it’s good.
+
+You should have two separate Claudes: one doing the work and one verifying it.”
+
+📌 Watch the full episode on my YouTube.</media:description>
+   <media:community>
+    <media:starRating count="2" average="5.00" min="1" max="5"/>
+    <media:statistics views="469"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:YxYY1Pkd4hw</id>
+  <yt:videoId>YxYY1Pkd4hw</yt:videoId>
+  <yt:channelId>UCnpBg7yqNauHtlNSpOl5-cg</yt:channelId>
+  <title>We cut Claude Code's system prompt by 80%</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/YxYY1Pkd4hw"/>
+  <author>
+   <name>Peter Yang</name>
+   <uri>https://www.youtube.com/channel/UCnpBg7yqNauHtlNSpOl5-cg</uri>
+  </author>
+  <published>2026-07-20T19:15:37+00:00</published>
+  <updated>2026-07-20T19:15:48+00:00</updated>
+  <media:group>
+   <media:title>We cut Claude Code's system prompt by 80%</media:title>
+   <media:content url="https://www.youtube.com/v/YxYY1Pkd4hw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/YxYY1Pkd4hw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>“As the models have gotten smarter, they need less direction, fewer constraints, and fewer examples.”
+
+From Thariq (Anthropic):
+
+“The examples are constraining it because now it’s like, ‘Oh, you want things like this example.’ If you remove the examples, it can actually be more free-form.
+
+Oftentimes when you say ‘never,’ you don’t really mean never. You mean, ‘Most of the time, don’t do this.’ If you give it the reason instead, that can be more effective.
+
+All this is to say that you want to trim your context. The latest models often need more room to run.”
+
+📌 Watch the full episode on my YouTube.</media:description>
+   <media:community>
+    <media:starRating count="10" average="5.00" min="1" max="5"/>
+    <media:statistics views="1136"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:6bX_oTW975o</id>
+  <yt:videoId>6bX_oTW975o</yt:videoId>
+  <yt:channelId>UCnpBg7yqNauHtlNSpOl5-cg</yt:channelId>
+  <title>Planning with Claude is about finding the unknowns</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/6bX_oTW975o"/>
+  <author>
+   <name>Peter Yang</name>
+   <uri>https://www.youtube.com/channel/UCnpBg7yqNauHtlNSpOl5-cg</uri>
+  </author>
+  <published>2026-07-20T14:15:10+00:00</published>
+  <updated>2026-07-20T14:15:31+00:00</updated>
+  <media:group>
+   <media:title>Planning with Claude is about finding the unknowns</media:title>
+   <media:content url="https://www.youtube.com/v/6bX_oTW975o?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/6bX_oTW975o/hqdefault.jpg" width="480" height="360"/>
+   <media:description>“I don’t think of speccing as just happening at the start.”
+
+From Thariq (Anthropic):
+
+“I start with a request and then the agent does some exploration. I then do some mockups or explainers to understand my unknowns.
+
+I ask Claude to keep implementation notes so that it finds out what we weren’t expecting. Once we have that, we can respec if we need to.
+
+It’s much less like one handoff from spec to implementation and more of this back-and-forth process.”
+
+📌 Watch the full episode on my YouTube.</media:description>
+   <media:community>
+    <media:starRating count="3" average="5.00" min="1" max="5"/>
+    <media:statistics views="414"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:aVO6E181cNU</id>
+  <yt:videoId>aVO6E181cNU</yt:videoId>
+  <yt:channelId>UCnpBg7yqNauHtlNSpOl5-cg</yt:channelId>
+  <title>How I Plan, Build, and Run Loops with Claude Code in 40 Minutes | Thariq Shihipar</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=aVO6E181cNU"/>
+  <author>
+   <name>Peter Yang</name>
+   <uri>https://www.youtube.com/channel/UCnpBg7yqNauHtlNSpOl5-cg</uri>
+  </author>
+  <published>2026-07-19T13:00:11+00:00</published>
+  <updated>2026-07-22T11:41:39+00:00</updated>
+  <media:group>
+   <media:title>How I Plan, Build, and Run Loops with Claude Code in 40 Minutes | Thariq Shihipar</media:title>
+   <media:content url="https://www.youtube.com/v/aVO6E181cNU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/aVO6E181cNU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Thariq works on the Claude Code team, and I’ve wanted to see how he builds for a long time. In our episode, he showed how to use /goal to keep Claude working, how he plans with Claude to remove unknowns before building, and how he runs a team of agents in Slack. He also shared why his team cut Claude Code’s system prompt by 80% and how he creates polished launch videos with Claude.
+
+Thariq and I talked about:
+
+(00:00) Goals, loops, and workflows to make Claude work longer
+(04:48) Live demo: Creating a polished video with one prompt
+(08:17) Plan by removing unknowns before you build
+(14:32) How Anthropic uses HTML artifacts for planning
+(18:35) Running parallel Claude tasks through Slack
+(27:34) Using separate creator and verifier sub-agents
+(31:08) How Thariq stays focused while Claude works in parallel
+(34:07) Why Anthropic cut Claude Code’s system prompt by 80%
+(37:01) How to become more technical when AI writes the code
+
+Thanks to our sponsors:
+
+Riverside: All-in-one AI studio for podcasts and video https://creators.riverside.com/PeterYang
+
+Linear: The AI agent platform for modern teams https://linear.app/behind-the-craft
+
+Wispr Flow: 4x faster than typing with your voice https://ref.wisprflow.ai/peteryang
+
+📌 Get the takeaways: https://creatoreconomy.so/p/how-i-plan-build-and-run-loops-with-claude-code-thariq-shihipar
+
+📌 Get my personal AI OS with useful AI skills, $270 in AI tool credits, live monthly workshops, and courses on Hermes and Codex agents: https://www.behindthecraft.com/
+
+Where to find Thariq:
+
+LinkedIn: https://x.com/trq212
+Website: https://www.thariq.io/
+
+Subscribe to this channel - more interviews coming soon!</media:description>
+   <media:community>
+    <media:starRating count="559" average="5.00" min="1" max="5"/>
+    <media:statistics views="25155"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:WLg9qWOf6zw</id>
+  <yt:videoId>WLg9qWOf6zw</yt:videoId>
+  <yt:channelId>UCnpBg7yqNauHtlNSpOl5-cg</yt:channelId>
+  <title>How I Use ChatGPT Work and GPT-5.6 to Do Everything (Beginner Tutorial)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=WLg9qWOf6zw"/>
+  <author>
+   <name>Peter Yang</name>
+   <uri>https://www.youtube.com/channel/UCnpBg7yqNauHtlNSpOl5-cg</uri>
+  </author>
+  <published>2026-07-15T13:00:28+00:00</published>
+  <updated>2026-07-19T20:01:14+00:00</updated>
+  <media:group>
+   <media:title>How I Use ChatGPT Work and GPT-5.6 to Do Everything (Beginner Tutorial)</media:title>
+   <media:content url="https://www.youtube.com/v/WLg9qWOf6zw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/WLg9qWOf6zw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>📌 Copy my AI personal OS with my best skills, Hermes course, and Codex course: https://www.behindthecraft.com/
+
+I now use ChatGPT Work and Codex for almost everything I do on my computer, and I’m going to show you exactly how to do the same. By the end of this video, you’ll be using ChatGPT to manage your emails and calendar, make beautiful websites, and so much more.
+
+What I cover:
+(00:00) How I use ChatGPT Work for almost everything
+(01:04) Chat vs. Work vs. Codex: What’s the difference?
+(02:22) Which GPT-5.6 model and effort to use
+(03:18) Personalizing ChatGPT Work’s custom instructions
+(06:23) Connect your apps and organize your Work threads
+(09:30) Let ChatGPT manage email and draft replies in your voice
+(13:47) Schedule events and prep for meetings automatically
+(17:19) Automate recurring work with scheduled tasks
+(19:23) Continue your Work tasks from your phone
+(21:01) Publish travel guides, games, and product plans as Sites
+
+Get the written tutorial: https://creatoreconomy.so/p/how-i-use-chatgpt-work-and-gpt-5-6-for-everything-tutorial
+
+Resources mentioned:
+Download the ChatGPT desktop app: https://chatgpt.com/download/
+Get my free No AI Slop skill: https://github.com/petergyang/no-ai-slop
+Keep your Mac awake with Amphetamine: https://apps.apple.com/us/app/amphetamine/id937984704?mt=12
+
+Where to find me:
+Newsletter: https://creatoreconomy.so/
+X: https://x.com/petergyang
+LinkedIn: https://www.linkedin.com/in/petergyang/
+
+Subscribe to this channel for more practical AI tutorials and interviews.</media:description>
+   <media:community>
+    <media:starRating count="1188" average="5.00" min="1" max="5"/>
+    <media:statistics views="49789"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:b4idnfVqJJU</id>
+  <yt:videoId>b4idnfVqJJU</yt:videoId>
+  <yt:channelId>UCnpBg7yqNauHtlNSpOl5-cg</yt:channelId>
+  <title>The best way to control agents isn't your mouse and keyboard</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/b4idnfVqJJU"/>
+  <author>
+   <name>Peter Yang</name>
+   <uri>https://www.youtube.com/channel/UCnpBg7yqNauHtlNSpOl5-cg</uri>
+  </author>
+  <published>2026-07-14T16:15:22+00:00</published>
+  <updated>2026-07-18T03:23:34+00:00</updated>
+  <media:group>
+   <media:title>The best way to control agents isn't your mouse and keyboard</media:title>
+   <media:content url="https://www.youtube.com/v/b4idnfVqJJU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/b4idnfVqJJU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Jared Zoneraich (Builder-in-Residence at Cognition) shares his most radical prediction for how we'll work with AI agents.
+
+&quot;I think humans are going to return to a world where we just have a wooden desk — no monitor setup, no keyboard, no mouse. I just want a button and a whisper flow. And that's all I need.&quot;
+
+📌 Watch the full conversation below.
+🎧 Full episode: https://youtu.be/0YeeJHYy-Vc
+
+#AI #AIagents #futureofwork #Cognition #Shorts</media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="396"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:7CCvnlRoWHM</id>
+  <yt:videoId>7CCvnlRoWHM</yt:videoId>
+  <yt:channelId>UCnpBg7yqNauHtlNSpOl5-cg</yt:channelId>
+  <title>The biggest mistake people make building AI agents</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/7CCvnlRoWHM"/>
+  <author>
+   <name>Peter Yang</name>
+   <uri>https://www.youtube.com/channel/UCnpBg7yqNauHtlNSpOl5-cg</uri>
+  </author>
+  <published>2026-07-13T17:56:08+00:00</published>
+  <updated>2026-07-18T03:23:25+00:00</updated>
+  <media:group>
+   <media:title>The biggest mistake people make building AI agents</media:title>
+   <media:content url="https://www.youtube.com/v/7CCvnlRoWHM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/7CCvnlRoWHM/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Jared Zoneraich (Builder-in-Residence at Cognition) on the #1 mistake teams make when building AI agents.
+
+&quot;You want to build in a way that lines up with the roadmap of the model labs. Let the model cook, and don't try to push it in certain directions. You'll need less scaffolding around agents as the models get better. And they're pretty good already.&quot;
+
+📌 Watch the full conversation below.
+🎧 Full episode: https://youtu.be/0YeeJHYy-Vc
+
+#AI #AIagents #coding #Cognition #Shorts</media:description>
+   <media:community>
+    <media:starRating count="11" average="5.00" min="1" max="5"/>
+    <media:statistics views="1173"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:ZkgZlvm9qQ4</id>
+  <yt:videoId>ZkgZlvm9qQ4</yt:videoId>
+  <yt:channelId>UCnpBg7yqNauHtlNSpOl5-cg</yt:channelId>
+  <title>I got my AI agents to manage each other</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/ZkgZlvm9qQ4"/>
+  <author>
+   <name>Peter Yang</name>
+   <uri>https://www.youtube.com/channel/UCnpBg7yqNauHtlNSpOl5-cg</uri>
+  </author>
+  <published>2026-07-12T19:15:18+00:00</published>
+  <updated>2026-07-18T03:23:05+00:00</updated>
+  <media:group>
+   <media:title>I got my AI agents to manage each other</media:title>
+   <media:content url="https://www.youtube.com/v/ZkgZlvm9qQ4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/ZkgZlvm9qQ4/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Jared Zoneraich (Builder-in-Residence at Cognition) on agent fan-out and why the human shouldn't be the bottleneck anymore.
+
+&quot;More Devins are being launched by other Devins than by humans. Every time a Datadog alert goes off, you can pipe it to Devin. Like the early days of self-driving cars — you didn't want the GPU sitting idle. If I'm going to sleep, I want my agents doing stuff.&quot;
+
+📌 Watch the full conversation below.
+🎧 Full episode: https://youtu.be/0YeeJHYy-Vc
+
+#AI #AIagents #coding #Devin #Cognition #Shorts</media:description>
+   <media:community>
+    <media:starRating count="3" average="5.00" min="1" max="5"/>
+    <media:statistics views="460"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:0YeeJHYy-Vc</id>
+  <yt:videoId>0YeeJHYy-Vc</yt:videoId>
+  <yt:channelId>UCnpBg7yqNauHtlNSpOl5-cg</yt:channelId>
+  <title>How to Build AI Agents That Check Their Own Work | Jared Zoneraich</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=0YeeJHYy-Vc"/>
+  <author>
+   <name>Peter Yang</name>
+   <uri>https://www.youtube.com/channel/UCnpBg7yqNauHtlNSpOl5-cg</uri>
+  </author>
+  <published>2026-07-12T13:00:29+00:00</published>
+  <updated>2026-07-14T03:41:51+00:00</updated>
+  <media:group>
+   <media:title>How to Build AI Agents That Check Their Own Work | Jared Zoneraich</media:title>
+   <media:content url="https://www.youtube.com/v/0YeeJHYy-Vc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/0YeeJHYy-Vc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Jared is a Builder in Residence at Cognition, the team behind Devin. He showed me why teams often overbuild their first agents, and how simple prompts, better tools, and self-testing work together instead. Then he demoed one manager agent breaking down a task, directing 10 cloud agents, and deciding what a human needs to review.
+
+Jared and I talked about:
+
+(00:00) Why teams overbuild their first AI agent
+(02:50) Let the model cook before adding rules
+(03:16) Why tools matter more than better prompts
+(10:51) Why you should build evals after shipping
+(16:06) What cloud agents can do that local agents can’t
+(20:30) How to get one agent to manage other agents
+(25:39) Demo: One agent launches a team of 10
+(28:03) How agents prove their work before you review it
+(33:18) The best tasks for agent teams to work on
+
+Thanks to our sponsors:
+
+Riverside: All-in-one AI studio for podcasts and video https://creators.riverside.com/PeterYang
+Linear: The AI agent platform for modern teams https://linear.app/behind-the-craft
+Wispr Flow: 4x faster than typing with your voice https://ref.wisprflow.ai/peteryang
+
+📌 Get the takeaways: https://creatoreconomy.so/p/how-to-build-ai-agents-that-check-their-own-work-jared-cognition-devin
+
+📌 Get my personal AI OS with useful AI skills, $270 in AI tool credits, live monthly workshops, and courses on Hermes and Codex agents: https://www.behindthecraft.com/
+
+Where to find Jared:
+
+X: https://x.com/imjaredz
+Devin: https://devin.ai
+
+Subscribe to this channel - more interviews coming soon!</media:description>
+   <media:community>
+    <media:starRating count="107" average="5.00" min="1" max="5"/>
+    <media:statistics views="5843"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:14IxR0R33Vg</id>
+  <yt:videoId>14IxR0R33Vg</yt:videoId>
+  <yt:channelId>UCnpBg7yqNauHtlNSpOl5-cg</yt:channelId>
+  <title>The best GPT-5.6 model and setting to use is...</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/14IxR0R33Vg"/>
+  <author>
+   <name>Peter Yang</name>
+   <uri>https://www.youtube.com/channel/UCnpBg7yqNauHtlNSpOl5-cg</uri>
+  </author>
+  <published>2026-07-11T14:00:21+00:00</published>
+  <updated>2026-07-18T03:25:22+00:00</updated>
+  <media:group>
+   <media:title>The best GPT-5.6 model and setting to use is...</media:title>
+   <media:content url="https://www.youtube.com/v/14IxR0R33Vg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/14IxR0R33Vg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>GPT-5.6 burns through more tokens than GPT-5.5.
+
+My recommendation for everyday work:
+
+&quot;Use GPT-5.6 Sol at medium effort. High effort or the other models burn tokens super fast.
+
+Sol at medium is a great everyday workhorse for OpenClaw, Hermes, browser tasks, and everything else.&quot;
+
+📌 Visit my YouTube for more videos.</media:description>
+   <media:community>
+    <media:starRating count="28" average="5.00" min="1" max="5"/>
+    <media:statistics views="1356"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:8mY9wx_iMSU</id>
+  <yt:videoId>8mY9wx_iMSU</yt:videoId>
+  <yt:channelId>UCnpBg7yqNauHtlNSpOl5-cg</yt:channelId>
+  <title>GPT-5.6 vs Claude Fable 5: I Tested 6 Real Use Cases (Here’s the Winner)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=8mY9wx_iMSU"/>
+  <author>
+   <name>Peter Yang</name>
+   <uri>https://www.youtube.com/channel/UCnpBg7yqNauHtlNSpOl5-cg</uri>
+  </author>
+  <published>2026-07-09T17:03:06+00:00</published>
+  <updated>2026-07-23T09:47:21+00:00</updated>
+  <media:group>
+   <media:title>GPT-5.6 vs Claude Fable 5: I Tested 6 Real Use Cases (Here’s the Winner)</media:title>
+   <media:content url="https://www.youtube.com/v/8mY9wx_iMSU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/8mY9wx_iMSU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>OpenAI just made GPT 5.6 available to everyone and I’m going to answer your most burning question: Is GPT 5.6 better than Claude Fable 5? Watch my tutorial to see me test both models head-to-head across 6 real use cases. 
+
+Timestamps
+(00:00) GPT-5.6 vs Claude Fable 5
+(00:46) Compare model tiers, price, and coding performance
+(01:45) Create an interactive travel website
+(05:44) Build a 3D Star Fox-style game in one shot
+(09:39) Edit and publish short videos with browser use
+(15:10) Plan and build a mobile app feature
+(19:34) Get personalized life and business advice
+(22:17) Improve and clean up a personal AI OS
+(24:37) Comparing each model’s strengths and weaknesses
+(26:36) My daily-driver recommendation
+
+Get the written post: https://creatoreconomy.so/p/gpt-vs-claude-fable-i-tested-6-real-use-cases
+
+Get my personal AI operating system with 17+ AI skills, full courses, and more: https://www.behindthecraft.com/
+
+Where to find me:
+Newsletter: https://creatoreconomy.so/
+X: https://x.com/petergyang
+LinkedIn: https://www.linkedin.com/in/petergyang/
+
+Subscribe to this channel - more tutorials coming soon!</media:description>
+   <media:community>
+    <media:starRating count="998" average="5.00" min="1" max="5"/>
+    <media:statistics views="62864"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Byo9MEL0GHA</id>
+  <yt:videoId>Byo9MEL0GHA</yt:videoId>
+  <yt:channelId>UCnpBg7yqNauHtlNSpOl5-cg</yt:channelId>
+  <title>Codex helps me manage my meetings</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/Byo9MEL0GHA"/>
+  <author>
+   <name>Peter Yang</name>
+   <uri>https://www.youtube.com/channel/UCnpBg7yqNauHtlNSpOl5-cg</uri>
+  </author>
+  <published>2026-07-07T16:15:04+00:00</published>
+  <updated>2026-07-18T03:23:26+00:00</updated>
+  <media:group>
+   <media:title>Codex helps me manage my meetings</media:title>
+   <media:content url="https://www.youtube.com/v/Byo9MEL0GHA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/Byo9MEL0GHA/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Codex isn’t just for shipping code. It can also help protect your calendar.
+
+From Rohan (Codex PM):
+
+“I probably have a pretty large number of meetings relative to what would be optimal, but a lot of that’s actually just with customers.
+
+I would say my build time is from 5 PM onwards.
+
+But it’s funny because I’ll even use Codex as my personal chief of staff.
+
+At the beginning of the week, I’ll have it look at all my meetings, consolidate the ones where it can give me focus blocks, and figure out which ones could be canceled as a DM or something.
+
+So it’s definitely helping me find the focus time. But in general, what we do with the free time is actually just spend way more time with our customers.”
+
+📌 Watch the full conversation below.</media:description>
+   <media:community>
+    <media:starRating count="4" average="5.00" min="1" max="5"/>
+    <media:statistics views="425"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Ju5u23HaEs4</id>
+  <yt:videoId>Ju5u23HaEs4</yt:videoId>
+  <yt:channelId>UCnpBg7yqNauHtlNSpOl5-cg</yt:channelId>
+  <title>Why you're not being ambitious enough with Codex</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/Ju5u23HaEs4"/>
+  <author>
+   <name>Peter Yang</name>
+   <uri>https://www.youtube.com/channel/UCnpBg7yqNauHtlNSpOl5-cg</uri>
+  </author>
+  <published>2026-07-06T16:15:20+00:00</published>
+  <updated>2026-07-18T03:27:34+00:00</updated>
+  <media:group>
+   <media:title>Why you're not being ambitious enough with Codex</media:title>
+   <media:content url="https://www.youtube.com/v/Ju5u23HaEs4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/Ju5u23HaEs4/hqdefault.jpg" width="480" height="360"/>
+   <media:description>“Developers even haven’t fully warmed up to the level of ambition you can have with Codex.&quot;
+
+From Rohan (Codex PM):
+
+&quot;If you go into any large enterprise, maybe the top five to ten percent most AI-pilled frontier engineers are maximally leveraging Codex. But then there’s a long tail of people that are still maybe pair programming, doing less delegation.
+
+Engineers have seen AI incrementally expand its capabilities over the last three years. But if you look to a non-developer, it’s kind of been just ChatGPT this whole time.
+
+The type of things they’re asking ChatGPT are very different than what you can actually delegate to Codex.
+
+Almost everything you need to do professionally should almost always just immediately have Codex start doing it.”
+
+📌 Watch the full conversation below.</media:description>
+   <media:community>
+    <media:starRating count="8" average="5.00" min="1" max="5"/>
+    <media:statistics views="487"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:I9QUP8PP6to</id>
+  <yt:videoId>I9QUP8PP6to</yt:videoId>
+  <yt:channelId>UCnpBg7yqNauHtlNSpOl5-cg</yt:channelId>
+  <title>I use Codex for everything at OpenAI</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/I9QUP8PP6to"/>
+  <author>
+   <name>Peter Yang</name>
+   <uri>https://www.youtube.com/channel/UCnpBg7yqNauHtlNSpOl5-cg</uri>
+  </author>
+  <published>2026-07-05T19:15:19+00:00</published>
+  <updated>2026-07-18T03:28:04+00:00</updated>
+  <media:group>
+   <media:title>I use Codex for everything at OpenAI</media:title>
+   <media:content url="https://www.youtube.com/v/I9QUP8PP6to?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/I9QUP8PP6to/hqdefault.jpg" width="480" height="360"/>
+   <media:description>&quot;Codex is the only way I keep track of everything.&quot;
+
+From Rohan (Codex PM):
+
+&quot;Whenever I’m in meetings, or literally anytime I don’t understand something or hear something I didn’t know about, I just have Codex go and gather all the context.
+
+A couple times a day there’s something someone is doing where I’m like, it’s incredible that they’re doing it. I had no idea it was happening.
+
+You cannot walk from point A to point B in the OpenAI office without hearing Codex get mentioned.”
+
+📌 Watch the full conversation below.</media:description>
+   <media:community>
+    <media:starRating count="9" average="5.00" min="1" max="5"/>
+    <media:statistics views="865"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>

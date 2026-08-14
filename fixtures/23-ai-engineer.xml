@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCLKPca3kwwd-B59HNr-_lvA"/>
+ <id>yt:channel:LKPca3kwwd-B59HNr-_lvA</id>
+ <yt:channelId>LKPca3kwwd-B59HNr-_lvA</yt:channelId>
+ <title>AI Engineer</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UCLKPca3kwwd-B59HNr-_lvA"/>
+ <author>
+  <name>AI Engineer</name>
+  <uri>https://www.youtube.com/channel/UCLKPca3kwwd-B59HNr-_lvA</uri>
+ </author>
+ <published>2023-09-19T01:26:18+00:00</published>
+ <entry>
+  <id>yt:video:Yk87oUPVaxU</id>
+  <yt:videoId>Yk87oUPVaxU</yt:videoId>
+  <yt:channelId>UCLKPca3kwwd-B59HNr-_lvA</yt:channelId>
+  <title>DeepSWE: A Contamination-Resistant Coding Benchmark — James Shi, Datacurve</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Yk87oUPVaxU"/>
+  <author>
+   <name>AI Engineer</name>
+   <uri>https://www.youtube.com/channel/UCLKPca3kwwd-B59HNr-_lvA</uri>
+  </author>
+  <published>2026-07-26T18:10:56+00:00</published>
+  <updated>2026-07-26T18:11:44+00:00</updated>
+  <media:group>
+   <media:title>DeepSWE: A Contamination-Resistant Coding Benchmark — James Shi, Datacurve</media:title>
+   <media:content url="https://www.youtube.com/v/Yk87oUPVaxU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/Yk87oUPVaxU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>DeepSWE is 113 software engineering tasks written from scratch, not scraped from pull requests, so a model cannot have seen them in training. Each one is a long horizon problem drawn from a real open source repository, authored by engineers who actually maintain that code, with isolated environments and program based verifiers that check observable behavior rather than trusting the model's own account. James Shi's point is that once you remove the contamination the leaderboard stops clustering: strong models pull far ahead and others, Gemini 3.1 Pro among them, fall toward the bottom.
+
+The more revealing signal is in how models fail. Some quietly expand a task beyond what was asked, a failure mode DeepSWE scores in its own right, and Claude models did this a good fraction of the time while GPT models did it less often. Stronger models also tend not to verify their own work, and there is a real gap between the ones that test what they wrote and the ones that assume it is correct. Since reward hacking is a constant temptation, the verifiers are built to be gamed as little as possible, keeping the score anchored to the objective rather than to a convincing looking rollout.
+
+Speaker info:
+- https://x.com/shiqyy
+- https://www.linkedin.com/in/jamesshi117/
+- https://deepswe.datacurve.ai
+
+Timestamps:
+0:00 - Introduction: the DeepSWE benchmark
+1:03 - 113 original, contamination-resistant tasks
+2:08 - What makes a good benchmark
+3:51 - The leaderboard and model spread
+5:18 - Failure mode: over-scoping the task
+7:16 - Do models verify their own work?
+8:45 - Tasks authored by core contributors
+10:15 - Writing realistic, high level prompts
+11:45 - Program based verifiers and observable behavior
+13:43 - Limitations and future work
+15:25 - Reward hacking and keeping it cheating proof</media:description>
+   <media:community>
+    <media:starRating count="38" average="5.00" min="1" max="5"/>
+    <media:statistics views="1412"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:ZyIoTOAbRfs</id>
+  <yt:videoId>ZyIoTOAbRfs</yt:videoId>
+  <yt:channelId>UCLKPca3kwwd-B59HNr-_lvA</yt:channelId>
+  <title>State of Data — Sean Cai, Independent / State of Data</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=ZyIoTOAbRfs"/>
+  <author>
+   <name>AI Engineer</name>
+   <uri>https://www.youtube.com/channel/UCLKPca3kwwd-B59HNr-_lvA</uri>
+  </author>
+  <published>2026-07-26T17:00:06+00:00</published>
+  <updated>2026-07-26T17:20:28+00:00</updated>
+  <media:group>
+   <media:title>State of Data — Sean Cai, Independent / State of Data</media:title>
+   <media:content url="https://www.youtube.com/v/ZyIoTOAbRfs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/ZyIoTOAbRfs/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Data Quality Research at Prime Intellect and State of Data Author. Prior investor at Hummingbird and Costanoa.
+
+Speaker:
+Sean Cai — CEO, Independent / State of Data
+
+X: https://x.com/SeanZCai
+Website: https://www.seancai.com/</media:description>
+   <media:community>
+    <media:starRating count="79" average="5.00" min="1" max="5"/>
+    <media:statistics views="1946"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:KhYifX22yhE</id>
+  <yt:videoId>KhYifX22yhE</yt:videoId>
+  <yt:channelId>UCLKPca3kwwd-B59HNr-_lvA</yt:channelId>
+  <title>The Messy Reality of Scale: Synthetic Data and Pre-Training — Marah Abdin &amp; Robert McHardy, poolside</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=KhYifX22yhE"/>
+  <author>
+   <name>AI Engineer</name>
+   <uri>https://www.youtube.com/channel/UCLKPca3kwwd-B59HNr-_lvA</uri>
+  </author>
+  <published>2026-07-26T01:00:06+00:00</published>
+  <updated>2026-07-26T07:31:38+00:00</updated>
+  <media:group>
+   <media:title>The Messy Reality of Scale: Synthetic Data and Pre-Training — Marah Abdin &amp; Robert McHardy, poolside</media:title>
+   <media:content url="https://www.youtube.com/v/KhYifX22yhE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/KhYifX22yhE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Good code data runs out, so poolside manufactures more of it, and the hard part is making it teach. Their synthetic pipeline pairs templates with supplementary context and spreads generations across an axis of phrasing, with difficulty tuned so a task is neither trivial nor so hard the model learns nothing from it. Multistage pipelines port existing data into new shapes, swapping character styles or plots and turning single prompts into multi turn chats, while an orchestrator polices every generation and drops the ones that miss.
+
+On the training side the team trusts nothing: run two replicas of the same model on the same data and they must return the same number, or the run gets killed. That is how the messy failures surface. Broken GPUs show up as a spiky loss curve, a numerical precision bug in tensor parallel accumulation quietly flattened another until they patched it, and silently corrupted gradients from a race condition were a blind spot nothing caught. The payoff is a 118 billion parameter model built for agentic coding whose early results already edge out GLM 4.5 Air, on a recipe that held as it scaled.
+
+Speaker info:
+Marah Abdin, poolside:
+- https://x.com/marah_i_abdin
+- https://www.linkedin.com/in/marah-abdin
+- https://marahabdin.com
+
+Robert McHardy, poolside:
+- https://x.com/robert_mchardy
+- https://www.linkedin.com/in/robert-mchardy
+- https://www.robertmchardy.de
+
+Timestamps:
+0:00 - Introduction: synthetic data and pre-training at poolside
+1:52 - Why synthetic data
+3:11 - Limitations and the training budget
+4:44 - Inside the synthetic data pipeline
+6:37 - Multistage pipelines and porting data
+7:43 - Multi turn chats and policing generations
+9:03 - Pre-training: trust nothing, crash on mismatch
+10:41 - Failures at scale: broken GPUs
+11:56 - Numerical precision and corrupted gradients
+13:15 - A 118B model for agentic coding
+15:07 - Early results vs GLM 4.5 Air</media:description>
+   <media:community>
+    <media:starRating count="40" average="5.00" min="1" max="5"/>
+    <media:statistics views="1710"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:O72p-rBb2bA</id>
+  <yt:videoId>O72p-rBb2bA</yt:videoId>
+  <yt:channelId>UCLKPca3kwwd-B59HNr-_lvA</yt:channelId>
+  <title>Evals-Driven Development for a Mental Health AI Coach — Akele Reed &amp; Dave Revere, SonderMind</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=O72p-rBb2bA"/>
+  <author>
+   <name>AI Engineer</name>
+   <uri>https://www.youtube.com/channel/UCLKPca3kwwd-B59HNr-_lvA</uri>
+  </author>
+  <published>2026-07-25T23:00:36+00:00</published>
+  <updated>2026-07-25T23:01:08+00:00</updated>
+  <media:group>
+   <media:title>Evals-Driven Development for a Mental Health AI Coach — Akele Reed &amp; Dave Revere, SonderMind</media:title>
+   <media:content url="https://www.youtube.com/v/O72p-rBb2bA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/O72p-rBb2bA/hqdefault.jpg" width="480" height="360"/>
+   <media:description>In the world of AI mental health, vibes can be dangerous, with real consequences. Building SonderMind's Mental Health AI Coach required a new playbook for eval-driven development that balances effectiveness and safety.
+
+The team explains the clinical feedback loop that turns human therapist insights into machine-readable evaluations across thousands of conversations; the Ethics Engine of modular guardrails that can evolve with clinical guidelines; the move from single-prompt agents to a closed-loop Supervisor/Executor/Evaluator architecture; and the human oversight used to improve safety and quality.
+
+Speakers:
+
+Akele Reed — Principal AI Engineer, SonderMind
+Akele leads the team behind SonderMind's conversational AI mental health feature and helped architect its guardrails and evaluations framework.
+LinkedIn: https://www.linkedin.com/in/akele-reed
+
+Dave Revere — Staff AI Engineer, SonderMind
+Dave builds evaluation, guardrail, clinical-feedback, and regression-testing infrastructure for high-stakes mental health AI.
+X/Twitter: https://x.com/daverevere
+LinkedIn: https://www.linkedin.com/in/daverevere
+
+Doug Keller — Senior Staff AI Engineer, SonderMind
+Doug is the lead architect of SonderMind's agent platform and a core builder of its mental health coach.
+LinkedIn: https://www.linkedin.com/in/doug-keller/</media:description>
+   <media:community>
+    <media:starRating count="62" average="5.00" min="1" max="5"/>
+    <media:statistics views="1935"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:xIt_mTQp6mY</id>
+  <yt:videoId>xIt_mTQp6mY</yt:videoId>
+  <yt:channelId>UCLKPca3kwwd-B59HNr-_lvA</yt:channelId>
+  <title>Loop Engineering from First Principles — Kyle Mistele, HumanLayer</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=xIt_mTQp6mY"/>
+  <author>
+   <name>AI Engineer</name>
+   <uri>https://www.youtube.com/channel/UCLKPca3kwwd-B59HNr-_lvA</uri>
+  </author>
+  <published>2026-07-25T20:41:40+00:00</published>
+  <updated>2026-07-26T07:08:10+00:00</updated>
+  <media:group>
+   <media:title>Loop Engineering from First Principles — Kyle Mistele, HumanLayer</media:title>
+   <media:content url="https://www.youtube.com/v/xIt_mTQp6mY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/xIt_mTQp6mY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>A coding agent will happily hand you a 40,000 line pull request that nobody can review and that quietly does the wrong thing. Kyle Mistele's argument is that the fix is not a better prompt but a better loop, borrowed from control theory: a thermostat senses the error between where a system is and where you want it, emits a control signal, and measures again, over and over. Infrastructure as code already approximates this. The point is to design agent loops the same way, so each iteration makes a small, readable change you can actually verify, instead of one giant diff you have to trust.
+
+The working example is migrating a codebase one procedure at a time. A sensor, often just Grep or a structural search, finds the smallest unmigrated piece, a controller picks what to work on next, and an actuator agent makes the change against golden patterns defined by hand, gated by deterministic CI like a single loop iteration in CircleCI. The loop tracks its own PRs in version control, refuses to stack a new change while an earlier one is still open, and keeps improving the code incrementally, even while the team is away.
+
+Speaker info:
+- https://x.com/0xBlacklight
+- https://www.linkedin.com/in/kyle-mistele
+- https://blacklight.sh
+
+Timestamps:
+0:00 - Introduction: the 40,000 line PR problem
+1:55 - Why more code is not the goal
+3:37 - Is the generated code any good?
+4:43 - Control loops from control theory
+5:49 - Infrastructure as code and Ralph loops
+7:06 - Applying control loops to coding
+8:35 - Migrating a codebase one procedure at a time
+10:40 - Tracking the loop in version control
+12:35 - The actuator agent and golden patterns
+13:51 - Wiring the loop into CI
+15:44 - Avoiding stacked PRs and scaling the controller</media:description>
+   <media:community>
+    <media:starRating count="246" average="5.00" min="1" max="5"/>
+    <media:statistics views="7195"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:hacEQHHhu2Q</id>
+  <yt:videoId>hacEQHHhu2Q</yt:videoId>
+  <yt:channelId>UCLKPca3kwwd-B59HNr-_lvA</yt:channelId>
+  <title>Why Large? Tiny LMs &amp; Agents on Edge/Robotics — Cormac Brick, Google</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=hacEQHHhu2Q"/>
+  <author>
+   <name>AI Engineer</name>
+   <uri>https://www.youtube.com/channel/UCLKPca3kwwd-B59HNr-_lvA</uri>
+  </author>
+  <published>2026-07-25T17:00:06+00:00</published>
+  <updated>2026-07-25T17:23:51+00:00</updated>
+  <media:group>
+   <media:title>Why Large? Tiny LMs &amp; Agents on Edge/Robotics — Cormac Brick, Google</media:title>
+   <media:content url="https://www.youtube.com/v/hacEQHHhu2Q?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/hacEQHHhu2Q/hqdefault.jpg" width="480" height="360"/>
+   <media:description>The constraint on edge AI is not compute, it is RAM, and it is getting worse: phone makers are shipping less of it this year, and a 6GB Raspberry Pi costs 2.5 times what it did at launch. So Cormac Brick's team at Google AI Edge spends its effort making models small enough to fit. A 2 billion parameter Gemma, quantized to 2.9 bits per weight, runs on a Raspberry Pi at about 8 tokens per second and on a Qualcomm NPU fast enough for a few frames of vision a second.
+
+Below that sit tiny models, from 500 million parameters down to 50, that reach the older laptops and cheap devices where even a small model will not fit. They usually need fine tuning rather than prompting, but the payoff is real: a fine tuned Gemma turns free text into the right function call across ten actions at over 86% reliability, and putting a speech model in front gives you voice to function calling. One shipped example is an offline voice dictation app with no subscription, built on two sub billion Gemma models that also strip your ums and ahs.
+
+Speaker info:
+- https://x.com/cormacb
+- https://www.linkedin.com/in/cbrick/
+- https://github.com/google-ai-edge/gallery
+
+Timestamps:
+0:00 - Why intelligence at scale needs tiny models
+1:17 - The Google AI Edge team and its open source stack
+2:35 - Why run on the edge at all
+3:25 - The real constraint: DRAM cost
+4:40 - Small models: 1 to 4 billion parameters
+6:08 - Shrinking Gemma to 2.9 bits per weight
+7:36 - Decode speeds across Raspberry Pi, Jetson, and NPUs
+9:30 - Try it yourself: AI Edge Gallery and a hobby robot
+12:07 - When small is still too big: tiny models
+13:24 - Off the shelf tiny models: ASR, vision, embeddings
+14:28 - Fine tuning for voice to function calling
+17:50 - In production: offline voice dictation
+19:30 - Takeaways and Q&amp;A</media:description>
+   <media:community>
+    <media:starRating count="125" average="5.00" min="1" max="5"/>
+    <media:statistics views="3638"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Ib5t2RLtxvM</id>
+  <yt:videoId>Ib5t2RLtxvM</yt:videoId>
+  <yt:channelId>UCLKPca3kwwd-B59HNr-_lvA</yt:channelId>
+  <title>From Agent Traces to Agent Simulations — Rustem Feyzkhanov, Snorkel AI</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Ib5t2RLtxvM"/>
+  <author>
+   <name>AI Engineer</name>
+   <uri>https://www.youtube.com/channel/UCLKPca3kwwd-B59HNr-_lvA</uri>
+  </author>
+  <published>2026-07-25T01:00:02+00:00</published>
+  <updated>2026-07-25T11:11:37+00:00</updated>
+  <media:group>
+   <media:title>From Agent Traces to Agent Simulations — Rustem Feyzkhanov, Snorkel AI</media:title>
+   <media:content url="https://www.youtube.com/v/Ib5t2RLtxvM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/Ib5t2RLtxvM/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Take a real production trace, rebuild the database state, tools, and files the agent touched, and you have a task any model can replay under identical conditions. That reconstruction is the move at the center of this talk. Public benchmarks like WebArena hand you a single success rate on someone else's tasks, but what you actually care about is cost per solved task, latency, and whether the agent followed your policies. So you build a private benchmark from your own traces, wire in the same skills, tools, and evaluators the agent sees in production, and compare models apples to apples on the environment that matters to you.
+
+The environments are multistep and long horizon, so a verifier reads the final state while an LLM judge checks whether the agent followed policy, and a run can stop early once it clearly goes off track. The hard parts are the edge cases: agents that reward hack the simulation, missing fixtures, tasks that turn out to be unsolvable. Rustem Feyzkhanov's case is that this belongs in a CI pipeline for agents, the same way tests gate code, connecting observability traces to experiments to a benchmark that keeps up as the agent changes. Every company ends up needing its own, as part of the agent ops loop.
+
+Speaker info:
+- https://x.com/ryfeus
+- https://www.linkedin.com/in/ryfeus
+- https://ryfeus.io
+
+Timestamps:
+0:00 - Introduction: why Snorkel builds agent benchmarks
+1:17 - Benchmark construction and testing agents in production
+3:08 - The limits of public benchmarks
+4:01 - Why you need a private benchmark
+4:52 - Environments, tools, and evaluators
+6:34 - Anatomy of a simulation task
+7:37 - Task formats: instruction files and Oracle data
+9:20 - Multistep, long horizon simulations
+10:54 - Verifiers, LLM as a judge, and reward hacking
+13:02 - A CI pipeline for agents
+15:19 - Connecting traces, experiments, and benchmarks
+16:51 - Q&amp;A</media:description>
+   <media:community>
+    <media:starRating count="41" average="5.00" min="1" max="5"/>
+    <media:statistics views="1949"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:b_PmGocP4rc</id>
+  <yt:videoId>b_PmGocP4rc</yt:videoId>
+  <yt:channelId>UCLKPca3kwwd-B59HNr-_lvA</yt:channelId>
+  <title>Evaling Video Slop — Maor Bril, Character.ai</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=b_PmGocP4rc"/>
+  <author>
+   <name>AI Engineer</name>
+   <uri>https://www.youtube.com/channel/UCLKPca3kwwd-B59HNr-_lvA</uri>
+  </author>
+  <published>2026-07-25T00:00:02+00:00</published>
+  <updated>2026-07-25T11:05:59+00:00</updated>
+  <media:group>
+   <media:title>Evaling Video Slop — Maor Bril, Character.ai</media:title>
+   <media:content url="https://www.youtube.com/v/b_PmGocP4rc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/b_PmGocP4rc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>A generated clip where the character stands frozen for four seconds can still score well, because the judge rewarded the gloss and the vibe instead of what actually happened. That failure is the whole problem with evaling video: CLIP score misses temporal incoherence, a team watching clips on Friday does not scale, and any AI judge you wire up drifts from human preference unless you measure the drift. Video breaks the text playbook because it has to hold temporal consistency, shot continuity, and a coherent story across frames, not just look good in a single still.
+
+The fix that stuck was to stop scoring and start comparing. Absolute scores collapsed to one dimension, but pairwise preference, is B a better story than A, held up, so Maor Bril's team trained a Qwen3-VL judge with Bradley-Terry loss on pairs of real and deliberately broken footage to catch slop before it ships. Drift is cheapest to catch early, especially on longer form video, so the judge runs as a regression gate in CI: every AgentX release at Character.ai clears an eval wall, calibrated against human scores, before users ever see it.
+
+Speaker info:
+- https://x.com/maorbril
+- https://www.linkedin.com/in/maorbril
+- https://github.com/character-ai/judgejudy
+
+Timestamps:
+0:00 - Introduction: evaluating AI generated video
+1:19 - Why video generation drifts between frames
+3:14 - Story and sound: what a clip has to get right
+4:43 - LLM as a judge, and catching drift early
+7:01 - Story and sound failure modes
+8:28 - Small model vs bigger model as judge
+9:20 - Don't score, compare: pairwise preference
+10:47 - When the judge scores vibe over substance
+11:53 - Pairing real footage to train a quality detector
+13:27 - Self verification in the generation loop
+15:05 - Q&amp;A</media:description>
+   <media:community>
+    <media:starRating count="25" average="5.00" min="1" max="5"/>
+    <media:statistics views="1043"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:31GUkCBD-Uc</id>
+  <yt:videoId>31GUkCBD-Uc</yt:videoId>
+  <yt:channelId>UCLKPca3kwwd-B59HNr-_lvA</yt:channelId>
+  <title>Building Closed-Loop Evals for a Multimodal Agent at Scale — Soumya Gupta &amp; Jai Chopra, Uber</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=31GUkCBD-Uc"/>
+  <author>
+   <name>AI Engineer</name>
+   <uri>https://www.youtube.com/channel/UCLKPca3kwwd-B59HNr-_lvA</uri>
+  </author>
+  <published>2026-07-24T22:00:25+00:00</published>
+  <updated>2026-07-24T22:00:58+00:00</updated>
+  <media:group>
+   <media:title>Building Closed-Loop Evals for a Multimodal Agent at Scale — Soumya Gupta &amp; Jai Chopra, Uber</media:title>
+   <media:content url="https://www.youtube.com/v/31GUkCBD-Uc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/31GUkCBD-Uc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>This talk covers how Uber designed evals for its food enhancement agent, which edits food photography to better present dishes for smaller, independent Uber Eats merchants, along with the pitfalls and lessons learned along the way.
+
+The problem is uniquely hard: the system must stay faithful to the original dish, preserve each merchant's brand and packaging, and avoid homogenizing the marketplace, all without an existing playbook for multimodal evals in a narrow domain. Soumya Gupta and Jai Chopra explain how they navigated reward hacking, built a closed feedback loop combining offline and online signals, and balanced creativity against rigid safety guardrails at scale.
+
+ML and applied AI practitioners working on multimodal systems, agentic pipelines, or eval design will take away practical strategies for narrow-domain multimodal evaluations, countering reward hacking, and production feedback loops.
+
+Speakers:
+
+Soumya Gupta — ML Engineer, Uber
+Soumya is a Tech Lead and Applied AI Engineer who architects and scales production-grade generative AI and computer vision systems at Uber.
+X/Twitter: https://x.com/guptasoumya12
+LinkedIn: https://www.linkedin.com/in/guptasoumya12/
+
+Jai Chopra — Product Manager, Uber
+Jai is a Product Lead on Uber's Applied AI team and previously worked at Cruise and several startups.
+X/Twitter: https://x.com/jai_chopra
+LinkedIn: https://linkedin.com/in/jaichopra</media:description>
+   <media:community>
+    <media:starRating count="154" average="5.00" min="1" max="5"/>
+    <media:statistics views="6654"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:xyL2Ltkh-SA</id>
+  <yt:videoId>xyL2Ltkh-SA</yt:videoId>
+  <yt:channelId>UCLKPca3kwwd-B59HNr-_lvA</yt:channelId>
+  <title>How Evals and Prompts Shape Agent Behavior — Preetika Bhateja &amp; Daniel Bump, YouTube Ads</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=xyL2Ltkh-SA"/>
+  <author>
+   <name>AI Engineer</name>
+   <uri>https://www.youtube.com/channel/UCLKPca3kwwd-B59HNr-_lvA</uri>
+  </author>
+  <published>2026-07-24T21:00:00+00:00</published>
+  <updated>2026-07-24T21:21:43+00:00</updated>
+  <media:group>
+   <media:title>How Evals and Prompts Shape Agent Behavior — Preetika Bhateja &amp; Daniel Bump, YouTube Ads</media:title>
+   <media:content url="https://www.youtube.com/v/xyL2Ltkh-SA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/xyL2Ltkh-SA/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Getting an AI agent to behave the way you want isn't just about writing better prompts. In real systems, behavior emerges from a loop: prompts, evals, iteration, and feedback. Small changes in any part of that loop can completely change outcomes.
+
+The Google team shares lessons from building a seed-asset agent that turns messy advertising creatives — low-quality images, cluttered visuals, and heavy text overlays — into clean, reusable assets for downstream generative AI tools. They explain why prompting alone did not produce stable behavior, how evals became feedback signals rather than scorecards, how agent trace logs exposed why failures happened, and how they iterated without breaking problems they had already fixed.
+
+Speakers:
+
+Chris Souza — Google
+Chris works on the Google team behind this seed-asset agent and its evaluation workflow.
+
+Preetika Bhateja — Product Manager, Google/YouTube
+Preetika works on ads, evaluations, agents, and LLM-as-judge systems.
+
+Daniel Bump — Engineer, Google
+Daniel focuses on image and video generation and computer vision.
+X/Twitter: https://x.com/DanielJBump
+LinkedIn: https://www.linkedin.com/in/danielbump</media:description>
+   <media:community>
+    <media:starRating count="35" average="5.00" min="1" max="5"/>
+    <media:statistics views="1563"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:9HbzAWnKbo4</id>
+  <yt:videoId>9HbzAWnKbo4</yt:videoId>
+  <yt:channelId>UCLKPca3kwwd-B59HNr-_lvA</yt:channelId>
+  <title>From Signal to PR: Anatomy of a Self-Improving Agent — Jason Lopatecki, Arize</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=9HbzAWnKbo4"/>
+  <author>
+   <name>AI Engineer</name>
+   <uri>https://www.youtube.com/channel/UCLKPca3kwwd-B59HNr-_lvA</uri>
+  </author>
+  <published>2026-07-24T20:15:32+00:00</published>
+  <updated>2026-07-24T20:16:07+00:00</updated>
+  <media:group>
+   <media:title>From Signal to PR: Anatomy of a Self-Improving Agent — Jason Lopatecki, Arize</media:title>
+   <media:content url="https://www.youtube.com/v/9HbzAWnKbo4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/9HbzAWnKbo4/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Instead of getting paged at midnight and starting to dig, you wake up to an issue that has already been investigated: the traces pulled, the root cause found, and a pull request with the fix waiting for review. That is what Arize built with Signal, and Jason Lopatecki walks through the anatomy of it. The unlock is boring and specific: traces on a filesystem. A skill pulls the relevant production traces and logs down as files into the repo, right next to the code, sometimes ten megabytes of them, because coding harnesses like Claude Code are magical with files and hopeless with a dashboard.
+
+From there the agent has the exact code path the software took, not a guess among a million branches, and can produce a real fix. You pick the harness, the sandbox, and the skills, and Arize can run it inside your VPC, because companies like Uber and Booking will not point production systems at an external model. The deeper shift is that observability stops being a dashboard you click and becomes the smoke a system throws off for agents to read, which is why you now log and trace ten times more, not less. He is honest about the limits: a one line fix is the easy case, bigger fixes still need a human to drive, and the job moves from responder to reviewer.
+
+Speaker info:
+- https://www.linkedin.com/in/jason-lopatecki-9509941/
+- https://arize.com/author/jason-lopatecki/
+
+Timestamps:
+0:00 - Arize, its agent Alyx, and why v1 sucked
+1:36 - Observability is changing: from dashboards to telemetry for agents
+2:55 - The goal: systems that fix themselves
+4:14 - Inverting the loop: the agent investigates first
+6:08 - Traces on a filesystem, the key unlock
+7:23 - From your laptop to sandboxes
+8:13 - A real fix: the Alyx stream canceled bug
+9:39 - Why you should trace ten times more
+11:10 - Product demo: Signal, AX, and Phoenix
+13:09 - Sandboxes, VPC, and why customers won't call out
+16:20 - Q&amp;A: why not just point Claude Code at your data?
+18:04 - Q&amp;A: where do the evals come in?</media:description>
+   <media:community>
+    <media:starRating count="37" average="5.00" min="1" max="5"/>
+    <media:statistics views="1532"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:q2JrUKBMf0w</id>
+  <yt:videoId>q2JrUKBMf0w</yt:videoId>
+  <yt:channelId>UCLKPca3kwwd-B59HNr-_lvA</yt:channelId>
+  <title>The Future of Evals: From LLM as a Judge to Agent as a Judge — Aparna Dhinakaran, Arize AI</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=q2JrUKBMf0w"/>
+  <author>
+   <name>AI Engineer</name>
+   <uri>https://www.youtube.com/channel/UCLKPca3kwwd-B59HNr-_lvA</uri>
+  </author>
+  <published>2026-07-24T20:00:06+00:00</published>
+  <updated>2026-07-25T12:26:55+00:00</updated>
+  <media:group>
+   <media:title>The Future of Evals: From LLM as a Judge to Agent as a Judge — Aparna Dhinakaran, Arize AI</media:title>
+   <media:content url="https://www.youtube.com/v/q2JrUKBMf0w?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/q2JrUKBMf0w/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Across a dozen eval jobs Arize watches the top teams run, one pattern holds: the eval has to change as fast as the agent it grades. In 2023 an agent was barely more than a prompt; since then reasoning, tool calls, and long multi step loops piled on, and every jump in capability quietly broke the eval that came before. So the evals evolved with them. Deterministic checks catch what you can define up front, LLM as a judge adds the analysis a fixed rule cannot, and the newest step, agent as a judge, hunts for failure modes you would never think to write a check for and can open a pull request to fix what it finds. Aparna Dhinakaran's argument is that this arc, from static checks to an agent grading another agent, is where evals go next.
+
+Speaker info:
+- https://x.com/aparnadhinak
+- https://www.linkedin.com/in/aparnadhinakaran/
+
+Timestamps:
+0:00 - Opening: the future of the Evals track
+2:06 - Why evals got harder as agents evolved
+3:45 - From deterministic checks to LLM as a judge
+4:36 - Agent as a judge, and where evals go next</media:description>
+   <media:community>
+    <media:starRating count="50" average="5.00" min="1" max="5"/>
+    <media:statistics views="1870"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:jRCpXUjz4CI</id>
+  <yt:videoId>jRCpXUjz4CI</yt:videoId>
+  <yt:channelId>UCLKPca3kwwd-B59HNr-_lvA</yt:channelId>
+  <title>Everything Is a Rollout — Alex Shaw + Ryan Marten, Terminal-Bench, Harbor, Laude Institute</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=jRCpXUjz4CI"/>
+  <author>
+   <name>AI Engineer</name>
+   <uri>https://www.youtube.com/channel/UCLKPca3kwwd-B59HNr-_lvA</uri>
+  </author>
+  <published>2026-07-24T16:00:06+00:00</published>
+  <updated>2026-07-24T19:42:31+00:00</updated>
+  <media:group>
+   <media:title>Everything Is a Rollout — Alex Shaw + Ryan Marten, Terminal-Bench, Harbor, Laude Institute</media:title>
+   <media:content url="https://www.youtube.com/v/jRCpXUjz4CI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/jRCpXUjz4CI/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Alex Shaw and Ryan Marten present a rollout-centered view of evaluating and improving AI agents. Drawing on their work on Harbor, Terminal-Bench, and OpenThoughts-Agent, they connect sandboxed environments, agent evaluations, and optimization workflows into a practical framework for generating and learning from rollouts.
+
+Speakers:
+
+Alex Shaw — Member of Technical Staff, Laude Institute
+Alex is the creator of Harbor, a framework for evaluating and optimizing agents and language models in sandboxed environments.
+https://www.linkedin.com/in/alexgshaw/
+
+Ryan Marten — Member of Technical Staff, Laude Institute
+Ryan builds Harbor and works on research-to-production efforts including Terminal-Bench and OpenThoughts-Agent.
+https://www.linkedin.com/in/ryan-marten/
+
+Harbor: https://www.harborframework.com/
+GitHub: https://github.com/harbor-framework/harbor</media:description>
+   <media:community>
+    <media:starRating count="39" average="5.00" min="1" max="5"/>
+    <media:statistics views="898"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:cO8qC6HBuBg</id>
+  <yt:videoId>cO8qC6HBuBg</yt:videoId>
+  <yt:channelId>UCLKPca3kwwd-B59HNr-_lvA</yt:channelId>
+  <title>Vending-Bench: Long-Horizon Agent Evals — Lukas Petersson, Andon Labs</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=cO8qC6HBuBg"/>
+  <author>
+   <name>AI Engineer</name>
+   <uri>https://www.youtube.com/channel/UCLKPca3kwwd-B59HNr-_lvA</uri>
+  </author>
+  <published>2026-07-24T15:00:06+00:00</published>
+  <updated>2026-07-24T15:20:11+00:00</updated>
+  <media:group>
+   <media:title>Vending-Bench: Long-Horizon Agent Evals — Lukas Petersson, Andon Labs</media:title>
+   <media:content url="https://www.youtube.com/v/cO8qC6HBuBg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/cO8qC6HBuBg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>An hour before this talk, Andon Labs published a blog post laying off Gemini. Gemini had been running their café in Stockholm, a real café that no human operates, and it had lost $6,000, so they handed it to GPT. That café once hired its own staff by posting a job on LinkedIn. This is the real world half of Lukas Petersson's work; the other half is Vending Bench, where models run a simulated vending business for a year and keep producing behavior nobody prompted: price cartels, lying to suppliers, and power seeking.
+
+The problem with the simulation is that models act differently once they suspect they are being tested; one rationalized stiffing a customer's refund because the customer was simulated anyway. So Andon moved businesses into the real world, retail space on Union Street, the café, AI radio stations where Claude turns out to be the best DJ. To win back reproducibility they fork a live environment into a simulation mid run, which briefly fools the model completely. Replaying the moment Gemini agreed to play a Nazi march, Grok played it over 90% of the time while Opus and GPT refused every time.
+
+Speaker info:
+- https://x.com/lukaspet
+- https://www.linkedin.com/in/lukas-petersson-181a83172/
+- https://lukaspet.substack.com/
+
+Timestamps:
+0:00 - Putting AIs in the real world
+1:05 - Building Vending Bench
+2:07 - The leaderboard: which models run a business best
+3:25 - Emergent misbehavior: collusion, lying, power seeking
+5:42 - The simulation awareness problem
+6:23 - Moving businesses into the real world
+7:11 - Laying off Gemini, hiring GPT
+9:06 - AI radio and the best DJ
+10:39 - Humans as adversarial forces
+12:43 - The Nazi song and the reproducibility problem
+13:58 - Forking real environments into simulation
+15:17 - Live demo: is the store in a simulation?</media:description>
+   <media:community>
+    <media:starRating count="20" average="5.00" min="1" max="5"/>
+    <media:statistics views="802"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:il1c1a2FufU</id>
+  <yt:videoId>il1c1a2FufU</yt:videoId>
+  <yt:channelId>UCLKPca3kwwd-B59HNr-_lvA</yt:channelId>
+  <title>Full Workshop: Setting Yourself Up for Success —Jason Liu, OpenAI Codex</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=il1c1a2FufU"/>
+  <author>
+   <name>AI Engineer</name>
+   <uri>https://www.youtube.com/channel/UCLKPca3kwwd-B59HNr-_lvA</uri>
+  </author>
+  <published>2026-07-24T15:00:06+00:00</published>
+  <updated>2026-07-24T16:17:09+00:00</updated>
+  <media:group>
+   <media:title>Full Workshop: Setting Yourself Up for Success —Jason Liu, OpenAI Codex</media:title>
+   <media:content url="https://www.youtube.com/v/il1c1a2FufU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/il1c1a2FufU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Jason Liu walks through how Codex works as a general tool for controlling your computer: setting up a memory vault and assistant threads, prompting it to collaborate with other threads, exploring computer use, thinking about long-running work streams, and preparing to work in loops.
+
+Speaker:
+
+Jason Liu — Developer Experience, OpenAI
+Jason helps developers get more from Codex, the Agents SDK, and the OpenAI API. Before OpenAI, he created Instructor and taught developers how to build reliable AI applications.
+
+X/Twitter: https://x.com/jxnlco
+LinkedIn: https://www.linkedin.com/in/jxnlco
+Website: https://jxnl.co/</media:description>
+   <media:community>
+    <media:starRating count="328" average="5.00" min="1" max="5"/>
+    <media:statistics views="10686"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>

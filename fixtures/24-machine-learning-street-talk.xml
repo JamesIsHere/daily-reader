@@ -1,0 +1,1448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCMLtBahI5DMrt0NPvDSoIRQ"/>
+ <id>yt:channel:MLtBahI5DMrt0NPvDSoIRQ</id>
+ <yt:channelId>MLtBahI5DMrt0NPvDSoIRQ</yt:channelId>
+ <title>Machine Learning Street Talk</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UCMLtBahI5DMrt0NPvDSoIRQ"/>
+ <author>
+  <name>Machine Learning Street Talk</name>
+  <uri>https://www.youtube.com/channel/UCMLtBahI5DMrt0NPvDSoIRQ</uri>
+ </author>
+ <published>2020-04-09T18:54:44+00:00</published>
+ <entry>
+  <id>yt:video:JTHmrELSfvk</id>
+  <yt:videoId>JTHmrELSfvk</yt:videoId>
+  <yt:channelId>UCMLtBahI5DMrt0NPvDSoIRQ</yt:channelId>
+  <title>Watching America Run Away With AI - Alistair Pullen (Cosine AI)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=JTHmrELSfvk"/>
+  <author>
+   <name>Machine Learning Street Talk</name>
+   <uri>https://www.youtube.com/channel/UCMLtBahI5DMrt0NPvDSoIRQ</uri>
+  </author>
+  <published>2026-07-13T22:23:38+00:00</published>
+  <updated>2026-07-22T04:16:27+00:00</updated>
+  <media:group>
+   <media:title>Watching America Run Away With AI - Alistair Pullen (Cosine AI)</media:title>
+   <media:content url="https://www.youtube.com/v/JTHmrELSfvk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/JTHmrELSfvk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>This episode is sponsored by Notion. Learn more about Notion's Developer Platform today at https://notion.com/mlst
+
+Britain's most capable coding model can't be exported, and that ban is the whole reason Cosine set out to build one from scratch. Alistair Pullen, CEO and co-founder of Cosine, sits down with Tim Scarfe to explain how a frontier system he calls Fable, locked behind US export controls, became the founding case for a UK sovereign model trained on the Isambard supercomputer in Bristol.
+
+The bet underneath it is economic. Pullen argues that an inference company, rather than a training-first lab, doesn't need billions to compete: millions, a national compute allocation, and a consortium feedback loop can be enough. From there it gets into the machinery, why open-weight models still trail the frontier on size, active parameters and data, the mixture-of-experts versus dense trade-off and why active params dominate how a model actually feels, and the edge that real coding trajectories confer.
+
+The back half is about making agents trustworthy. Pullen makes the case for beating &quot;slop&quot; by rewarding the process instead of the final answer, reframes code review as runtime proof (spin the bug up in a VM and force the agent to actually exploit it), and walks through Swarm, Cosine's system running hundreds of sub-agents in one shot. It ends on why memory is still an unsolved hack, how synthetic graders let you run RL on tasks with no built-in test, and why Pullen reads US export controls as an accidental gift, with a supply-chain sting in the tail.
+
+---
+TIMESTAMPS:
+00:00:00 The sovereign mandate and the Fable ban
+00:04:02 Millions vs billions: the inference-company model
+00:07:19 The consortium feedback loop
+00:07:40 Why open models lag the frontier
+00:14:59 MoE vs dense, and why active params matter
+00:16:29 Trajectories: the process-data advantage
+00:19:48 Beating slop: reward the process, not the answer
+00:26:06 Reusable abstractions and the epistemic wall
+00:29:56 Code review becomes runtime proof
+00:37:32 Do agentic harnesses still matter?
+00:40:35 Swarm: orchestrating hundreds of sub-agents
+00:45:14 Why memory is still unsolved
+00:48:25 Synthetic data and graders for RL
+00:53:09 The US export gift and supply-chain risk
+
+---
+REFERENCES:
+organization:
+[00:01:15] Cosine
+https://cosine.sh
+[00:04:14] Mistral AI
+https://mistral.ai
+[00:05:50] Anthropic
+https://www.anthropic.com
+[00:07:42] Cohere
+https://cohere.com
+[00:08:36] DeepSeek
+https://www.deepseek.com
+tool:
+[00:02:52] Isambard-AI
+https://isambard.ac.uk
+[00:05:56] Colossus (xAI)
+https://en.wikipedia.org/wiki/Colossus_(supercomputer)
+[00:07:52] GLM (Z.ai)
+https://z.ai
+[00:11:52] NVIDIA B300
+https://www.nvidia.com/en-us/data-center/dgx-b300/
+[00:15:37] gpt-oss-120b
+https://huggingface.co/openai/gpt-oss-120b
+[00:15:52] Devstral 2
+https://mistral.ai/news/devstral
+[00:16:01] Llama 70b
+https://www.llama.com
+[00:17:05] Claude Code
+https://www.anthropic.com/claude-code
+[00:26:23] ARC-AGI (Francois Chollet)
+https://arcprize.org
+[00:40:38] Swarm (Cosine)
+https://cosine.sh
+[00:40:50] OpenAI Codex
+https://github.com/openai/codex
+[00:41:16] Lumen Outpost (Cosine)
+https://cosine.sh
+[00:41:18] Kimi K2 (Moonshot)
+https://huggingface.co/moonshotai/Kimi-K2-Instruct
+[00:49:55] SWE-bench
+https://www.swebench.com
+[00:52:40] SystemVerilog
+https://en.wikipedia.org/wiki/SystemVerilog
+person:
+[00:23:40] Andrej Karpathy
+https://karpathy.ai
+paper:
+[00:27:10] GRPO (DeepSeekMath)
+https://arxiv.org/abs/2402.03300
+[00:27:13] GSPO
+https://arxiv.org/abs/2507.18071
+
+Incompressible Knowledge Probes, Bojie Li
+https://arxiv.org/pdf/2604.24827
+
+Estimating the Size of Claude Opus 4.5/4.6
+https://unexcitedneurons.substack.com/p/estimating-the-size-of-claude-opus
+
+---
+ReScript:
+https://app.rescript.info/session/5852d2b884c4ce4b?share=10b9799160845bb11779f8ac6cd3124f</media:description>
+   <media:community>
+    <media:starRating count="157" average="5.00" min="1" max="5"/>
+    <media:statistics views="7182"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Vg6FBKTlfOw</id>
+  <yt:videoId>Vg6FBKTlfOw</yt:videoId>
+  <yt:channelId>UCMLtBahI5DMrt0NPvDSoIRQ</yt:channelId>
+  <title>ARC-AGI-3 winning team - Millennia of minds, compressed into words.</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Vg6FBKTlfOw"/>
+  <author>
+   <name>Machine Learning Street Talk</name>
+   <uri>https://www.youtube.com/channel/UCMLtBahI5DMrt0NPvDSoIRQ</uri>
+  </author>
+  <published>2026-07-01T14:26:52+00:00</published>
+  <updated>2026-07-19T23:58:19+00:00</updated>
+  <media:group>
+   <media:title>ARC-AGI-3 winning team - Millennia of minds, compressed into words.</media:title>
+   <media:content url="https://www.youtube.com/v/Vg6FBKTlfOw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/Vg6FBKTlfOw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Tim Scarfe travels to Zurich to sit down with the Tufa Labs ARC-AGI-3 team — founder Benjamin Crouzier, with Jeroen Cottaar, Dries Smit, Stefano Viel and Michal Tesnar — to work out what their leaderboard-topping system does and what the benchmark is really testing.
+
+The cut opens on the games: a walkthrough of the Locksmith game, where you read the rules of an unfamiliar world straight from raw frames. ARC-AGI-3 makes ARC interactive and agentic, so the model has to *discover* the goal rather than transduce a static grid. It stays easy for humans and breaks LLMs, and it runs through everything that follows. Dries traces his StochasticGoose preview win — brute force that only searched actions which changed the frame — and why it collapsed once the organisers added action-efficiency scoring and unseen games.
+
+Induction and transduction run through the middle of the conversation — how much of an answer is really priors leaking back the moment a model recognises a maze. The abstraction mountain, and Tim's case that LLMs reach the right answer through fractured, entangled representations — performance, not competence. Whether transformers plan at all or just fake it well enough. Why the score really measures action efficiency, not games solved, and why agents lock onto the wrong goal and cannot climb back out.
+
+Crouzier closes on the Tufa Labs thesis — a small lab against the giants, the bitter lesson against hand-built harnesses, and safety — and Tim ties it back to Kenneth Stanley, deep constraints, and creativity as competence.
+
+Disclosure: Tufa Labs sponsors MLST. 
+
+---
+TIMESTAMPS:
+00:00:00 Meet the Tufa team and what makes ARC-AGI-3 hard
+00:02:11 Locksmith game: reading the rules from raw frames
+00:03:10 Why build an independent research lab
+00:04:11 StochasticGoose: a preview win, then the hardened games
+00:07:58 Induction, transduction, and priors inside LLMs
+00:10:31 Curiosity, world models, and exploring by frame change
+00:14:32 Understanding debt and losing sight of your own code
+00:15:53 Requirements-based agents and human-AI co-creativity
+00:19:22 Why auto-research misses the big picture
+00:21:54 The abstraction mountain and fractured representations
+00:27:36 Constraints and making LLMs act as if they understand
+00:34:51 Human difficulty calibration, esports priors, and emergence
+00:41:35 Agency, goal acquisition, and two kinds of planning
+00:47:31 Harnesses, the 36% number, and wrong-goal loops
+00:52:33 Rewards, goals, and why ARC-AGI-3 resists brute force
+01:00:46 Would solving ARC-AGI-3 prove AGI?
+01:07:53 Stripping language away, then priors leak back
+01:14:06 Representation and whether language is necessary
+01:18:04 The bitter lesson versus specialised harnesses
+01:22:20 Capability research, safety, and the software singularity
+
+---
+REFERENCES:
+organization:
+[00:02:11] ARC-AGI-3
+https://arcprize.org/arc-agi/3
+[00:03:10] Tufa Labs
+https://tufalabs.ai/team/
+[00:04:20] ARC-AGI-3 Preview Agent Competition
+https://arcprize.org/competitions/arc-agi-3-preview-agents
+tool:
+[00:04:55] StochasticGoose ARC-AGI-3 solution
+https://github.com/DriesSmit/ARC3-solution
+[00:07:42] ArcGentica
+https://github.com/symbolica-ai/arcgentica
+[00:07:49] RGB-Agent
+https://github.com/alexisfox7/RGB-Agent
+[00:14:38] Claude Code
+https://www.anthropic.com/claude-code
+[01:03:42] Qwen 3.6 27B
+https://huggingface.co/Qwen/Qwen3.6-27B
+paper:
+[00:13:03] On the Measure of Intelligence
+https://arxiv.org/abs/1911.01547
+[00:27:42] DreamCoder
+https://arxiv.org/abs/2006.08381
+[00:43:55] On the Biology of a Large Language Model
+https://transformer-circuits.pub/2025/attribution-graphs/biology.html
+[01:18:46] ImageNet Classification with Deep CNNs (AlexNet)
+https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf
+other:
+[01:18:16] The Bitter Lesson
+http://www.incompleteideas.net/IncIdeas/BitterLesson.html
+
+---
+ReScript:
+https://app.rescript.info/public/share/463d7f031349b4b9db428553eed88230</media:description>
+   <media:community>
+    <media:starRating count="439" average="5.00" min="1" max="5"/>
+    <media:statistics views="18256"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:5pieVHmlbyk</id>
+  <yt:videoId>5pieVHmlbyk</yt:videoId>
+  <yt:channelId>UCMLtBahI5DMrt0NPvDSoIRQ</yt:channelId>
+  <title>The Thermodynamic AI Chip · Thomas Ahle</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=5pieVHmlbyk"/>
+  <author>
+   <name>Machine Learning Street Talk</name>
+   <uri>https://www.youtube.com/channel/UCMLtBahI5DMrt0NPvDSoIRQ</uri>
+  </author>
+  <published>2026-06-28T23:38:07+00:00</published>
+  <updated>2026-07-16T00:20:02+00:00</updated>
+  <media:group>
+   <media:title>The Thermodynamic AI Chip · Thomas Ahle</media:title>
+   <media:content url="https://www.youtube.com/v/5pieVHmlbyk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/5pieVHmlbyk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Thomas Ahle wants Normal Computing to be the Lovable for chip design: type your intent, and a swarm of agents carries it from design through optimisation, formalisation and verification to tape-out. To get there, his team at wrote their own open-source Verilog simulator, 580,000 lines in 43 days, because commercial EDA verifiers run about $10,000 per core and there are no decent open-source compilers to build on.
+
+That sets up the question Tim keeps pressing: if an agent can produce a chip design, a proof, or a working program, how do you actually know it is correct? Passing 70% of tests is not the same as being right, and a single fabricated bug can cost a company a fortune. They dig into ProgramBench (rebuild a program from its tests, roughly 0% success), the difference between structure and competence, and the &quot;understanding debt&quot; you take on when nobody reads the code.
+
+From there: auto-formalisation in Lean and the AlphaProof trick of training on prove-or-disprove; why there is no single true representation of a spec (Petri nets, TLA+, Erik Curiel's &quot;math does not represent&quot;); and thermodynamic computing, where Normal Computing's CN101 chip is built so that its physical noise *is* the computation, settling a stochastic differential equation in hardware to invert a matrix. Plus Bayesian uncertainty, specialisation, the Chomsky hierarchy, AI slop, and whether performance is all that matters.
+
+Recorded in Zurich.
+
+Disclosure: Normal Computing paid our production and travel costs for this show. We retained full editorial control. They did not see the video before publication, and we did not show it to them or discuss it with them beforehand.
+
+---
+TIMESTAMPS:
+00:00:00 Meet Thomas Ahle: the Lovable for chip design
+00:03:41 Why hardware needs formal verification
+00:06:36 Ten thousand dollars per core and a six-month agent run
+00:07:40 Rebuilding programs from tests: ProgramBench and zero percent
+00:12:15 Structure vs competence: can you learn a program from behavior?
+00:15:27 Continual learning, abstraction, and Claude as an ecosystem
+00:23:17 Autoformalization and the AlphaProof trick
+00:29:31 No single true representation: specs, Petri nets and TLA+
+00:34:43 Thermodynamic computing: when noise is the computation
+00:37:32 Bayesian uncertainty in the age of token streams
+00:41:12 Hybrid compute: vibe-coding loops, binaries and Stockfish
+00:44:44 Co-design, central-AI apps and API pricing
+00:49:45 Chain of thoughtlessness and the Chomsky hierarchy
+00:53:40 AI psychosis, slop and the broken social contract
+00:57:34 Typing it yourself, teamwork and performance vs competence
+
+---
+REFERENCES:
+person:
+[00:00:10] Thomas Ahle
+https://thomasahle.com
+organization:
+[00:00:27] Normal Computing
+https://normalcomputing.com/
+paper:
+[00:00:27] Subsets and Supermajorities: Optimal Hashing-based Set Similarity Search
+https://arxiv.org/abs/1904.04045
+[00:00:27] Clustering the Sketch: Dynamic Compression for Embedding Tables
+https://arxiv.org/abs/2210.05974
+[00:11:21] ProgramBench: Can Language Models Rebuild Programs From Scratch?
+https://arxiv.org/abs/2605.03546
+[00:23:50] Autoformalization with Large Language Models
+https://arxiv.org/abs/2205.12615
+[00:31:55] Autoformalizing Memory Device Specifications with Agents
+https://arxiv.org/abs/2605.00058
+[00:35:20] Thermodynamic AI and the Fluctuation Frontier
+https://arxiv.org/abs/2302.06584
+[00:36:40] Thermodynamic Computing System for AI Applications
+https://arxiv.org/abs/2312.04836
+[00:37:05] Thermodynamic Linear Algebra
+https://arxiv.org/abs/2308.05660
+[00:44:50] An efficient probabilistic hardware architecture for diffusion-like models
+https://arxiv.org/abs/2510.23972
+[00:49:45] Chain of Thoughtlessness? An Analysis of CoT in Planning
+https://arxiv.org/abs/2405.04776
+tool:
+[00:33:05] TLA+
+https://lamport.azurewebsites.net/tla/tla.html
+[00:44:50] Stockfish
+https://en.wikipedia.org/wiki/Stockfish_(chess)
+other:
+[00:01:00] Building an Open-Source Verilog Simulator with AI: 580K Lines in 43 Days
+https://normalcomputing.com/blog/building-an-open-source-verilog-simulator-with-ai-580k-lines-in-43-days
+[00:02:55] Normal Computing Announces Tape-Out of the World's First Thermodynamic Computing Chip (CN101)
+https://www.normalcomputing.com/blog/normal-computing-announces-tape-out-of-worlds-first-thermodynamic-computing-chip
+[00:02:55] World's first thermo chip reaches tape out
+https://www.tomshardware.com/tech-industry/semiconductors/worlds-first-thermodynamic-computing-chip-reaches-tape-out-normal-computings-physics-based-asic-changes-lanes-to-train-more-ai
+[00:30:00] Math Does Not Represent
+https://www.youtube.com/watch?v=aA_T20HAzyY
+[00:32:02] DRAMBench: Autoformalizing DRAM Specifications with Timed Petri Nets
+https://www.iese.fraunhofer.de/blog/drambench-autoformalizing-dram-specifications/
+[00:35:20] Extropic, Normal Computing, and D-Wave?
+https://www.zach.be/p/whats-the-difference-between-extropic
+
+---
+ReScript: https://app.rescript.info/share/ff9684a112ab37744096adaeb097a263</media:description>
+   <media:community>
+    <media:starRating count="419" average="5.00" min="1" max="5"/>
+    <media:statistics views="13622"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:e3gBwLWAerw</id>
+  <yt:videoId>e3gBwLWAerw</yt:videoId>
+  <yt:channelId>UCMLtBahI5DMrt0NPvDSoIRQ</yt:channelId>
+  <title>He won a Nobel here for AlphaFold. Then he left. - John Jumper</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=e3gBwLWAerw"/>
+  <author>
+   <name>Machine Learning Street Talk</name>
+   <uri>https://www.youtube.com/channel/UCMLtBahI5DMrt0NPvDSoIRQ</uri>
+  </author>
+  <published>2026-06-22T22:43:36+00:00</published>
+  <updated>2026-06-30T01:52:42+00:00</updated>
+  <media:group>
+   <media:title>He won a Nobel here for AlphaFold. Then he left. - John Jumper</media:title>
+   <media:content url="https://www.youtube.com/v/e3gBwLWAerw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/e3gBwLWAerw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>This episode is sponsored by Notion. Learn more about Notion's Developer Platform today at https://notion.com/mlst
+
+Protein folding stalled biology for fifty years. A sequence of amino acids dictates a three-dimensional shape, but reading that shape meant a year and roughly $100,000 of crystallography per structure. Then AlphaFold 2 won CASP14 so decisively the organizers called the problem essentially solved.
+
+In this documentary cut, John Jumper, who shared the 2024 Nobel Prize in Chemistry and has since left DeepMind for Anthropic, walks Tim Scarfe through what the system did and, more interestingly, what it did not. The architecture gets a proper dissection: MSAs, the Evoformer, invariant point attention, the FAPE loss, and Jumper's correction of the equivariance story, which ablations valued at roughly 2.5 of 30 GDT points rather than the whole win. He is blunt about the limits. AlphaFold predicts one experiment extraordinarily well; it is not a model of the cell, it does not capture dynamics, and on a given drug target it is &quot;wrong nine times out of ten.&quot;
+
+From there: the AlphaFold Database of 200M+ predicted structures, AlphaFold 3 and ligands, Isomorphic Labs, and Jumper's quarrel with the bitter lesson, where finite data and human hypotheses still matter. Emmanuel Nji of BioStruct Africa closes the film on what changes when work that took years now takes months, and on training the next thousand structural biologists across Africa.
+
+---
+TIMESTAMPS:
+00:00:00 Cold open: predicting nature with a button press
+00:01:03 The protein folding bottleneck and CASP
+00:04:39 The Nobel, the database, and the move to Anthropic
+00:05:50 Sponsor (Notion) and framing: what AlphaFold does not claim
+00:07:39 Proteins as self-assembling nanomachines
+00:12:24 From structures to biology: drug discovery and Midnolin
+00:17:37 The humility of AlphaFold: a narrow predictor
+00:22:18 Inside the architecture: Evoformer, IPA and FAPE
+00:30:20 Ruthless empiricism: ablations and 100x in data
+00:35:20 Predict, control, understand
+00:40:00 Against the bitter lesson; AlphaFold 3 as diffusion
+00:45:07 Intelligence, representations and AGI
+00:49:23 Epilogue: AlphaFold in Africa
+00:52:16 Closing: the case for hybrid science models
+
+---
+REFERENCES:
+organization:
+[00:01:55] Critical Assessment of Structure Prediction (CASP)
+https://predictioncenter.org/
+[00:04:39] The Nobel Prize in Chemistry 2024
+https://www.nobelprize.org/prizes/chemistry/2024/summary/
+[00:05:18] BioStruct Africa
+https://www.biostructafrica.org/
+[00:18:03] Isomorphic Labs
+https://www.isomorphiclabs.com/
+paper:
+[00:03:09] AlphaFold Protein Structure Database
+https://doi.org/10.1093/nar/gkab1061
+[00:17:25] Accurate structure prediction of biomolecular interactions with AlphaFold 3
+https://www.nature.com/articles/s41586-024-07487-w
+[00:22:18] Highly accurate protein structure prediction with AlphaFold
+https://www.nature.com/articles/s41586-021-03819-2
+[00:23:10] Midnolin promotes degradation of substrates independent of ubiquitination
+https://doi.org/10.1126/science.adh5021
+[00:27:00] Improved protein structure prediction using potentials from deep learning
+https://www.nature.com/articles/s41586-019-1923-7
+tool:
+[00:03:09] AlphaFold Protein Structure Database (EBI)
+https://alphafold.ebi.ac.uk/
+[00:45:55] AlphaEvolve: a coding agent for designing advanced algorithms
+https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/
+other:
+[00:39:40] The Bitter Lesson
+http://www.incompleteideas.net/IncIdeas/BitterLesson.html
+
+---
+ReScript: https://app.rescript.info/share/d8cde5c221fb71e2c0f5aafe94f90dfa
+
+Disclaimer - not sponsored, editorial with us - we filmed it at GDM, London</media:description>
+   <media:community>
+    <media:starRating count="914" average="5.00" min="1" max="5"/>
+    <media:statistics views="36946"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:TpyS50ifmX4</id>
+  <yt:videoId>TpyS50ifmX4</yt:videoId>
+  <yt:channelId>UCMLtBahI5DMrt0NPvDSoIRQ</yt:channelId>
+  <title>The Ex-Pentagon Chief Sounding the Alarm on AI Weapons — Brad Carson</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=TpyS50ifmX4"/>
+  <author>
+   <name>Machine Learning Street Talk</name>
+   <uri>https://www.youtube.com/channel/UCMLtBahI5DMrt0NPvDSoIRQ</uri>
+  </author>
+  <published>2026-05-31T00:14:55+00:00</published>
+  <updated>2026-06-05T19:55:31+00:00</updated>
+  <media:group>
+   <media:title>The Ex-Pentagon Chief Sounding the Alarm on AI Weapons — Brad Carson</media:title>
+   <media:content url="https://www.youtube.com/v/TpyS50ifmX4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/TpyS50ifmX4/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Brad Carson was the Army's General Counsel, served two terms in Congress and was Acting Under Secretary of Defense for Personnel and Readiness. He now heads Americans for Responsible Innovation, the AI-policy advocacy group he co-founded. Keith Duggar spends roughly eighty minutes pushing back.
+
+SPONSOR:
+---
+Cyber Fund built the Monastery to help founders ship products that were impossible a year ago. Applications for Batch 1 are now open.
+Apply now: https://cyber.fund
+---
+
+Carson's whole case rests on one line: the genie is not out of the bottle. We have pulled dangerous tech back before. Asilomar halted recombinant DNA in 1975, and the West still controls the chips AI runs on. Calling it unstoppable, he says, is the most dangerous idea in the room.
+
+Then Keith drags him somewhere darker. A Palantir heat map scores you 0.73 on whether you are a combatant, and a strike follows. The model is wrong some accepted share of the time, and when it is, nobody answers for it. You cannot court-martial a model, and not even the interpretability researchers can say why it picked you.
+
+—
+Note: after recording, we learned that Americans for Responsible Innovation is backed by EA-aligned philanthropy (not sponsored)
+
+---
+TIMESTAMPS:
+00:00:00 From the Pentagon to AI governance
+00:04:52 Regulatory capture vs Silicon Valley networks
+00:07:56 Transparency and the Claude tier changes
+00:09:40 Tort liability when AI tools cause harm
+00:13:40 AI is a product, not a person
+00:16:01 Children, suicide, and the suicide business
+00:19:59 Opaque neural nets and the law of war
+00:25:54 Probabilistic targeting and the death of accountability
+00:28:47 The arms race fallacy: Asilomar and restraint
+00:34:02 Talking to China: track 2 talks and chip leverage
+00:39:45 Air power never wins: capital for labour
+00:43:29 Anthropic vs the Department of War
+00:51:29 Concentration, open source, and brain drain
+01:00:18 DeepSeek, Chinese culture, and AI as diplomacy
+01:12:25 Upskilling Congress and why public trust matters
+
+---
+REFERENCES:
+organization:
+[00:02:45] ICRC position on autonomous weapons
+https://www.icrc.org/en/law-and-policy/autonomous-weapons
+[00:05:22] Americans for Responsible Innovation (ARI)
+https://ari.us
+[00:07:20] Andreessen Horowitz (a16z)
+https://a16z.com/
+[00:43:29] Anthropic
+https://www.anthropic.com/
+[01:00:18] DeepSeek
+https://www.deepseek.com
+[01:03:05] Moonshot AI (Kimi)
+https://www.moonshot.cn
+[01:16:05] Office of Technology Assessment
+https://en.wikipedia.org/wiki/Office_of_Technology_Assessment
+other:
+[00:03:35] Beneficial AGI 2019 Conference (Future of Life Institute, Puerto Rico)
+https://futureoflife.org/event/beneficial-agi-2019/
+[00:18:30] Section 230 of the Communications Decency Act
+https://en.wikipedia.org/wiki/Section_230
+[00:19:59] Lethal Autonomous Weapons (LAWS)
+https://en.wikipedia.org/wiki/Lethal_autonomous_weapon
+[00:31:35] Strategic Arms Limitation Talks (SALT)
+https://en.wikipedia.org/wiki/Strategic_Arms_Limitation_Talks
+[00:32:28] Asilomar Conference on Recombinant DNA (1975)
+https://en.wikipedia.org/wiki/Asilomar_Conference_on_Recombinant_DNA
+[00:39:45] The New Iron Triangle (ARI policy byte)
+https://ari.us/policy-bytes/the-new-iron-triangle/
+[00:48:05] Defense Production Act
+https://en.wikipedia.org/wiki/Defense_Production_Act
+person:
+[00:03:35] Anthony Aguirre
+https://en.wikipedia.org/wiki/Anthony_Aguirre
+[00:06:48] Dean Ball — Hyperdimensional
+https://www.hyperdimensional.co/
+[00:23:13] Neel Nanda — mechanistic interpretability
+https://www.neelnanda.io/
+[00:36:02] Jack Clark (Anthropic) on Conversations with Tyler
+https://conversationswithtyler.com/episodes/jack-clark/
+[00:36:45] Dean Acheson
+https://en.wikipedia.org/wiki/Dean_Acheson
+[00:37:05] Paul Nitze
+https://en.wikipedia.org/wiki/Paul_Nitze
+[00:39:15] Robert Trager — Centre for the Governance of AI
+https://www.governance.ai/team/robert-trager
+[00:41:55] Giulio Douhet
+https://en.wikipedia.org/wiki/Giulio_Douhet
+[01:15:05] Don Beyer (US Congress)
+https://en.wikipedia.org/wiki/Don_Beyer
+tool:
+[00:22:19] Phalanx CIWS
+https://en.wikipedia.org/wiki/Phalanx_CIWS
+[00:24:50] Palantir Foundry
+https://www.palantir.com/
+[01:07:17] Qwen (Alibaba)
+https://qwenlm.github.io
+
+---
+ReScript:
+https://app.rescript.info/public/share/9405ff35c0215b7cdae6402d41284171
+https://app.rescript.info/api/public/sessions/0a6c081b8e5fe413/pdf</media:description>
+   <media:community>
+    <media:starRating count="146" average="5.00" min="1" max="5"/>
+    <media:statistics views="5033"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:AREWYbVtX64</id>
+  <yt:videoId>AREWYbVtX64</yt:videoId>
+  <yt:channelId>UCMLtBahI5DMrt0NPvDSoIRQ</yt:channelId>
+  <title>Intelligence is collective, not artificial — Prof. Michael I. Jordan (UC Berkeley / Inria)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=AREWYbVtX64"/>
+  <author>
+   <name>Machine Learning Street Talk</name>
+   <uri>https://www.youtube.com/channel/UCMLtBahI5DMrt0NPvDSoIRQ</uri>
+  </author>
+  <published>2026-05-20T08:26:23+00:00</published>
+  <updated>2026-06-03T10:49:16+00:00</updated>
+  <media:group>
+   <media:title>Intelligence is collective, not artificial — Prof. Michael I. Jordan (UC Berkeley / Inria)</media:title>
+   <media:content url="https://www.youtube.com/v/AREWYbVtX64?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/AREWYbVtX64/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Michael I. Jordan, described by Science magazine as the most influential computer scientist alive, has never thought of himself as an AI researcher. In this conversation he explains why that distinction matters.
+
+SPONSOR:
+---
+Cyber Fund built the Monastery to help founders ship products that were impossible a year ago. Applications for Batch 1 are now open.
+Apply now: https://cyber.fund
+---
+
+Jordan trained as a statistician and cognitive scientist, and his career has been spent building machine learning systems that work in the real world: supply chains, commerce, healthcare, and large economic systems. When the field rebranded itself as AI and then AGI, he did not follow. Instead he argues that the framing is wrong. AI is better understood as a collective economic system than as a race to build a disembodied superintelligence.
+
+We talk about why AGI is mostly a PR term, what machine learning achieved before the LLM hype cycle, and why the assistant-on-your-shoulder vision may be less compelling than it sounds. Jordan explains why explanations need to be actionable, not merely mechanistic; why AlphaFold's missing error bars matter; how prediction-powered inference changes the picture; and why drug discovery is an incentive-design problem rather than a pure pattern-matching problem.
+
+ERRATA: Science magazine ranked him the most influential computer scientist, not Nature
+
+---
+TIMESTAMPS:
+00:00:00 Cold open: A demoralizing message to young builders
+00:02:04 CyberFund sponsor read
+00:02:50 From symbolic AI to machine learning systems
+00:05:42 Why AGI is mostly a PR term
+00:08:48 A collectivist, economic perspective on AI
+00:11:33 Why LLMs need system design, not hype
+00:14:50 Predictability beats faux understanding
+00:17:55 AlphaFold, bias, and prediction-powered inference
+00:21:48 Stop anthropomorphizing intelligence
+00:27:44 Drug discovery as an incentive problem
+00:32:29 The three-layer data market
+00:38:07 Social knowledge, markets, and culture
+00:45:39 Creator economics beyond Spotify
+00:48:30 How science-fiction AI narratives mislead young builders
+00:51:45 AI should improve humans, not replace them
+00:56:42 Safety is a property of the whole system
+00:58:12 Silicon Valley gurus and the cream off the top
+01:00:47 Game theory, mechanism design, and contracts
+01:04:39 Conformal prediction, e-values, and anytime inference
+01:08:11 A new liberal arts triangle for the AI era
+01:11:30 The Bayesian duck and markets as uncertainty reduction
+
+---
+REFERENCES:
+person:
+[00:02:50] Michael I. Jordan (homepage)
+https://people.eecs.berkeley.edu/~jordan/
+paper:
+[00:06:01] A Collectivist, Economic Perspective on AI
+https://arxiv.org/abs/2507.06268
+[00:18:09]  AlphaFold
+https://www.nature.com/articles/s41586-021-03819-2
+[00:20:36] Prediction-Powered Inference
+https://arxiv.org/abs/2301.09633
+[00:24:38] On the Measure of Intelligence
+https://arxiv.org/abs/1911.01547
+[00:33:47] On Three-Layer Data Markets
+https://arxiv.org/abs/2402.09697
+[01:04:39] Conformal Prediction with Conditional Guarantees
+https://arxiv.org/abs/2107.07511
+[01:04:51] A Tutorial on Conformal Prediction
+https://www.jmlr.org/papers/v9/shafer08a.html
+[01:06:00] E-Values Expand the Scope of Conformal Prediction
+https://arxiv.org/abs/2503.13050
+[01:08:23] Computational Thinking
+https://www.cs.cmu.edu/~CompThink/papers/Wing06.pdf
+other:
+[00:11:33] The Bitter Lesson
+http://www.incompleteideas.net/IncIdeas/BitterLesson.html
+[00:20:50] How to use AI for discovery without leading science astray
+https://news.berkeley.edu/2023/11/09/how-to-use-ai-for-discovery-without-leading-science-astray/
+[00:28:20] How Should the FDA Test?
+https://rdi.berkeley.edu/events/sbc-assets/pdfs/Summit%20session%20speaker%20slides%20submission%20form-s1-5%20%28File%20responses%29/Slides%20in%20PDF%20%28Please%20name%20the%20submitted%20file%20as%20_firstname_-_lastname_-slides.pdf%29.%20%28File%20responses%29/27-Michael%20Jordan-Session%20V.pdf#page=15
+[00:28:40] Michael I. Jordan Session V Slides
+https://rdi.berkeley.edu/events/sbc-assets/pdfs/Summit%20session%20speaker%20slides%20submission%20form-s1-5%20%28File%20responses%29/Slides%20in%20PDF%20%28Please%20name%20the%20submitted%20file%20as%20_firstname_-_lastname_-slides.pdf%29.%20%28File%20responses%29/27-Michael%20Jordan-Session%20V.pdf#page=1
+[01:08:13] Three Foundational Disciplines
+https://rdi.berkeley.edu/events/sbc-assets/pdfs/Summit%20session%20speaker%20slides%20submission%20form-s1-5%20%28File%20responses%29/Slides%20in%20PDF%20%28Please%20name%20the%20submitted%20file%20as%20_firstname_-_lastname_-slides.pdf%29.%20%28File%20responses%29/27-Michael%20Jordan-Session%20V.pdf#page=35
+organization:
+[00:45:58] UnitedMasters
+https://www.unitedmasters.com/
+book:
+[00:48:30] Human Compatible: Artificial Intelligence and the Problem of Control
+https://aima.cs.berkeley.edu/~russell/hc.html
+[01:00:56] Theory of Games and Economic Behavior
+https://press.princeton.edu/books/paperback/9780691130613/theory-of-games-and-economic-behavior</media:description>
+   <media:community>
+    <media:starRating count="1235" average="5.00" min="1" max="5"/>
+    <media:statistics views="37137"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:zSAGzfspuDE</id>
+  <yt:videoId>zSAGzfspuDE</yt:videoId>
+  <yt:channelId>UCMLtBahI5DMrt0NPvDSoIRQ</yt:channelId>
+  <title>The AI Progress Chart Everyone Is Misreading — Beth Barnes &amp; David Rein</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=zSAGzfspuDE"/>
+  <author>
+   <name>Machine Learning Street Talk</name>
+   <uri>https://www.youtube.com/channel/UCMLtBahI5DMrt0NPvDSoIRQ</uri>
+  </author>
+  <published>2026-05-04T11:37:38+00:00</published>
+  <updated>2026-05-28T20:57:37+00:00</updated>
+  <media:group>
+   <media:title>The AI Progress Chart Everyone Is Misreading — Beth Barnes &amp; David Rein</media:title>
+   <media:content url="https://www.youtube.com/v/zSAGzfspuDE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/zSAGzfspuDE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Beth Barnes and David Rein on the one graph that ate the AI timelines discourse, and why the two people who built it are the most careful about how you read it.
+
+**SPONSOR**
+Prolific - Quality data. From real people. For faster breakthroughs.
+https://www.prolific.com/?utm_source=mlst
+Interview: https://youtu.be/cnxZZTl1tkk
+---
+
+Beth Barnes and David Rein from METR on the one graph that ate the AI timelines discourse, and why the people who built it are the most careful about how it gets read.
+
+Beth founded METR after leaving OpenAI alignment. David is first author on GPQA and co-author on HCAST and the METR Time Horizons paper. Together they built the measurement Daniel Kokotajlo called the single most important piece of evidence on AI timelines: the log-linear line of &quot;how long a task a frontier model can complete at 50% reliability&quot; vs release date.
+
+The conversation opens on reward hacking. Current models can articulate in chat why a behaviour is undesired and then execute it anyway as agents. From there: construct validity, Melanie Mitchell's four-problem taxonomy, and the ARC-AGI 1-to-2 collapse as a worked example of adversarially-selected benchmarks regressing once labs target them. Beth's counter: METR deliberately does not adversarially select. David's: models do not have to do the right thing for the right reasons.
+
+Methodology, then specification — David's compiler analogy, Beth on four-month tasks as expensive to evaluate rather than unspecifiable. Then the SWE-bench reality check, the METR finding that half of passing PRs would not be merged, and Beth's horses-versus-bank-tellers analogy for the labour market.
+
+The close: monitorability, the coin-spinning boat, two-year recursive self-improvement, and Beth's line that &quot;overhyped now&quot; and &quot;big deal later&quot; are not correlated claims.
+
+---
+TIMESTAMPS:
+00:00:00 Intro
+00:02:06 Sponsor break: Prolific human-feedback infrastructure
+00:02:33 Welcome and the scalable oversight motivation
+00:06:02 Construct validity, benchmark pathologies and the Chollet worry
+00:15:45 Time Horizons: human time, HCAST tasks and the 50% logistic
+00:24:50 Is human difficulty really one variable?
+00:33:05 Agent harness evolution and the inference-compute dividend
+00:40:00 Scaffolding bells, token budgets and the credit-assignment problem
+00:44:15 Look at the damn graph: regularisation bug and reliability nuance
+00:50:00 Why 50%? Reliability, reward hacking and pizza-party transcripts
+00:55:20 Extrapolation risk and straight lines on graphs
+00:59:25 Software engineering as a specification acquisition problem
+01:07:40 Compilers also made ugly code: vibe-coding quality and Claude on METR Slack
+01:15:15 Strongest defensible claim, Carlini's compiler swarm and AI 2027
+01:23:45 SWE-bench merge rates, the bank-teller analogy and horses
+01:31:45 Scheming, alignment faking and the mentalistic vocabulary problem
+01:40:45 Reward hacking, monitorability and chain-of-thought faithfulness
+01:45:25 Recursive self-improvement, knowledge vs intelligence and closing
+
+See top comment for references!</media:description>
+   <media:community>
+    <media:starRating count="411" average="5.00" min="1" max="5"/>
+    <media:statistics views="21294"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:EInEmGaMRLc</id>
+  <yt:videoId>EInEmGaMRLc</yt:videoId>
+  <yt:channelId>UCMLtBahI5DMrt0NPvDSoIRQ</yt:channelId>
+  <title>When AI Discovers the Next Transformer — Robert Lange</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=EInEmGaMRLc"/>
+  <author>
+   <name>Machine Learning Street Talk</name>
+   <uri>https://www.youtube.com/channel/UCMLtBahI5DMrt0NPvDSoIRQ</uri>
+  </author>
+  <published>2026-03-13T21:00:10+00:00</published>
+  <updated>2026-05-28T22:20:51+00:00</updated>
+  <media:group>
+   <media:title>When AI Discovers the Next Transformer — Robert Lange</media:title>
+   <media:content url="https://www.youtube.com/v/EInEmGaMRLc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/EInEmGaMRLc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Robert Lange, founding researcher at Sakana AI, joins Tim to discuss *Shinka Evolve* — a framework that combines LLMs with evolutionary algorithms to do open-ended program search. The core claim: systems like AlphaEvolve can optimize solutions to fixed problems, but real scientific progress requires co-evolving the problems themselves.
+
+GTC is coming, the premier AI conference, great opportunity to learn about AI. NVIDIA and partners will showcase breakthroughs in physical AI, AI factories, agentic AI, and inference, exploring the next wave of AI innovation for developers and researchers. Register for virtual GTC for free, using my link and win NVIDIA DGX Spark (https://nvda.ws/4qQ0LMg)
+
+In this episode:
+
+• Why AlphaEvolve gets stuck — it needs a human to hand it the right problem. Shinka tries to invent new problems automatically, drawing on ideas from POET, PowerPlay, and MAP-Elites quality-diversity search.
+
+• The *architecture* of Shinka: an archive of programs organized as islands, LLMs used as mutation operators, and a UCB bandit that adaptively selects between frontier models (GPT-5, Sonnet 4.5, Gemini) mid-run. The credit-assignment problem across models turns out to be genuinely hard.
+
+• Concrete results — state-of-the-art circle packing with dramatically fewer evaluations, second place in an AtCoder competitive programming challenge, evolved load-balancing loss functions for mixture-of-experts models, and agent scaffolds for AIME math benchmarks.
+
+• Are these systems actually thinking outside the box, or are they parasitic on their starting conditions? When LLMs run autonomously, &quot;nothing interesting happens.&quot; Robert pushes back with the stepping-stone argument — evolution doesn't need to extrapolate, just recombine usefully.
+
+• The AI Scientist question: can automated research pipelines produce real science, or just workshop-level slop that passes surface-level review? Robert is honest that the current version is more co-pilot than autonomous researcher.
+
+• Where this lands in 5-20 years — Robert's prediction that scientific research will be fundamentally transformed, and Tim's thought experiment about alien mathematical artifacts that no human could have conceived.
+
+Robert Lange: https://roberttlange.com/
+
+---
+TIMESTAMPS:
+00:00:00 Introduction: Robert Lange, Sakana AI and Shinka Evolve
+00:04:15 AlphaEvolve's Blind Spot: Co-Evolving Problems with Solutions
+00:09:05 Unknown Unknowns, POET, and Auto-Curricula for AI Science
+00:14:20 MAP-Elites and Quality-Diversity: Shinka's Evolutionary Architecture
+00:28:00 UCB Bandits, Mutations and the Vibe Research Vision
+00:40:00 Scaling Shinka: Meta-Evolution, Democratisation and the Three-Axis Model
+00:47:10 Applications, ARC-AGI and the Future of Work
+00:57:00 The AI Scientist and the Human Co-Pilot: Who Steers the Search?
+01:06:00 AI Scientist v2, Slop Critique and the Future of Scientific Publishing
+
+---
+REFERENCES:
+paper:
+[00:03:30] ShinkaEvolve: Towards Open-Ended And Sample-Efficient Program Evolution
+https://arxiv.org/abs/2509.19349
+[00:04:15] AlphaEvolve: A Coding Agent for Scientific and Algorithmic Discovery
+https://arxiv.org/abs/2506.13131
+[00:06:30] Darwin Godel Machine: Open-Ended Evolution of Self-Improving Agents
+https://arxiv.org/abs/2505.22954
+[00:09:05] Paired Open-Ended Trailblazer (POET)
+https://arxiv.org/abs/1901.01753
+[00:10:00] PowerPlay: Training an Increasingly General Problem Solver by Continually Searching for the Simplest Still Unsolvable Problem
+https://arxiv.org/abs/1112.5309
+[00:10:40] Automated Capability Discovery via Foundation Model Self-Exploration
+https://arxiv.org/abs/2502.07577
+[00:15:30] Illuminating Search Spaces by Mapping Elites (MAP-Elites)
+https://arxiv.org/abs/1504.04909
+[00:47:10] Automated Design of Agentic Systems (ADAS)
+https://arxiv.org/abs/2408.08435
+[00:49:50] Discovering Preference Optimization Algorithms with and for Large Language Models (DiscoPOP)
+https://arxiv.org/abs/2406.08414
+[00:57:00] The AI Scientist v2: Automating the Full Research Pipeline
+https://arxiv.org/abs/2504.08066
+book:
+[00:06:48] Why Greatness Cannot Be Planned
+https://link.springer.com/book/10.1007/978-3-319-15524-1
+benchmark:
+[00:47:10] ALE-Bench: A Benchmark for Long-Horizon Objective-Driven Algorithm Engineering
+https://arxiv.org/abs/2506.09050
+[00:50:50] On the Measure of Intelligence (ARC-AGI)
+https://arxiv.org/abs/1911.01547
+
+---
+LINKS:
+Download PDF transcript: https://app.rescript.info/api/sessions/b8a9dcf60623657c/pdf/download
+Full Transcript: https://app.rescript.info/public/share/SDOD_3oXOcli3zTqcAtR8eibT5U3gam84oo4KRtI-Vk</media:description>
+   <media:community>
+    <media:starRating count="734" average="5.00" min="1" max="5"/>
+    <media:statistics views="28983"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:dHBEQ-Ryo24</id>
+  <yt:videoId>dHBEQ-Ryo24</yt:videoId>
+  <yt:channelId>UCMLtBahI5DMrt0NPvDSoIRQ</yt:channelId>
+  <title>The Dangerous Illusion of AI Coding? - Jeremy Howard</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=dHBEQ-Ryo24"/>
+  <author>
+   <name>Machine Learning Street Talk</name>
+   <uri>https://www.youtube.com/channel/UCMLtBahI5DMrt0NPvDSoIRQ</uri>
+  </author>
+  <published>2026-03-03T14:50:11+00:00</published>
+  <updated>2026-05-05T00:11:17+00:00</updated>
+  <media:group>
+   <media:title>The Dangerous Illusion of AI Coding? - Jeremy Howard</media:title>
+   <media:content url="https://www.youtube.com/v/dHBEQ-Ryo24?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/dHBEQ-Ryo24/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Dive into the realities of AI-assisted coding, the origins of modern fine-tuning, and the cognitive science behind machine learning with fast.ai founder Jeremy Howard. In this episode, we unpack why AI might be turning software engineering into a slot machine and how to maintain true technical intuition in the age of large language models.
+
+GTC is coming, the premier AI conference, great opportunity to learn about AI. NVIDIA and partners will showcase breakthroughs in physical AI, AI factories, agentic AI, and inference, exploring the next wave of AI innovation for developers and researchers. Register for virtual GTC for free, using my link and win NVIDIA DGX Spark (https://nvda.ws/4qQ0LMg)
+
+Jeremy Howard is a renowned data scientist, researcher, entrepreneur, and educator. As the co-founder of fast.ai, former President of Kaggle, and the creator of ULMFiT, Jeremy has spent decades democratizing deep learning. His pioneering work laid the foundation for modern transfer learning and the pre-training and fine-tuning paradigm that powers today's language models.
+
+Key Topics and Main Insights Discussed:
+
+- The Origins of ULMFiT and Fine-Tuning
+- The Vibe Coding Illusion and Software Engineering
+- Cognitive Science, Friction, and Learning
+- The Future of Developers
+
+RESCRIPT: https://app.rescript.info/public/share/BhX5zP3b0m63srLOQDKBTFTooSzEMh_ARwmDG_h_izk
+https://app.rescript.info/api/public/sessions/62d06c0336c567d6/pdf
+
+Jeremy Howard:
+https://x.com/jeremyphoward
+https://www.answer.ai/
+
+---
+TIMESTAMPS (fixed):
+00:00:00 Introduction &amp; GTC Sponsor
+00:04:30 ULMFiT &amp; The Birth of Fine-Tuning
+00:12:00 Intuition &amp; The Mechanics of Learning
+00:18:30 Abstraction Hierarchies &amp; AI Creativity
+00:23:00 Claude Code &amp; The Interpolation Illusion
+00:27:30 Coding vs. Software Engineering
+00:30:00 Cosplaying Intelligence: Dennett vs. Searle
+00:36:30 Automation, Radiology &amp; Desirable Difficulty
+00:42:30 Organizational Knowledge &amp; The Slope
+00:48:00 Vibe Coding as a Slot Machine
+00:54:00 The Erosion of Control in Software
+01:01:00 Interactive Programming &amp; REPL Environments
+01:05:00 The Notebook Debate &amp; Exploratory Science
+01:17:30 AI Existential Risk &amp; Power Centralization
+01:24:20 Current Risks, Privacy &amp; Enfeeblement
+
+---
+REFERENCES:
+Blog Post:
+[00:03:00] fast.ai Blog: Self-Supervised Learning
+https://www.fast.ai/posts/2020-01-13-self_supervised.html
+[00:13:30] DeepMind Blog: Gemini Deep Think
+https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think/
+[00:19:30] Modular Blog: Claude C Compiler analysis
+https://www.modular.com/blog/the-claude-c-compiler-what-it-reveals-about-the-future-of-software
+[00:19:45] Anthropic Engineering Blog: Building C Compiler
+https://www.anthropic.com/engineering/building-c-compiler
+[00:48:00] Cursor Blog: Scaling Agents
+https://cursor.com/blog/scaling-agents
+[01:05:15] fast.ai Blog: NB Dev Merged Driver
+https://www.fast.ai/posts/2022-08-25-jupyter-git.html
+[01:17:30] Jeremy Howard: Response to AI Risk Letter
+https://www.normaltech.ai/p/is-avoiding-extinction-from-ai-really
+Book:
+[00:08:30] M. Chirimuuta: The Brain Abstracted
+https://mitpress.mit.edu/9780262548045/the-brain-abstracted/
+[00:30:00] Daniel Dennett: Consciousness Explained
+https://www.amazon.com/Consciousness-Explained-Daniel-C-Dennett/dp/0316180661
+[00:42:30] Cesar Hidalgo: Infinite Alphabet / Laws of Knowledge
+https://www.amazon.com/Infinite-Alphabet-Laws-Knowledge/dp/0241655676
+Archive Article:
+[00:13:45] MLST Archive: Why Creativity Cannot Be Interpolated
+https://archive.mlst.ai/read/why-creativity-cannot-be-interpolated
+Research Study:
+[00:24:30] METR Study: AI OS Development
+https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/
+Paper:
+[00:24:45] Fred Brooks: No Silver Bullet
+https://www.cs.unc.edu/techreports/86-020.pdf
+[00:30:15] John Searle: Minds, Brains, and Programs
+https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/minds-brains-and-programs/DC644B47A4299C637C89772FACC2706A
+Research Paper:
+[00:13:50] Mathilde Caron et al.: Emerging Properties in Self-Supervised Vision Transformers (DINO)
+https://arxiv.org/abs/2104.14294
+[00:25:00] Oxford VGG: Sculptor Identification Paper
+https://www.robots.ox.ac.uk/~vgg/publications/2012/Arandjelovic12a/arandjelovic12a.pdf
+[00:36:30] Anthropic Paper: AI Skill Formation
+https://arxiv.org/pdf/2601.20245
+Historical Reference:
+[00:36:45] Ebbinghaus: Memory / Spaced Repetition
+https://www.loc.gov/item/e11000616/
+Technical Note:
+[00:42:45] John Ousterhout: Slope vs Intercept
+https://gist.github.com/gtallen1187/e83ed02eac6cc8d7e185
+Video:
+[00:59:00] Bret Victor: Inventing on Principle
+https://vimeo.com/906418692
+[01:05:00] Joel Grus: I Don't Like Notebooks
+https://www.youtube.com/watch?v=7jiPeIFXb6U</media:description>
+   <media:community>
+    <media:starRating count="4378" average="5.00" min="1" max="5"/>
+    <media:statistics views="162465"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:M2iX6HQOoLg</id>
+  <yt:videoId>M2iX6HQOoLg</yt:videoId>
+  <yt:channelId>UCMLtBahI5DMrt0NPvDSoIRQ</yt:channelId>
+  <title>What If Intelligence Didn't Evolve? It &quot;Was There&quot; From the Start! - Blaise Agüera y Arcas</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=M2iX6HQOoLg"/>
+  <author>
+   <name>Machine Learning Street Talk</name>
+   <uri>https://www.youtube.com/channel/UCMLtBahI5DMrt0NPvDSoIRQ</uri>
+  </author>
+  <published>2026-02-16T07:51:14+00:00</published>
+  <updated>2026-05-28T18:51:08+00:00</updated>
+  <media:group>
+   <media:title>What If Intelligence Didn't Evolve? It &quot;Was There&quot; From the Start! - Blaise Agüera y Arcas</media:title>
+   <media:content url="https://www.youtube.com/v/M2iX6HQOoLg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/M2iX6HQOoLg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Blaise Agüera y Arcas presenting at ALife 2025 — the most technically detailed public walkthrough of the ideas in his *What is Life?* and *What is Intelligence?* books that we've come across.
+
+He covers the BFF experiments (self-replicating programs emerging spontaneously from random noise), the mathematical framework connecting Lotka-Volterra population dynamics with Smoluchowski coagulation, eigenvalue analysis of cooperation matrices, and his central claim that symbiogenesis — not mutation — is the primary engine of evolutionary novelty.
+
+The experimental results are genuinely striking: complex self-replicating code arising from random byte strings with zero mutation, a sharp phase transition that looks like gelation, and a proof that blocking deep symbiogenetic ancestry trees prevents the transition entirely.
+
+A few things worth flagging for critical viewers:
+
+— The substrate is more carefully engineered than the framing sometimes suggests. The choice of language, tape length, interaction protocol, and step limits all shape what emerges. Their own SUBLEQ counterexample (where self-replicators *don't* arise despite being theoretically possible) highlights that these design choices matter substantially — and a general theory of which substrates support this transition is still missing.
+
+— The leap from &quot;self-replicating programs on fixed-length tapes&quot; to &quot;life was computational and intelligent from the start&quot; involves significant philosophical extrapolation beyond what the experiments directly demonstrate.
+
+— The Bedau et al. (2000) open problems paper he references at the start actually sets a higher bar for Challenge 3.2 than BFF currently meets: it asks that &quot;the internal organization of these 'organisms' and the boundaries separating them from their environment arise and be sustained through the activities of lower-level primitives&quot; — whereas BFF's tape boundaries are fixed by design, not emergent.
+
+---
+TIMESTAMPS:
+00:00:00 Introduction: From Noise to Programs &amp; ALife History
+00:03:15 Defining Life: Function as the &quot;Spirit&quot;
+00:05:45 Von Neumann's Insight: Life is Embodied Computation
+00:09:15 Physics of Computation: Irreversibility &amp; Fallacies
+00:15:00 The BFF Experiment: Spontaneous Generation of Code
+00:23:45 The Mystery: Complexity Growth Without Mutation
+00:27:00 Symbiogenesis: The Engine of Novelty
+00:33:15 Mathematical Proof: Blocking Symbiosis Stops Life
+00:40:15 Evolutionary Implications: It's Symbiogenesis All The Way Down
+00:44:30 Intelligence as Modeling Others
+00:46:49 Q&amp;A: Levels of Abstraction &amp; Definitions
+
+---
+REFERENCES:
+Paper:
+[00:01:16] Open Problems in Artificial Life
+https://direct.mit.edu/artl/article/6/4/363/2354/Open-Problems-in-Artificial-Life
+[00:09:30] When does a physical system compute?
+https://arxiv.org/abs/1309.7979
+[00:15:00] Computational Life
+https://arxiv.org/abs/2406.19108
+[00:27:30] On the Origin of Mitosing Cells
+https://pubmed.ncbi.nlm.nih.gov/11541392/
+[00:42:00] The Major Evolutionary Transitions
+https://www.nature.com/articles/374227a0
+[00:44:00] The ARC gene
+https://www.nih.gov/news-events/news-releases/memory-gene-goes-viral
+Person:
+[00:05:45] Alan Turing
+https://plato.stanford.edu/entries/turing/
+[00:07:30] John von Neumann
+https://en.wikipedia.org/wiki/John_von_Neumann
+[00:11:15] Hector Zenil
+https://hectorzenil.net/
+[00:12:00] Robert Sapolsky
+https://profiles.stanford.edu/robert-sapolsky
+[00:29:30] Marian Smoluchowski
+https://en.wikipedia.org/wiki/Marian_Smoluchowski
+Book:
+[00:06:15] What is Life?
+https://mitpress.mit.edu/9780262554091/what-is-life/
+[00:19:45] What is Life? How Chemistry Becomes Biology
+https://amazon.com/dp/0199641013
+Technical Concept:
+[00:15:45] Brainfuck
+https://esolangs.org/wiki/Brainfuck
+
+---
+LINKS:
+RESCRIPT: https://app.rescript.info/public/share/ff7gb6HpezOR3DF-gr9-rCoMFzzEgUjLQK6voV5XVWY</media:description>
+   <media:community>
+    <media:starRating count="4688" average="5.00" min="1" max="5"/>
+    <media:statistics views="130064"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Ucqfb33GJJ4</id>
+  <yt:videoId>Ucqfb33GJJ4</yt:videoId>
+  <yt:channelId>UCMLtBahI5DMrt0NPvDSoIRQ</yt:channelId>
+  <title>The Brain Is Just Specialized Agents Talking To Each Other — Dr. Jeff Beck</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Ucqfb33GJJ4"/>
+  <author>
+   <name>Machine Learning Street Talk</name>
+   <uri>https://www.youtube.com/channel/UCMLtBahI5DMrt0NPvDSoIRQ</uri>
+  </author>
+  <published>2026-01-25T10:15:49+00:00</published>
+  <updated>2026-07-20T17:53:47+00:00</updated>
+  <media:group>
+   <media:title>The Brain Is Just Specialized Agents Talking To Each Other — Dr. Jeff Beck</media:title>
+   <media:content url="https://www.youtube.com/v/Ucqfb33GJJ4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/Ucqfb33GJJ4/hqdefault.jpg" width="480" height="360"/>
+   <media:description>What makes something truly *intelligent?* Is a rock an agent? Could a perfect simulation of your brain actually *be* you? In this fascinating conversation, Dr. Jeff Beck takes us on a journey through the philosophical and technical foundations of agency, intelligence, and the future of AI.
+
+Jeff doesn't hold back on the big questions. He argues that from a purely mathematical perspective, there's no structural difference between an agent and a rock – both execute policies that map inputs to outputs. The real distinction lies in *sophistication* – how complex are the internal computations? Does the system engage in planning and counterfactual reasoning, or is it just a lookup table that happens to give the right answers?
+
+*Key topics explored in this conversation:*
+
+*The Black Box Problem of Agency* – How can we tell if something is truly planning versus just executing a pre-computed response? Jeff explains why this question is nearly impossible to answer from the outside, and why the best we can do is ask which model gives us the simplest explanation.
+
+*Energy-Based Models Explained* – A masterclass on how EBMs differ from standard neural networks. The key insight: traditional networks only optimize weights, while energy-based models optimize *both* weights and internal states – a subtle but profound distinction that connects to Bayesian inference.
+
+*Why Your Brain Might Have Evolved from Your Nose* – One of the most surprising moments in the conversation. Jeff proposes that the complex, non-smooth nature of olfactory space may have driven the evolution of our associative cortex and planning abilities.
+
+*The JEPA Revolution* – A deep dive into Yann LeCun's Joint Embedding Prediction Architecture and why learning in latent space (rather than predicting every pixel) might be the key to more robust AI representations.
+
+*AI Safety Without Skynet Fears* – Jeff takes a refreshingly grounded stance on AI risk. He's less worried about rogue superintelligences and more concerned about humans becoming &quot;reward function selectors&quot; – couch potatoes who just approve or reject AI outputs. His proposed solution? Use inverse reinforcement learning to derive AI goals from observed human behavior, then make *small* perturbations rather than naive commands like &quot;end world hunger.&quot;
+
+Whether you're interested in the philosophy of mind, the technical details of modern machine learning, or just want to understand what makes intelligence *tick,* this conversation delivers insights you won't find anywhere else.
+
+---
+TIMESTAMPS:
+00:00:00 Geometric Deep Learning &amp; Physical Symmetries
+00:00:56 Defining Agency: From Rocks to Planning
+00:05:25 The Black Box Problem &amp; Counterfactuals
+00:08:45 Simulated Agency vs. Physical Reality
+00:12:55 Energy-Based Models &amp; Test-Time Training
+00:17:30 Bayesian Inference &amp; Free Energy
+00:20:07 JEPA, Latent Space, &amp; Non-Contrastive Learning
+00:27:07 Evolution of Intelligence &amp; Modular Brains
+00:34:00 Scientific Discovery &amp; Automated Experimentation
+00:38:04 AI Safety, Enfeeblement &amp; The Future of Work
+
+---
+REFERENCES:
+Concept:
+[00:00:58] Free Energy Principle (FEP)
+https://en.wikipedia.org/wiki/Free_energy_principle
+[00:06:00] Monte Carlo Tree Search
+https://en.wikipedia.org/wiki/Monte_Carlo_tree_search
+Book:
+[00:09:00] The Intentional Stance
+https://mitpress.mit.edu/9780262540537/the-intentional-stance/
+Paper:
+[00:13:00] A Tutorial on Energy-Based Learning (LeCun 2006)
+http://yann.lecun.com/exdb/publis/pdf/lecun-06.pdf
+[00:15:00] Auto-Encoding Variational Bayes (VAE)
+https://arxiv.org/abs/1312.6114
+[00:20:15] JEPA (Joint Embedding Prediction Architecture)
+https://openreview.net/forum?id=BZ5a1r-kVsf
+[00:22:30] The Wake-Sleep Algorithm
+https://www.cs.toronto.edu/~hinton/absps/ws.pdf
+[00:22:45] Barlow Twins: Self-Supervised Learning
+https://arxiv.org/abs/2103.03230
+[00:30:40] GFlowNets (Generative Flow Networks)
+https://arxiv.org/abs/2111.09266
+[00:45:00] Maximum Entropy Inverse Reinforcement Learning
+https://www.aaai.org/Papers/AAAI/2008/AAAI08-227.pdf
+Challenge:
+[00:27:15] ARC Prize (Abstraction and Reasoning Corpus)
+https://arcprize.org/
+
+---
+RESCRIPT:
+https://app.rescript.info/public/share/DJlSbJ_Qx080q315tWaqMWn3PixCQsOcM4Kf1IW9_Eo
+PDF:
+https://app.rescript.info/api/public/sessions/0efec296b9b6e905/pdf</media:description>
+   <media:community>
+    <media:starRating count="368" average="5.00" min="1" max="5"/>
+    <media:statistics views="11438"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:yq318DIwPqw</id>
+  <yt:videoId>yq318DIwPqw</yt:videoId>
+  <yt:channelId>UCMLtBahI5DMrt0NPvDSoIRQ</yt:channelId>
+  <title>Why AI Has a Plato Problem — Mazviita Chirimuuta</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=yq318DIwPqw"/>
+  <author>
+   <name>Machine Learning Street Talk</name>
+   <uri>https://www.youtube.com/channel/UCMLtBahI5DMrt0NPvDSoIRQ</uri>
+  </author>
+  <published>2026-01-23T10:25:09+00:00</published>
+  <updated>2026-04-22T19:04:33+00:00</updated>
+  <media:group>
+   <media:title>Why AI Has a Plato Problem — Mazviita Chirimuuta</media:title>
+   <media:content url="https://www.youtube.com/v/yq318DIwPqw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/yq318DIwPqw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Professor Mazviita Chirimuuta joins us for a fascinating deep dive into the philosophy of neuroscience and what it really means to understand the mind.
+
+*What can neuroscience actually tell us about how the mind works?* In this thought-provoking conversation, we explore the hidden assumptions behind computational theories of the brain, the limits of scientific abstraction, and why the question of machine consciousness might be more complicated than AI researchers assume.
+
+Mazviita, author of *The Brain Abstracted,* brings a unique perspective shaped by her background in both neuroscience research and philosophy. She challenges us to think critically about the metaphors we use to understand cognition — from the reflex theory of the late 19th century to today's dominant view of the brain as a computer.
+
+*Key topics explored:*
+
+*The problem of oversimplification* — Why scientific models necessarily leave things out, and how this can sometimes lead entire fields astray. The cautionary tale of reflex theory shows how elegant explanations can blind us to biological complexity.
+
+*Is the brain really a computer?* — Mazviita unpacks the philosophical assumptions behind computational neuroscience and asks: if we can model anything computationally, what makes brains special? The answer might challenge everything you thought you knew about AI.
+
+*Haptic realism* — A fresh way of thinking about scientific knowledge that emphasizes interaction over passive observation. Knowledge isn't about reading the &quot;source code of the universe&quot; — it's something we actively construct through engagement with the world.
+
+*Why embodiment matters for understanding* — Can a disembodied language model truly understand? Mazviita makes a compelling case that human cognition is deeply entangled with our sensory-motor engagement and biological existence in ways that can't simply be abstracted away.
+
+*Technology and human finitude* — Drawing on Heidegger, we discuss how the dream of transcending our physical limitations through technology might reflect a fundamental misunderstanding of what it means to be a knower.
+
+This conversation is essential viewing for anyone interested in AI, consciousness, philosophy of mind, or the future of cognitive science. Whether you're skeptical of strong AI claims or a true believer in machine consciousness, Mazviita's careful philosophical analysis will give you new tools for thinking through these profound questions.
+
+---
+TIMESTAMPS:
+00:00:00 The Problem of Generalizing Neuroscience
+00:02:51 Abstraction vs. Idealization: The &quot;Kaleidoscope&quot;
+00:05:39 Platonism in AI: Discovering or Inventing Patterns?
+00:09:42 When Simplification Fails: The Reflex Theory
+00:12:23 Behaviorism and the &quot;Black Box&quot; Trap
+00:14:20 Haptic Realism: Knowledge Through Interaction
+00:20:23 Is Nature Protean? The Myth of Converging Truth
+00:23:23 The Computational Theory of Mind: A Useful Fiction?
+00:27:25 Biological Constraints: Why Brains Aren't Just Neural Nets
+00:31:01 Agency, Distal Causes, and Dennett's Stances
+00:37:13 Searle's Challenge: Causal Powers and Understanding
+00:41:58 Heidegger's Warning &amp; The Experiment on Children
+
+---
+REFERENCES:
+Book:
+[00:01:28] The Brain Abstracted
+https://mitpress.mit.edu/9780262548045/the-brain-abstracted/
+[00:11:05] The Integrated Action of the Nervous System
+https://www.amazon.sg/integrative-action-nervous-system/dp/9354179029
+[00:18:15] The Quest for Certainty (Dewey)
+https://www.amazon.com/Quest-Certainty-Relation-Knowledge-Lectures/dp/0399501916
+[00:19:45] Realism for Realistic People (Chang)
+https://www.cambridge.org/core/books/realism-for-realistic-people/ACC93A7F03B15AA4D6F3A466E3FC5AB7
+[00:38:15] The Rediscovery of the Mind (Searle)
+https://mitpress.mit.edu/9780262691543/the-rediscovery-of-the-mind/
+[00:47:18] So You've Been Publicly Shamed (Ronson)
+https://www.amazon.com/So-Youve-Been-Publicly-Shamed/dp/1594634017
+[00:50:30] Reality+ (Chalmers)
+https://consc.net/reality/
+Person:
+[00:05:00] Francois Chollet
+https://arcprize.org/
+Paper:
+[00:08:03] Real Patterns (Dennett)
+https://ruccs.rutgers.edu/images/personal-zenon-pylyshyn/class-info/FP2012/FP2012_readings/Dennett_RealPatterns.pdf
+[00:25:30] A Logical Calculus of Ideas... (1943)
+https://link.springer.com/article/10.1007/BF02478259
+[00:29:17] The Lottery Ticket Hypothesis
+https://arxiv.org/abs/1803.03635
+Philosophy:
+[00:17:30] Transcendental Idealism (Kant)
+https://plato.stanford.edu/entries/kant-transcendental-idealism/
+
+---
+RESCRIPT:
+https://app.rescript.info/public/share/A6cZ1TY35p8ORMmYCWNBI0no9ChU3-Kx7dPXGJURvZ0
+PDF Transcript:
+https://app.rescript.info/api/public/sessions/0fb7767e066cf712/pdf</media:description>
+   <media:community>
+    <media:starRating count="455" average="5.00" min="1" max="5"/>
+    <media:statistics views="16655"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:pO0WZsN8Oiw</id>
+  <yt:videoId>pO0WZsN8Oiw</yt:videoId>
+  <yt:channelId>UCMLtBahI5DMrt0NPvDSoIRQ</yt:channelId>
+  <title>Why Every Brain Metaphor in History Has Been Wrong [SPECIAL EDITION]</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=pO0WZsN8Oiw"/>
+  <author>
+   <name>Machine Learning Street Talk</name>
+   <uri>https://www.youtube.com/channel/UCMLtBahI5DMrt0NPvDSoIRQ</uri>
+  </author>
+  <published>2026-01-18T04:38:00+00:00</published>
+  <updated>2026-06-24T06:29:14+00:00</updated>
+  <media:group>
+   <media:title>Why Every Brain Metaphor in History Has Been Wrong [SPECIAL EDITION]</media:title>
+   <media:content url="https://www.youtube.com/v/pO0WZsN8Oiw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/pO0WZsN8Oiw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>What if everything we think we know about the brain is just a really good metaphor that we forgot was a metaphor?
+
+This episode takes you on a journey through the history of scientific simplification, from a young Karl Friston watching wood lice in his garden to the bold claims that your mind is literally software running on biological hardware.
+
+We bring together some of the most brilliant minds we've interviewed — Professor Mazviita Chirimuuta, Francois Chollet, Joscha Bach, Professor Luciano Floridi, Professor Noam Chomsky, Nobel laureate John Jumper, and more — to wrestle with a deceptively simple question: *When scientists simplify reality to study it, what gets captured and what gets lost?*
+
+*Key ideas explored:*
+
+*The Spherical Cow Problem* — Science requires simplification. We're limited creatures trying to understand systems far more complex than our working memory can hold. But when does a useful model become a dangerous illusion?
+
+*The Kaleidoscope Hypothesis* — Francois Chollet's beautiful idea that beneath all the apparent chaos of reality lies simple, repeating patterns — like bits of colored glass in a kaleidoscope creating infinite complexity. Is this profound truth or Platonic wishful thinking?
+
+*Is Software Really Spirit?* — Joscha Bach makes the provocative claim that software is literally spirit, not metaphorically. We push back hard on this, asking whether the &quot;sameness&quot; we see across different computers running the same program exists in nature or only in our descriptions.
+
+*The Cultural Illusion of AGI* — Why does artificial general intelligence seem so inevitable to people in Silicon Valley? Professor Chirimuuta suggests we might be caught in a &quot;cultural historical illusion&quot; — our mechanistic assumptions about minds making AI seem like destiny when it might just be a bet.
+
+*Prediction vs. Understanding* — Nobel Prize winner John Jumper: AI can predict and control, but understanding requires a human in the loop. 
+
+Throughout history, we've described the brain as hydraulic pumps, telegraph networks, telephone switchboards, and now computers. Each metaphor felt obviously true at the time. This episode asks: what will we think was naive about our current assumptions in fifty years?
+
+Featuring insights from *The Brain Abstracted* by Mazviita Chirimuuta — possibly the most influential book on how we think about thinking in 2025.
+
+---
+TIMESTAMPS:
+00:00:00 The Wood Louse &amp; The Spherical Cow
+00:02:04 The Necessity of Abstraction
+00:04:42 Simplicius vs. Ignorantio: The Boxing Match
+00:06:39 The Kaleidoscope Hypothesis
+00:08:40 Is the Mind Software?
+00:13:15 Critique of Causal Patterns
+00:14:40 Temperature is Not a Thing
+00:18:24 The Ship of Theseus &amp; Ontology
+00:23:45 Metaphors Hardening into Reality
+00:25:41 The Illusion of AGI Inevitability
+00:27:45 Prediction vs. Understanding
+00:32:00 Climbing the Mountain vs. The Helicopter
+00:34:53 Haptic Realism &amp; The Limits of Knowledge
+
+---
+REFERENCES:
+Person:
+[00:00:00] Karl Friston (UCL)
+https://profiles.ucl.ac.uk/1236-karl-friston
+[00:06:30] Francois Chollet
+https://fchollet.com/
+[00:14:41] Cesar Hidalgo, MLST interview.
+https://www.youtube.com/watch?v=vzpFOJRteeI
+[00:30:30] Terence Tao's Blog
+https://terrytao.wordpress.com/
+Book:
+[00:02:25] The Brain Abstracted
+https://mitpress.mit.edu/9780262548045/the-brain-abstracted/
+[00:06:00] On Learned Ignorance
+https://www.amazon.com/Nicholas-Cusa-learned-ignorance-translation/dp/0938060236
+[00:24:15] Science and the Modern World
+https://amazon.com/dp/0684836394
+Interview.:
+[00:02:43] The Brain Abstracted Patreon interview
+https://www.patreon.com/posts/brain-abstracted-124479979
+Interview:
+[00:04:18] David Krakauer's presentation on intelligence.
+https://www.youtube.com/watch?v=dY46YsGWMIc
+[00:06:45] Machine Learning Street Talk interview with Francois Chollet.
+https://www.youtube.com/watch?v=JTU8Ha4Jyfc
+[00:09:32] Joscha Bach Patreon interview.
+https://www.patreon.com/posts/joscha-bach-deep-141884561
+[00:18:24] Luciano Floridi, MLST interview.
+https://www.youtube.com/watch?v=YLNGvvgq3eg
+[00:25:02] Jeff Beck, MLST interview.
+https://www.youtube.com/watch?v=9suqiofCiwM
+[00:28:00] John Jumper
+https://www.patreon.com/posts/john-jumper-on-144557652
+[00:30:48] Noam Chomsky, MLST interview.
+https://www.youtube.com/watch?v=axuGfh4UR9Q
+[00:31:59] Anna Ciaunica
+https://www.patreon.com/posts/dr-anna-ciaunica-144509970
+[00:33:12] Mike Israetel debate on functionalism.
+https://www.youtube.com/watch?v=4yYcN_mFi18
+Company/Org:
+[00:09:25] Neuralink
+https://neuralink.com/
+Paper:
+[00:23:45] A Logical Calculus of Ideas Immanent in Nervous Activity
+https://link.springer.com/article/10.1007/BF02478259
+[00:28:00] Highly Accurate Protein Structure Prediction with AlphaFold
+https://www.nature.com/articles/s41586-021-03819-2
+
+ Thank you to Dr. Maxwell Ramstead for early script work on this show (Ph.D student of Friston) and the woodlice story came from him!</media:description>
+   <media:community>
+    <media:starRating count="850" average="5.00" min="1" max="5"/>
+    <media:statistics views="19759"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:9suqiofCiwM</id>
+  <yt:videoId>9suqiofCiwM</yt:videoId>
+  <yt:channelId>UCMLtBahI5DMrt0NPvDSoIRQ</yt:channelId>
+  <title>AutoGrad Changed Everything (Not Transformers) [Dr. Jeff Beck]</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=9suqiofCiwM"/>
+  <author>
+   <name>Machine Learning Street Talk</name>
+   <uri>https://www.youtube.com/channel/UCMLtBahI5DMrt0NPvDSoIRQ</uri>
+  </author>
+  <published>2025-12-31T19:35:15+00:00</published>
+  <updated>2026-06-25T08:46:55+00:00</updated>
+  <media:group>
+   <media:title>AutoGrad Changed Everything (Not Transformers) [Dr. Jeff Beck]</media:title>
+   <media:content url="https://www.youtube.com/v/9suqiofCiwM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/9suqiofCiwM/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Dr. Jeff Beck, mathematician turned computational neuroscientist, joins us for a fascinating deep dive into why the future of AI might look less like ChatGPT and more like your own brain.
+
+**SPONSOR MESSAGES START**
+—
+Prolific - Quality data. From real people. For faster breakthroughs.
+https://www.prolific.com/?utm_source=mlst
+—
+**END**
+
+*What if the key to building truly intelligent machines isn't bigger models, but smarter ones?*
+
+In this conversation, Jeff makes a compelling case that we've been building AI backwards. While the tech industry races to scale up transformers and language models, Jeff argues we're missing something fundamental: the brain doesn't work like a giant prediction engine. It works like a scientist, constantly testing hypotheses about a world made of *objects* that interact through *forces* — not pixels and tokens.
+
+*The Bayesian Brain* — Jeff explains how your brain is essentially running the scientific method on autopilot. When you combine what you see with what you hear, you're doing optimal Bayesian inference without even knowing it. This isn't just philosophy — it's backed by decades of behavioral experiments showing humans are surprisingly efficient at handling uncertainty.
+
+*AutoGrad Changed Everything* — Forget transformers for a moment. Jeff argues the real hero of the AI boom was automatic differentiation, which turned AI from a math problem into an engineering problem. But in the process, we lost sight of what actually makes intelligence work.
+
+*The Cat in the Warehouse Problem* — Here's where it gets practical. Imagine a warehouse robot that's never seen a cat. Current AI would either crash or make something up. Jeff's approach? Build models that *know what they don't know*, can phone a friend to download new object models on the fly, and keep learning continuously. It's like giving robots the ability to say &quot;wait, what IS that?&quot; instead of confidently being wrong.
+
+*Why Language is a Terrible Model for Thought* — In a provocative twist, Jeff argues that grounding AI in language (like we do with LLMs) is fundamentally misguided. Self-report is the least reliable data in psychology — people routinely explain their own behavior incorrectly. We should be grounding AI in physics, not words.
+
+*The Future is Lots of Little Models* — Instead of one massive neural network, Jeff envisions AI systems built like video game engines: thousands of small, modular object models that can be combined, swapped, and updated independently. It's more efficient, more flexible, and much closer to how we actually think.
+
+Whether you're an AI researcher, a robotics enthusiast, or just curious about how minds — biological or artificial — actually work, this conversation offers a refreshingly different perspective on where intelligence comes from and where it's going.
+
+Rescript: https://app.rescript.info/public/share/D-b494t8DIV-KRGYONJghvg-aelMmxSDjKthjGdYqsE
+
+---
+TIMESTAMPS:
+00:00:00 Introduction &amp; The Bayesian Brain
+00:01:25 Bayesian Inference &amp; Information Processing
+00:05:17 The Brain Metaphor: From Levers to Computers
+00:10:13 Micro vs. Macro Causation &amp; Instrumentalism
+00:16:59 The Active Inference Community &amp; AutoGrad
+00:22:54 Object-Centered Models &amp; The Grounding Problem
+00:35:50 Scaling Bayesian Inference &amp; Architecture Design
+00:48:05 The Cat in the Warehouse: Solving Generalization
+00:58:17 Alignment via Belief Exchange
+01:05:24 Deception, Emergence &amp; Cellular Automata
+
+---
+REFERENCES:
+Paper:
+[00:00:24] Zoubin Ghahramani (Google DeepMind)
+https://pmc.ncbi.nlm.nih.gov/articles/PMC3538441/pdf/rsta201
+[00:19:20] Mamba: Linear-Time Sequence Modeling
+https://arxiv.org/abs/2312.00752
+[00:27:36] xLSTM: Extended Long Short-Term Memory
+https://arxiv.org/abs/2405.04517
+[00:41:12] 3D Gaussian Splatting
+https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/
+[01:07:09] Lenia: Biology of Artificial Life
+https://arxiv.org/abs/1812.05433
+[01:08:20] Growing Neural Cellular Automata
+https://distill.pub/2020/growing-ca/
+[01:14:05] DreamCoder
+https://arxiv.org/abs/2006.08381
+[01:14:58] The Genomic Bottleneck
+https://www.nature.com/articles/s41467-019-11786-6
+Person:
+[00:16:42] Karl Friston (UCL)
+https://www.youtube.com/watch?v=PNYWi996Beg</media:description>
+   <media:community>
+    <media:starRating count="693" average="5.00" min="1" max="5"/>
+    <media:statistics views="20824"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:RvYSsi6rd4g</id>
+  <yt:videoId>RvYSsi6rd4g</yt:videoId>
+  <yt:channelId>UCMLtBahI5DMrt0NPvDSoIRQ</yt:channelId>
+  <title>Your Brain Doesn't Command Your Body. It Predicts It. [Max Bennett]</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=RvYSsi6rd4g"/>
+  <author>
+   <name>Machine Learning Street Talk</name>
+   <uri>https://www.youtube.com/channel/UCMLtBahI5DMrt0NPvDSoIRQ</uri>
+  </author>
+  <published>2025-12-30T07:17:08+00:00</published>
+  <updated>2026-05-21T17:36:07+00:00</updated>
+  <media:group>
+   <media:title>Your Brain Doesn't Command Your Body. It Predicts It. [Max Bennett]</media:title>
+   <media:content url="https://www.youtube.com/v/RvYSsi6rd4g?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/RvYSsi6rd4g/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Tim sits down with Max Bennett to explore how our brains evolved over 600 million years—and what that means for understanding both human intelligence and AI.
+
+Max isn't a neuroscientist by training. He's a tech entrepreneur who got curious, started reading, and ended up weaving together three fields that rarely talk to each other: comparative psychology (what different animals can actually do), evolutionary neuroscience (how brains changed over time), and AI (what actually works in practice).
+
+*Your Brain Is a Guessing Machine*
+You don't actually &quot;see&quot; the world. Your brain builds a simulation of what it *thinks* is out there and just uses your eyes to check if it's right. That's why optical illusions work—your brain is filling in a triangle that isn't there, or can't decide if it's looking at a duck or a rabbit.
+
+*Rats Have Regrets*
+In a fascinating experiment called &quot;Restaurant Row,&quot; rats make choices about waiting for food. When they skip a short wait for something they like and end up stuck with a long wait for something they don't—you can literally watch their brain imagine eating the food they passed up. They regret their choice and make different decisions next time.
+
+*Chimps Are Machiavellian*
+The most gripping story is about two chimps, Rock and Belle. Belle learns where food is hidden. Rock figures out he can just follow her and steal it. So Belle starts hiding the food when she finds it. Then Rock starts *pretending* not to watch her, then sprinting to grab the food once she moves. This escalates into an arms race of deception and counter-deception—proof that apes can think about what others are thinking.
+
+*Language Is the Human Superpower*
+Other animals learn by watching each other's actions. Humans can share what's happening *inside our minds*. You can describe a dream, plan a hunt with five other people, or warn someone about a snake you saw yesterday. This ability to share mental simulations is what lets knowledge accumulate across generations—and it's arguably the &quot;singularity that already happened.&quot;
+
+*Does ChatGPT Think?*
+ChatGPT clearly has *a model* (it wouldn't work otherwise), but it doesn't have a *world model* in the way brains do. A real world model means you can form a hypothesis, test it, and update your beliefs based on what happens. GPT learns only from its training data—it can't run experiments or reject information it knows to be false.
+
+Understanding how the brain evolved isn't just about the past. It gives us clues about:
+- What's actually different between human intelligence and AI
+- Why we're so easily fooled by status games and tribal thinking
+- What features we might want to build into—or leave out of—future AI systems
+
+Get Max's book:
+https://www.amazon.com/Brief-History-Intelligence-Humans-Breakthroughs/dp/0063286343
+
+Rescript: https://app.rescript.info/public/share/R234b7AXyDXZusqQ_43KMGsUSvJ2TpSz2I3emnI6j9A
+
+---
+TIMESTAMPS:
+00:00:00 Introduction: Outsider's Advantage &amp; Neocortex Theories
+00:11:34 Perception as Inference: The Filling-In Machine
+00:19:11 Understanding, Recognition &amp; Generative Models
+00:36:39 How Mice Plan: Vicarious Trial &amp; Error
+00:46:15 Evolution of Self: The Layer 4 Mystery
+00:58:31 Ancient Minds &amp; The Social Brain: Machiavellian Apes
+01:19:36 AI Alignment, Instrumental Convergence &amp; Status Games
+01:33:07 Metacognition &amp; The IQ Paradox
+01:48:40 Does GPT Have Theory of Mind?
+02:00:40 Memes, Language Singularity &amp; Brain Size Myths
+02:16:44 Communication, Language &amp; The Cyborg Future
+02:44:25 Shared Fictions, World Models &amp; The Reality Gap
+
+---
+REFERENCES:Person:
+[00:00:05] Karl Friston (UCL)
+https://www.youtube.com/watch?v=PNYWi996Beg
+[00:00:06] Jeff Hawkins
+https://www.youtube.com/watch?v=6VQILbDqaI4
+[00:12:19] Hermann von Helmholtz
+https://plato.stanford.edu/entries/hermann-helmholtz/
+[00:38:34] David Redish (U. Minnesota)
+https://redishlab.umn.edu/
+[01:10:19] Robin Dunbar
+https://www.psy.ox.ac.uk/people/robin-dunbar
+[01:15:04] Emil Menzel
+https://www.sciencedirect.com/bookseries/behavior-of-nonhuman-primates/vol/5/suppl/C
+[01:19:49] Nick Bostrom
+https://nickbostrom.com/
+[02:28:25] Noam Chomsky
+https://linguistics.mit.edu/user/chomsky/
+[03:01:22] Judea Pearl
+https://samueli.ucla.edu/people/judea-pearl/
+Concept/Framework:
+[00:05:04] Active Inference
+https://www.youtube.com/watch?v=KkR24ieh5Ow
+Paper:
+[00:35:59] Predictions not commands [Rick A Adams]
+https://pubmed.ncbi.nlm.nih.gov/23129312/
+Book:
+[01:25:42] The Elephant in the Brain
+https://www.amazon.com/Elephant-Brain-Hidden-Motives-Everyday/dp/0190495995
+[01:28:27] The Status Game
+https://www.goodreads.com/book/show/58642436-the-status-game
+[02:00:40] The Selfish Gene
+https://amazon.com/dp/0198788606
+[02:14:25] The Language Game
+https://www.amazon.com/Language-Game-Improvisation-Created-Changed/dp/1541674987
+[02:54:40] The Evolution of Language
+https://www.amazon.com/Evolution-Language-Approaches/dp/052167736X
+[03:09:37] The Three-Body Problem
+https://amazon.com/dp/0765377063</media:description>
+   <media:community>
+    <media:starRating count="761" average="5.00" min="1" max="5"/>
+    <media:statistics views="27107"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>

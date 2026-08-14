@@ -1,0 +1,213 @@
+{
+ "capture_utc": "2026-07-27T12:13:51Z",
+ "sources": [
+  {
+   "creator": "Agentic AI (Ken Huang)",
+   "kind": "article",
+   "feed": "https://kenhuangus.substack.com/feed",
+   "file": "01-agentic-ai-ken-huang.xml",
+   "bytes": 514469,
+   "entries": 20
+  },
+  {
+   "creator": "Data Ground Up",
+   "kind": "article",
+   "feed": "https://datagroundup.substack.com/feed",
+   "file": "02-data-ground-up.xml",
+   "bytes": 425876,
+   "entries": 20
+  },
+  {
+   "creator": "DataPulse Weekly",
+   "kind": "article",
+   "feed": "https://datapulseweekly.substack.com/feed",
+   "file": "03-datapulse-weekly.xml",
+   "bytes": 635724,
+   "entries": 20
+  },
+  {
+   "creator": "Dramatic Analyst",
+   "kind": "article",
+   "feed": "https://dramaticanalyst.substack.com/feed",
+   "file": "04-dramatic-analyst.xml",
+   "bytes": 301228,
+   "entries": 10
+  },
+  {
+   "creator": "Exponential View (Azeem Azhar)",
+   "kind": "article",
+   "feed": "https://www.exponentialview.co/feed",
+   "file": "05-exponential-view-azeem-azhar.xml",
+   "bytes": 352926,
+   "entries": 20
+  },
+  {
+   "creator": "Granted (Adam Grant)",
+   "kind": "article",
+   "feed": "https://adamgrant.substack.com/feed",
+   "file": "06-granted-adam-grant.xml",
+   "bytes": 179247,
+   "entries": 20
+  },
+  {
+   "creator": "Ground Truths (Eric Topol)",
+   "kind": "article",
+   "feed": "https://erictopol.substack.com/feed",
+   "file": "07-ground-truths-eric-topol.xml",
+   "bytes": 889908,
+   "entries": 20
+  },
+  {
+   "creator": "Import AI (Jack Clark)",
+   "kind": "article",
+   "feed": "https://importai.substack.com/feed",
+   "file": "08-import-ai-jack-clark.xml",
+   "bytes": 468574,
+   "entries": 20
+  },
+  {
+   "creator": "Interconnects AI (Nathan Lambert)",
+   "kind": "article",
+   "feed": "https://www.interconnects.ai/feed",
+   "file": "09-interconnects-ai-nathan-lambert.xml",
+   "bytes": 511793,
+   "entries": 20
+  },
+  {
+   "creator": "Latent.Space",
+   "kind": "article",
+   "feed": "https://www.latent.space/feed",
+   "file": "10-latent-space.xml",
+   "bytes": 905368,
+   "entries": 20
+  },
+  {
+   "creator": "One Useful Thing (Ethan Mollick)",
+   "kind": "article",
+   "feed": "https://www.oneusefulthing.org/feed",
+   "file": "11-one-useful-thing-ethan-mollick.xml",
+   "bytes": 915809,
+   "entries": 20
+  },
+  {
+   "creator": "Resilient Cyber",
+   "kind": "article",
+   "feed": "https://www.resilientcyber.io/feed",
+   "file": "12-resilient-cyber.xml",
+   "bytes": 1240575,
+   "entries": 20
+  },
+  {
+   "creator": "Secure Trajectories by Sondera",
+   "kind": "article",
+   "feed": "https://securetrajectories.substack.com/feed",
+   "file": "13-secure-trajectories-by-sondera.xml",
+   "bytes": 757210,
+   "entries": 20
+  },
+  {
+   "creator": "Simon Willison's Newsletter",
+   "kind": "article",
+   "feed": "https://simonw.substack.com/feed",
+   "file": "14-simon-willison-s-newsletter.xml",
+   "bytes": 1840363,
+   "entries": 20
+  },
+  {
+   "creator": "Steel and Silicon",
+   "kind": "article",
+   "feed": "https://steelandsilicon.substack.com/feed",
+   "file": "15-steel-and-silicon.xml",
+   "bytes": 105304,
+   "entries": 9
+  },
+  {
+   "creator": "Strange Loop Canon (Rohit Krishnan)",
+   "kind": "article",
+   "feed": "https://www.strangeloopcanon.com/feed",
+   "file": "16-strange-loop-canon-rohit-krishnan.xml",
+   "bytes": 610181,
+   "entries": 20
+  },
+  {
+   "creator": "The AiEdge Newsletter (Damien Benveniste)",
+   "kind": "article",
+   "feed": "https://newsletter.theaiedge.io/feed",
+   "file": "17-the-aiedge-newsletter-damien-benveniste.xml",
+   "bytes": 737376,
+   "entries": 20
+  },
+  {
+   "creator": "The Roots of Progress (Jason Crawford)",
+   "kind": "article",
+   "feed": "https://newsletter.rootsofprogress.org/feed",
+   "file": "18-the-roots-of-progress-jason-crawford.xml",
+   "bytes": 433288,
+   "entries": 20
+  },
+  {
+   "creator": "Think Like A Game Designer (Justin Gary)",
+   "kind": "article",
+   "feed": "https://justingarydesign.substack.com/feed",
+   "file": "19-think-like-a-game-designer-justin-gary.xml",
+   "bytes": 341811,
+   "entries": 20
+  },
+  {
+   "creator": "Peter Yang",
+   "kind": "video",
+   "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCnpBg7yqNauHtlNSpOl5-cg",
+   "file": "20-peter-yang.xml",
+   "bytes": 29482,
+   "entries": 15
+  },
+  {
+   "creator": "Nate B Jones (AI News & Strategy Daily)",
+   "kind": "video",
+   "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UC0C-17n9iuUQPylguM1d-lQ",
+   "file": "21-nate-b-jones-ai-news-strategy-daily.xml",
+   "bytes": 41327,
+   "entries": 15
+  },
+  {
+   "creator": "Lenny's Podcast",
+   "kind": "video",
+   "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UC6t1O76G0jYXOAoYCm153dA",
+   "file": "22-lenny-s-podcast.xml",
+   "bytes": 31597,
+   "entries": 15
+  },
+  {
+   "creator": "AI Engineer",
+   "kind": "video",
+   "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCLKPca3kwwd-B59HNr-_lvA",
+   "file": "23-ai-engineer.xml",
+   "bytes": 38661,
+   "entries": 15
+  },
+  {
+   "creator": "Machine Learning Street Talk",
+   "kind": "video",
+   "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCMLtBahI5DMrt0NPvDSoIRQ",
+   "file": "24-machine-learning-street-talk.xml",
+   "bytes": 83085,
+   "entries": 15
+  },
+  {
+   "creator": "Every",
+   "kind": "video",
+   "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCjIMtrzxYc0lblGhmOgC_CA",
+   "file": "25-every.xml",
+   "bytes": 23304,
+   "entries": 15
+  },
+  {
+   "creator": "Unsupervised Learning (Jacob Effron)",
+   "kind": "video",
+   "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUl-s_Vp-Kkk_XVyDylNwLA",
+   "file": "26-unsupervised-learning-jacob-effron.xml",
+   "bytes": 44678,
+   "entries": 15
+  }
+ ]
+}

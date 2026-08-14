@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCUl-s_Vp-Kkk_XVyDylNwLA"/>
+ <id>yt:channel:Ul-s_Vp-Kkk_XVyDylNwLA</id>
+ <yt:channelId>Ul-s_Vp-Kkk_XVyDylNwLA</yt:channelId>
+ <title>Unsupervised Learning: With Jacob Effron</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UCUl-s_Vp-Kkk_XVyDylNwLA"/>
+ <author>
+  <name>Unsupervised Learning: With Jacob Effron</name>
+  <uri>https://www.youtube.com/channel/UCUl-s_Vp-Kkk_XVyDylNwLA</uri>
+ </author>
+ <published>2023-11-21T22:16:18+00:00</published>
+ <entry>
+  <id>yt:video:vDY_ocrkQ5w</id>
+  <yt:videoId>vDY_ocrkQ5w</yt:videoId>
+  <yt:channelId>UCUl-s_Vp-Kkk_XVyDylNwLA</yt:channelId>
+  <title>Top AI Analyst Unpacks Today's AI Hype Cycle</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=vDY_ocrkQ5w"/>
+  <author>
+   <name>Unsupervised Learning: With Jacob Effron</name>
+   <uri>https://www.youtube.com/channel/UCUl-s_Vp-Kkk_XVyDylNwLA</uri>
+  </author>
+  <published>2026-07-16T13:00:05+00:00</published>
+  <updated>2026-07-21T06:58:48+00:00</updated>
+  <media:group>
+   <media:title>Top AI Analyst Unpacks Today's AI Hype Cycle</media:title>
+   <media:content url="https://www.youtube.com/v/vDY_ocrkQ5w?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/vDY_ocrkQ5w/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Benedict Evans, one of tech's most widely-read analysts, joins Jacob Effron. The conversation centers on Benedict's core thesis that comparing AI's scale to past platform shifts (the internet, mobile, PCs) is analytically useless, and that the more productive move is studying how those previous technologies actually evolved economically to reason about where AI's value will accrue. He argues the one genuine difference this time is that we don't know AI's physical or scientific limits, unlike past shifts where the boundaries were at least knowable, and that this uncertainty is what fuels both AGI hype and doomerism without resolving anything. Benedict unpacks why capabilities remain jagged, meaning usage is jagged too, why coding became the first real enterprise use case thanks to scalable verification, and why most consumer and enterprise use cases still have to be invented by entrepreneurs rather than emerging spontaneously once models improve. 
+
+He also lays out why foundation model labs may end up structurally like TSMC rather than Windows, valuable but bounded rather than owning the entire stack, walks through why automation has historically meant more work rather than less (using a hundred years of rising accountant headcount as evidence), and explains why industries like Uber and Airbnb, or Caterpillar and the internet, show just how unevenly this kind of technology actually lands. Throughout, he offers candid, historically grounded takes on OpenAI's product sprawl versus Anthropic's narrow coding bet, Apple's stumbled AI moment, and why most companies, unlike Silicon Valley, have far bigger priorities than AI on their minds.
+
+0:00 Intro
+1:31 Is AI Bigger Than the Internet?
+10:10 Barriers of Getting From Demos to Daily Use
+20:15 Why Job Predictions Fail
+25:52 Where's the Moat?
+33:55 Will Models Eat the App Layer?
+39:25 When Average Isn't Enough and Models Don't Work
+45:58 Reflections on OpenAI
+55:04 Consumer Usage Is Still Shallow
+58:51 What's Required for More Enterprise Adoption
+1:03:47 Opinion on Sora
+1:06:27 Quickfire
+
+With your host: 
+@jacobeffron 
+- Managing Director at Redpoint</media:description>
+   <media:community>
+    <media:starRating count="121" average="5.00" min="1" max="5"/>
+    <media:statistics views="5397"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:RKjR8DQ40po</id>
+  <yt:videoId>RKjR8DQ40po</yt:videoId>
+  <yt:channelId>UCUl-s_Vp-Kkk_XVyDylNwLA</yt:channelId>
+  <title>AI Pioneer Jürgen Schmidhuber on the State of AI Today</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=RKjR8DQ40po"/>
+  <author>
+   <name>Unsupervised Learning: With Jacob Effron</name>
+   <uri>https://www.youtube.com/channel/UCUl-s_Vp-Kkk_XVyDylNwLA</uri>
+  </author>
+  <published>2026-07-09T13:00:22+00:00</published>
+  <updated>2026-07-09T18:26:06+00:00</updated>
+  <media:group>
+   <media:title>AI Pioneer Jürgen Schmidhuber on the State of AI Today</media:title>
+   <media:content url="https://www.youtube.com/v/RKjR8DQ40po?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/RKjR8DQ40po/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Dr. Jürgen Schmidhuber, a renowned scientist and AI researcher widely regarded as one of the pioneers in the field, originated key ideas behind today's transformers, LSTMs, and recursive self-improvement through his lab's work. He argues that true AGI remains bottlenecked by physical hardware, that today's AI data center investments are headed for a correction as open-source keeps pace with closed labs, and that the path to general intelligence runs through artificial curiosity and self-generated experimentation rather than internet data. He closes by reconsidering mainstream AI safety arguments and offers a sweeping vision of self-replicating robot societies eventually colonizing the solar system.
+
+0:00 Intro
+1:24 How Close Is Superhuman AI?
+2:27 Why ChatGPT Didn't Surprise Him
+3:21 The Path to Recursive Self-Improvement
+9:01 Will AI Takeoff Feel Sudden?
+11:02 Intelligence Means Efficiency
+12:32 Advice for Labs: Beyond Human-Biased Data
+17:10 Artificial Curiosity and the Theory of Fun
+21:33 When Do We Get the AI Scientist?
+24:07 AI Chemistry, MOFs, and Carbon Capture
+25:04 Robotics Reality Check
+28:23 The Data Center Bet: Overbuilt?
+34:25 Does Being First to RSI Create a Moat?
+38:06 AI Safety and Alignment Skepticism
+43:44 Quickfire
+
+With your host: 
+@jacobeffron 
+- Managing Director at Redpoint</media:description>
+   <media:community>
+    <media:starRating count="199" average="5.00" min="1" max="5"/>
+    <media:statistics views="7465"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:W_iO8XxgD_I</id>
+  <yt:videoId>W_iO8XxgD_I</yt:videoId>
+  <yt:channelId>UCUl-s_Vp-Kkk_XVyDylNwLA</yt:channelId>
+  <title>AI Vibe Check: Lab Wars, Why APIs Might Vanish &amp; Future Predictions</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=W_iO8XxgD_I"/>
+  <author>
+   <name>Unsupervised Learning: With Jacob Effron</name>
+   <uri>https://www.youtube.com/channel/UCUl-s_Vp-Kkk_XVyDylNwLA</uri>
+  </author>
+  <published>2026-06-12T13:00:53+00:00</published>
+  <updated>2026-06-14T09:13:08+00:00</updated>
+  <media:group>
+   <media:title>AI Vibe Check: Lab Wars, Why APIs Might Vanish &amp; Future Predictions</media:title>
+   <media:content url="https://www.youtube.com/v/W_iO8XxgD_I?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/W_iO8XxgD_I/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Six months after their last roundup, Jacob sits down with Ari Morcos (Datology AI CEO, former Meta AI researcher) and Rob Toews (Radical Ventures partner, Forbes AI columnist) to take stock of an AI landscape that has shifted dramatically: coding agents crossing the long-time-horizon threshold has turned engineers into managers of agents, near-frontier open weight AI looks like it may be disappearing as Meta and the Chinese labs pull back, and Anthropic's restrictions on its newly released Fable model have its biggest supporters questioning whether safety framing is masking competitive positioning. The conversation runs through the full state of the lab wars, including Rob doubling down on his Sam Altman ouster prediction and the Bret Taylor succession theory, why Google's structural advantages remain intact despite falling behind on coding, what xAI's Cursor acquisition is really for, and Ari's claim that compute constraints could push labs to suspend their APIs entirely. The back half digs into the physical bottlenecks underneath it all, from atom and x-ray lithography startups challenging ASML to H100 prices reversing their decline, before closing with predictions: recursive self-improvement is closer than it was six months ago but slower than the takeoff narratives suggest, robotics is nearing its GPT-3 moment, and Anthropic's next chapter may be life sciences.
+
+0:00 Intro
+1:40 Coding Agents Cross a Threshold
+3:29 Is Open-Weight AI in Retreat?
+7:37 Cost Crunch &amp; Scaffolding
+12:13 The &quot;Apps Are Cooked&quot; Debate
+16:37 Sam Altman Under Scrutiny
+19:44 Anthropic's Fable Backlash
+23:24 How Big a Step Change Is Fable?
+26:50 What's Going On at Google?
+33:20 Could the APIs Go Away?
+34:11 Breaking the Semiconductor Bottleneck
+35:42 Beyond EUV: Atom &amp; X-Ray Lithography
+37:23 Implications of a Compute Shortage
+40:20 Do Alt Chips Actually Help?
+43:43 SpaceX, xAI &amp; the Cursor Acquisition
+48:50 How Close Are We to RSI?
+52:21 Quickfire
+
+With your host: 
+@jacobeffron 
+- Managing Director at Redpoint</media:description>
+   <media:community>
+    <media:starRating count="113" average="5.00" min="1" max="5"/>
+    <media:statistics views="5589"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:N1geOimmdDo</id>
+  <yt:videoId>N1geOimmdDo</yt:videoId>
+  <yt:channelId>UCUl-s_Vp-Kkk_XVyDylNwLA</yt:channelId>
+  <title>AI Research Legend’s Honest Assessment of Where We Are</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=N1geOimmdDo"/>
+  <author>
+   <name>Unsupervised Learning: With Jacob Effron</name>
+   <uri>https://www.youtube.com/channel/UCUl-s_Vp-Kkk_XVyDylNwLA</uri>
+  </author>
+  <published>2026-06-03T13:04:37+00:00</published>
+  <updated>2026-06-05T10:11:25+00:00</updated>
+  <media:group>
+   <media:title>AI Research Legend’s Honest Assessment of Where We Are</media:title>
+   <media:content url="https://www.youtube.com/v/N1geOimmdDo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/N1geOimmdDo/hqdefault.jpg" width="480" height="360"/>
+   <media:description>This episode with Lukasz Kaiser, co-author of the seminal &quot;Attention Is All You Need&quot; transformer paper and former researcher at both Google Brain and OpenAI, is a wide-ranging conversation about the fundamental limits of current AI architectures and whether transformers will continue to dominate or eventually give way to something new. Lukasz brings a rare dual perspective: deep belief in how far the current paradigm has taken us (he's an enthusiastic daily Codex user who's seen 10x productivity gains in his own research), while maintaining genuine intellectual humility about whether transformers can truly generalize the way humans do. The episode weaves together questions about data efficiency, the non-verifiable RL frontier, the coding agent revolution, the open vs. closed source gap, and what the next architectural leap might look like: all filtered through the lens of someone who helped build the foundation the entire field is standing on.
+
+0:00 Intro
+1:12 Transformers vs. Human Learning
+8:37 How Do We Get Physical World Generalization?
+10:52 What Comes After Transformers
+13:59 How Much Have Agents Improved Lukasz's AI Research Productivity?
+17:21 How Close Is an AI Research Intern?
+26:06 RL Beyond Verifiable Tasks
+35:38 App Companies: Build Models or Lean on Labs?
+46:21 Multimodal Is Still Missing Something
+49:46 OpenAI's Bet on Reasoning
+55:26 The AI Coding Wars
+59:26 Focus vs. Keeping Embers Burning
+1:02:09 Open Source vs. Closed Source Gap
+1:05:15 Quickfire
+
+With your host: 
+@jacobeffron 
+- Managing Director at Redpoint</media:description>
+   <media:community>
+    <media:starRating count="338" average="5.00" min="1" max="5"/>
+    <media:statistics views="12497"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:WC_embCiwgU</id>
+  <yt:videoId>WC_embCiwgU</yt:videoId>
+  <yt:channelId>UCUl-s_Vp-Kkk_XVyDylNwLA</yt:channelId>
+  <title>A Conversation With Demis Hassabis' Biographer</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=WC_embCiwgU"/>
+  <author>
+   <name>Unsupervised Learning: With Jacob Effron</name>
+   <uri>https://www.youtube.com/channel/UCUl-s_Vp-Kkk_XVyDylNwLA</uri>
+  </author>
+  <published>2026-06-01T13:00:23+00:00</published>
+  <updated>2026-06-03T10:49:56+00:00</updated>
+  <media:group>
+   <media:title>A Conversation With Demis Hassabis' Biographer</media:title>
+   <media:content url="https://www.youtube.com/v/WC_embCiwgU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/WC_embCiwgU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Sebastian Mallaby spent three years and 30+ hours interviewing Demis Hassabis in the back of a British pub to write The Infinity Machine, and the conversation uses that reporting to surface the most underexplored figure in AI. Demis founded the original AI lab in 2010, won a Nobel Prize, runs models that consistently top the leaderboards, and yet remains so unrecognized that Sebastian's own publisher worried no one would buy a book with his face on the cover.
+
+The throughline is a paradox: Demis tried to prevent the AI race we're now all living through, and now finds himself one of its central protagonists. He used to believe a single lab could carry the safety burden to AGI; he now sees safety as a collective action problem only governments can solve. He hedged DeepMind's research bets across every promising direction, and as a result missed the two most consumer-defining moments in modern AI — ChatGPT and Claude Code. He nearly spun DeepMind out of Google with a secret $1B Reid Hoffman pledge backing him, but never used the leverage and stayed — and won a Nobel Prize the next year.
+
+The episode also zooms out to the structural forces shaping the race — why hyperscalers can't out-recruit concentrated-bet labs, why Sebastian gives OpenAI roughly 50/50 odds of being absorbed by next summer, why he thinks Anthropic should IPO right now, and what the personal histories between Demis, Elon, and Sam reveal about who actually trusts whom. It's the rare AI conversation that's less about the technology and more about the specific people, decisions, and worldviews that shaped how we got here.
+
+0:00 Intro
+2:04 Was the AI Race Inevitable?
+4:03 The 2015 Safety Summit Backfire
+11:27 Why Google Doesn't Make As Concentrated Bets
+15:51 Project Mario: The Secret Spinout Plan
+19:43 What Demis Actually Regrets
+23:46 Venture Startups vs. Tech Behemoths
+34:08 David Silver and the RL True Believers
+38:21 Demis, Elon, and the Evil Genius Feud
+42:39 Great Man Theory vs. Inevitability
+45:00 What Demis Didn't Want Published
+
+With your host: 
+@jacobeffron 
+- Managing Director at Redpoint</media:description>
+   <media:community>
+    <media:starRating count="129" average="5.00" min="1" max="5"/>
+    <media:statistics views="4562"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:NQczevdpxq0</id>
+  <yt:videoId>NQczevdpxq0</yt:videoId>
+  <yt:channelId>UCUl-s_Vp-Kkk_XVyDylNwLA</yt:channelId>
+  <title>Gemini Co-Lead on World Models, RL's Next Domains &amp; Continual Learning</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=NQczevdpxq0"/>
+  <author>
+   <name>Unsupervised Learning: With Jacob Effron</name>
+   <uri>https://www.youtube.com/channel/UCUl-s_Vp-Kkk_XVyDylNwLA</uri>
+  </author>
+  <published>2026-05-22T13:00:11+00:00</published>
+  <updated>2026-06-03T10:50:07+00:00</updated>
+  <media:group>
+   <media:title>Gemini Co-Lead on World Models, RL's Next Domains &amp; Continual Learning</media:title>
+   <media:content url="https://www.youtube.com/v/NQczevdpxq0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/NQczevdpxq0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Oriol Vinyals, VP of Research at Google DeepMind and co-lead of the Gemini program, joins Jacob the day after Google I/O to unpack the research underpinning Google's latest announcements and where frontier AI is heading. The conversation moves from world models (why Google has uniquely bet on them as a path to AGI, what the &quot;GPT moment&quot; for video and images would look like, and how they connect to robotics and simulation) to agents (the Spark release, why the system and model need to be optimized jointly, and why scaffolding will eventually be written by models themselves). Oriol gets into the mechanics of memory in models, drawing on his cognitive neuroscience background to argue that file-system-style non-parametric memory is more practical than baking memory into weights at serving scale. He shares his views on the limits of RL today (LLMs are data-limited in a way that game-playing RL never was), why training on narrow domains like math and code generalizes surprisingly well, and what a true &quot;Move 37&quot; moment for science or ML research would look like. Throughout, he reflects on the unique advantages of being inside Google (TPU co-design, end-to-end revenue stability, the merger of Brain and DeepMind), the trade-offs between focus and exploration in research orgs, and why he believes AGI in some meaningful sense may already be here, even if the goalposts keep moving.
+
+0:00 Intro
+1:36 Why World Models
+4:21 The GPT Moment for Video
+7:51 What Makes Omni a World Model
+10:04 World Models &amp; Robotics
+12:37 Evaluating Physics in AI
+14:51 Consumer Agents &amp; Spark
+18:39 Scaffolding &amp; the Bitter Lesson
+22:06 Memory &amp; Continual Learning
+26:54 Research Bets Inside Big Labs
+32:30 Post-Training RL is Greenfield
+35:57 What Real Intelligence Looks Like
+39:11 RL Generalization
+42:55 Advice for Founders
+46:40 Can AI Truly Innovate?
+49:48 Recursive Self-Improvement
+52:14 Quickfire
+
+With your host: 
+@jacobeffron 
+- Managing Director at Redpoint</media:description>
+   <media:community>
+    <media:starRating count="330" average="5.00" min="1" max="5"/>
+    <media:statistics views="16802"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:ngBraLDqzdI</id>
+  <yt:videoId>ngBraLDqzdI</yt:videoId>
+  <yt:channelId>UCUl-s_Vp-Kkk_XVyDylNwLA</yt:channelId>
+  <title>Yann LeCun on What Comes After LLMs</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=ngBraLDqzdI"/>
+  <author>
+   <name>Unsupervised Learning: With Jacob Effron</name>
+   <uri>https://www.youtube.com/channel/UCUl-s_Vp-Kkk_XVyDylNwLA</uri>
+  </author>
+  <published>2026-05-15T13:00:38+00:00</published>
+  <updated>2026-05-20T18:27:02+00:00</updated>
+  <media:group>
+   <media:title>Yann LeCun on What Comes After LLMs</media:title>
+   <media:content url="https://www.youtube.com/v/ngBraLDqzdI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/ngBraLDqzdI/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Yann LeCun, Turing Award winner and former Chief AI Scientist at Meta, joins Jacob Effron. The conversation centers on Yann's contrarian thesis that LLMs are a dead-end on the path to human-level intelligence, despite being useful products — because they can't predict the consequences of their actions, can't plan, and fundamentally can't model the messy, high-dimensional real world. He unpacks his alternative architecture, JEPA (Joint Embedding Predictive Architecture), which learns abstract representations rather than generating pixel-level predictions, and explains why this approach is essential for robotics, industrial applications, and any system that needs to operate beyond the substrate of language. Yann also reveals the real story behind his departure from Meta (he had zero technical influence on Llama, contrary to public narrative), the genesis of his Tapestry project for sovereign open-source AI, why he believes LLMs are intrinsically unsafe, where he diverges from his fellow Turing laureates Hinton and Bengio, and why he predicts the industry will recognize the paradigm shift by early 2027. Throughout, he offers candid reflections on the tension between research and product at major labs, and why he intentionally headquartered AMI Labs in Paris with zero Silicon Valley VC money.
+
+0:00 Intro
+01:45 Why LLMs Aren't the Path to Intelligence
+07:51 AMI and World Models
+12:07 The JEPA Architecture Explained
+15:55 Problems with Robotics Models Today
+20:37 Silicon Valley Herd Behavior
+28:18 Tapestry: Sovereign AI for the Rest of the World
+35:49 OpenAI Is the Next Sun Microsystems
+40:51 Why Yann's Views Diverged from Hinton &amp; Bengio
+44:32 LLMs Are Intrinsically Unsafe
+58:00 Why Yann Left Meta
+1:00:26 Reflections on FAIR
+1:12:11 Advice for PhD Students
+
+LeWorldModel Paper: https://arxiv.org/abs/2603.19312
+
+With your host: 
+@jacobeffron 
+- Partner at Redpoint</media:description>
+   <media:community>
+    <media:starRating count="5224" average="5.00" min="1" max="5"/>
+    <media:statistics views="301558"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:A_7WafI9bhE</id>
+  <yt:videoId>A_7WafI9bhE</yt:videoId>
+  <yt:channelId>UCUl-s_Vp-Kkk_XVyDylNwLA</yt:channelId>
+  <title>AI investor + engineer discuss the current state of AI</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=A_7WafI9bhE"/>
+  <author>
+   <name>Unsupervised Learning: With Jacob Effron</name>
+   <uri>https://www.youtube.com/channel/UCUl-s_Vp-Kkk_XVyDylNwLA</uri>
+  </author>
+  <published>2026-04-23T13:05:41+00:00</published>
+  <updated>2026-07-08T07:19:19+00:00</updated>
+  <media:group>
+   <media:title>AI investor + engineer discuss the current state of AI</media:title>
+   <media:content url="https://www.youtube.com/v/A_7WafI9bhE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/A_7WafI9bhE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>This episode is a wide-ranging conversation between Jacob and Swyx (Shawn Wang), an AI engineer, podcaster, and now operator at Cognition, who sits at a uniquely informed intersection of builder, investor, and community organizer in the AI world. The two cover the current state of the AI engineering zeitgeist: from the stabilization of agent infrastructure and the surprising stickiness of Claude Code, to the competitive dynamics of the AI coding wars, the rise of open models, the threat to traditional SaaS, and the frontier questions around world models, memory, and what it actually means for AI to &quot;understand&quot; something. The episode is grounded in practitioner-level candor, with Swyx offering real takes from running AIE conferences, working inside Cognition, and thinking deeply about what the next wave of AI-native software development looks like.
+
+0:00 Intro
+1:17 What the Top AI Engineers Are Thinking About
+2:13 Has AI Infra Finally Stabilized?
+6:39 When Does Doing RL In-House Make Sense?
+11:26 Why Selling Dev Tools to Agents is Different
+17:18 AI Coding Wars
+29:04 Consumer AI Plateau
+30:22 Codex vs Claude Code
+44:52 Future of Open Models
+
+With your host:
+@jacobeffron 
+- Partner at Redpoint, Former PM Flatiron Health</media:description>
+   <media:community>
+    <media:starRating count="161" average="5.00" min="1" max="5"/>
+    <media:statistics views="7244"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:vK1qEF3a3WM</id>
+  <yt:videoId>vK1qEF3a3WM</yt:videoId>
+  <yt:channelId>UCUl-s_Vp-Kkk_XVyDylNwLA</yt:channelId>
+  <title>OpenAI’s Chief Scientist on Continual Learning Hype, RL Beyond Code, &amp; Future Alignment Directions</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=vK1qEF3a3WM"/>
+  <author>
+   <name>Unsupervised Learning: With Jacob Effron</name>
+   <uri>https://www.youtube.com/channel/UCUl-s_Vp-Kkk_XVyDylNwLA</uri>
+  </author>
+  <published>2026-04-09T13:05:44+00:00</published>
+  <updated>2026-07-04T23:11:38+00:00</updated>
+  <media:group>
+   <media:title>OpenAI’s Chief Scientist on Continual Learning Hype, RL Beyond Code, &amp; Future Alignment Directions</media:title>
+   <media:content url="https://www.youtube.com/v/vK1qEF3a3WM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/vK1qEF3a3WM/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Jakub Pachocki, OpenAI's Chief Scientist, sits down with Jacob to cover the full arc of where AI research stands today and where it's headed. The conversation spans the explosive growth of coding agents and what it signals about near-term AI capability, the use of math and physics benchmarks as proxies for general intelligence, how reinforcement learning is being extended beyond easily-verified domains toward longer-horizon tasks, and what it means to run a research organization at the precise moment the models themselves are starting to accelerate the research. Jakub shares a candid take on the competitive landscape, why chain-of-thought monitoring is one of the most promising tools in the alignment toolkit, and — with unusual directness — why the concentration of power enabled by highly automated AI organizations is a societal problem that doesn't yet have an obvious solution.
+
+0:00 Intro
+1:53 Research Intern Capability Timelines
+4:59 Math Breakthroughs
+7:59 RL Beyond Verifiable Tasks
+12:32 RL vs In-Context
+19:01 Allocating Compute Internally
+28:18 AI for Science
+31:40 Pattern Matching
+33:23 Solving the Hardest Math Problems
+37:40 Chain of Thought Monitoring
+44:33 Generalization and Value Alignment in Models
+47:57 Inside OpenAI
+51:55 Quickfire
+
+With your co-hosts: 
+@jacobeffron 
+- Partner at Redpoint, Former PM Flatiron Health 
+@patrickachase 
+- Partner at Redpoint, Former ML Engineer LinkedIn 
+@ericabrescia 
+- Former COO Github, Founder Bitnami (acq’d by VMWare) 
+@jordan_segall 
+- Partner at Redpoint</media:description>
+   <media:community>
+    <media:starRating count="649" average="5.00" min="1" max="5"/>
+    <media:statistics views="34816"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Q0bxRANHjFY</id>
+  <yt:videoId>Q0bxRANHjFY</yt:videoId>
+  <yt:channelId>UCUl-s_Vp-Kkk_XVyDylNwLA</yt:channelId>
+  <title>Owning the System of Record, Building as Models Improve, &amp; Why ITSM is Vulnerable</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Q0bxRANHjFY"/>
+  <author>
+   <name>Unsupervised Learning: With Jacob Effron</name>
+   <uri>https://www.youtube.com/channel/UCUl-s_Vp-Kkk_XVyDylNwLA</uri>
+  </author>
+  <published>2026-04-02T14:39:21+00:00</published>
+  <updated>2026-05-03T15:10:14+00:00</updated>
+  <media:group>
+   <media:title>Owning the System of Record, Building as Models Improve, &amp; Why ITSM is Vulnerable</media:title>
+   <media:content url="https://www.youtube.com/v/Q0bxRANHjFY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/Q0bxRANHjFY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Serval is one of the fastest-growing AI-native enterprise software companies right now, and this episode is a rare inside look at the deliberate architectural, go-to-market, and talent decisions behind that growth. Jake Stauch breaks down why he made the contrarian bet to build a full system of record rather than layer on top of existing tools, why ITSM is more vulnerable to AI disruption than CRM, ERP, or HRIS, and how Serval is winning Fortune 500 deals against a $14B incumbent with a fraction of the resources. Beyond the product, Jake gets into the organizational decisions that underpin Serval's velocity — why recruiting is the #1 job of every employee, how to prevent talent bar decay as you scale from 8 to 200 people, and how the role of the manager is shifting as ICs own more scope than ever. Threading it all together is a founder's honest account of what it means to build a horizontal software company when the models are improving, the infrastructure is shifting, and the window to displace a legacy incumbent is open but won't stay open forever.
+
+0:00 Intro
+1:25 What is Serval?
+4:51 Early Doubts and Strategy
+6:34 AI Tailwinds in ITSM
+8:04 Competing with ServiceNow
+9:41 Why ITSM Is Vulnerable
+11:52 Automation via Codegen
+16:27 Critical Guardrails
+28:32 Internal Support Complexity
+30:24 Hiring as the Moat
+31:44 Dream Team Recruiting
+33:49 Managers vs Super ICs
+36:44 Junior Engineers and AI Native Workflows
+43:13 Quickfire
+
+With your co-hosts: 
+@jacobeffron 
+- Partner at Redpoint, Former PM Flatiron Health 
+@patrickachase 
+- Partner at Redpoint, Former ML Engineer LinkedIn 
+@ericabrescia 
+- Former COO Github, Founder Bitnami (acq’d by VMWare) 
+@jordan_segall 
+- Partner at Redpoint</media:description>
+   <media:community>
+    <media:starRating count="21" average="5.00" min="1" max="5"/>
+    <media:statistics views="2658"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:wzRZp-1EuaE</id>
+  <yt:videoId>wzRZp-1EuaE</yt:videoId>
+  <yt:channelId>UCUl-s_Vp-Kkk_XVyDylNwLA</yt:channelId>
+  <title>The Most Unexpected Breakout Category in AI</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=wzRZp-1EuaE"/>
+  <author>
+   <name>Unsupervised Learning: With Jacob Effron</name>
+   <uri>https://www.youtube.com/channel/UCUl-s_Vp-Kkk_XVyDylNwLA</uri>
+  </author>
+  <published>2026-03-11T13:48:45+00:00</published>
+  <updated>2026-05-12T16:21:58+00:00</updated>
+  <media:group>
+   <media:title>The Most Unexpected Breakout Category in AI</media:title>
+   <media:content url="https://www.youtube.com/v/wzRZp-1EuaE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/wzRZp-1EuaE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Max Junestrand, CEO of Legora, joins Jacob Effron and Logan Bartlett to discuss the company's $550M Series D and share a candid account of what building an AI-native company at speed actually looks like from the inside.
+
+Max argues that the AI application layer requires a fundamentally different operating model than traditional SaaS, one built on low ego, constant reinvention, and a willingness to watch nine months of work get washed away by a model update. He walks through how step-function improvements in the underlying models, particularly Opus 4.5 and 4.6, have repeatedly forced Legora to rebuild core product features from scratch, and why he sees that as a feature, not a bug.
+
+On the legal industry, Max offers a ground-level view of how AI is actually diffusing through law firms, less through top-down mandates and more through competitive pressure between firms and, increasingly, from enterprise clients demanding efficiency from their outside counsel. He pushes back on the viability of AI-native law firms, dismisses outcome-based pricing as harder than it looks, and makes the case for why foundation model competition creates tailwinds rather than threats for a company with Legora's depth.
+
+The episode closes with a detailed look at the US expansion strategy, including the deliberate cultural decisions, like flying all New York hires to Stockholm for onboarding, that Max believes are the real source of Legora's compounding advantage.
+
+0:00 Intro
+1:16 Legora’s Series D Story
+3:24 Why You Need Low Ego to Build in AI
+5:58 From 60% to 100% Accuracy in One Summer
+7:04 Law Firm Economics Shift
+14:09 Pricing Seats Vs Outcomes
+18:31 Why Foundation Models Entering Legal Helps Legora
+30:10 Convincing a 75-Year-Old Partner to Go All In
+33:02 Hiring Legal Engineers
+34:32 Running an AI-Native Company
+35:57 The Opus 4.5 Christmas Breakthrough
+40:02 Building With Customers
+44:01 All In On US Expansion
+51:22 Stockholm Startup DNA
+
+With your co-hosts: 
+@jacobeffron 
+- Partner at Redpoint, Former PM Flatiron Health 
+@patrickachase 
+- Partner at Redpoint, Former ML Engineer LinkedIn 
+@ericabrescia 
+- Former COO Github, Founder Bitnami (acq’d by VMWare) 
+@jordan_segall 
+- Partner at Redpoint</media:description>
+   <media:community>
+    <media:starRating count="44" average="5.00" min="1" max="5"/>
+    <media:statistics views="5436"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:XtPZGVpbzOE</id>
+  <yt:videoId>XtPZGVpbzOE</yt:videoId>
+  <yt:channelId>UCUl-s_Vp-Kkk_XVyDylNwLA</yt:channelId>
+  <title>Ex-OpenAI Researcher On Why He Left, His Honest AGI Timeline, &amp; The Limits of Scaling RL</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=XtPZGVpbzOE"/>
+  <author>
+   <name>Unsupervised Learning: With Jacob Effron</name>
+   <uri>https://www.youtube.com/channel/UCUl-s_Vp-Kkk_XVyDylNwLA</uri>
+  </author>
+  <published>2026-01-29T15:28:45+00:00</published>
+  <updated>2026-05-20T18:27:03+00:00</updated>
+  <media:group>
+   <media:title>Ex-OpenAI Researcher On Why He Left, His Honest AGI Timeline, &amp; The Limits of Scaling RL</media:title>
+   <media:content url="https://www.youtube.com/v/XtPZGVpbzOE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/XtPZGVpbzOE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>This episode features Jerry Tworek, a key architect behind OpenAI's breakthrough reasoning models (o1, o3) and Codex, discussing the current state and future of AI. Jerry explores the real limits and promise of scaling pre-training and reinforcement learning, arguing that while these paradigms deliver predictable improvements, they're fundamentally constrained by data availability and struggle with generalization beyond their training objectives. He reveals his updated belief that continual learning—the ability for models to update themselves based on failure and work through problems autonomously—is necessary for AGI, as current models hit walls and become &quot;hopeless&quot; when stuck. Jerry discusses the convergence of major labs toward similar approaches driven by economic forces, the tension between exploration and exploitation in research, and why he left OpenAI to pursue new research directions. He offers candid insights on the competitive dynamics between labs, the focus required to win in specific domains like coding, what makes great AI researchers, and his surprisingly near-term predictions for robotics (2-3 years) while warning about the societal implications of widespread work automation that we're not adequately preparing for.
+
+0:00 Intro
+1:26 Scaling Paradigms in AI
+3:36 Challenges in Reinforcement Learning
+11:48 AGI Timelines
+18:36 Converging Labs and Economic Forces
+25:05 Jerry's Departure from OpenAI
+31:18 Pivotal Decisions in OpenAI's Journey
+35:06 Balancing Research and Product Development
+38:42 The Future of AI Coding
+41:33 Specialization vs. Generalization in AI
+48:47 Hiring and Building Research Teams
+55:21 Quickfire
+
+With your co-hosts: 
+@jacobeffron 
+- Partner at Redpoint, Former PM Flatiron Health 
+@patrickachase 
+- Partner at Redpoint, Former ML Engineer LinkedIn 
+@ericabrescia 
+- Former COO Github, Founder Bitnami (acq’d by VMWare) 
+@jordan_segall 
+- Partner at Redpoint</media:description>
+   <media:community>
+    <media:starRating count="482" average="5.00" min="1" max="5"/>
+    <media:statistics views="21327"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:DnCD8oFUM4M</id>
+  <yt:videoId>DnCD8oFUM4M</yt:videoId>
+  <yt:channelId>UCUl-s_Vp-Kkk_XVyDylNwLA</yt:channelId>
+  <title>AI Vibe Check: The Actual Bottleneck In Research, SSI’s Mystique, &amp; Spicy 2026 Predictions</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=DnCD8oFUM4M"/>
+  <author>
+   <name>Unsupervised Learning: With Jacob Effron</name>
+   <uri>https://www.youtube.com/channel/UCUl-s_Vp-Kkk_XVyDylNwLA</uri>
+  </author>
+  <published>2025-12-18T17:00:05+00:00</published>
+  <updated>2026-05-20T18:28:03+00:00</updated>
+  <media:group>
+   <media:title>AI Vibe Check: The Actual Bottleneck In Research, SSI’s Mystique, &amp; Spicy 2026 Predictions</media:title>
+   <media:content url="https://www.youtube.com/v/DnCD8oFUM4M?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/DnCD8oFUM4M/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Ari Morcos and Rob Toews return for their spiciest conversation yet. Fresh from NeurIPS, they debate whether models are truly plateauing or if we're just myopically focused on LLMs while breakthroughs happen in other modalities.
+
+They reveal why infinite capital at labs may actually constrain innovation, explain the narrow &quot;Goldilocks zone&quot; where RL actually works, and argue why U.S. chip restrictions may have backfired catastrophically—accelerating China's path to self-sufficiency by a decade. The conversation covers OpenAI's code red moment and structural vulnerabilities, the mystique surrounding SSI and Ilya's &quot;two words,&quot; and why the real bottleneck in AI research is compute, not ideas.
+
+The episode closes with bold 2026 predictions: Rob forecasts Sam Altman won't be OpenAI's CEO by year-end, while Ari gives 50%+ odds a Chinese open-source model will be the world's best at least once next year.
+
+0:00 Intro
+1:51 Reflections on NeurIPS Conference
+5:14 Are AI Models Plateauing?
+11:12 Reinforcement Learning and Enterprise Adoption
+16:16 Future Research Vectors in AI
+28:40 The Role of Neo Labs
+39:35 The Myth of the Great Man Theory in Science
+41:47 OpenAI's Code Red and Market Position
+47:19 Disney and OpenAI's Strategic Partnership
+51:28 Meta's Super Intelligence Team Challenges
+54:33 US-China AI Chip Dynamics
+1:00:54 Amazon's Nova Forge and Enterprise AI
+1:03:38 End of Year Reflections and Predictions
+
+With your co-hosts: 
+@jacobeffron 
+- Partner at Redpoint, Former PM Flatiron Health 
+@patrickachase 
+- Partner at Redpoint, Former ML Engineer LinkedIn 
+@ericabrescia 
+- Former COO Github, Founder Bitnami (acq’d by VMWare) 
+@jordan_segall 
+- Partner at Redpoint</media:description>
+   <media:community>
+    <media:starRating count="59" average="5.00" min="1" max="5"/>
+    <media:statistics views="3029"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:FiskCZddREA</id>
+  <yt:videoId>FiskCZddREA</yt:videoId>
+  <yt:channelId>UCUl-s_Vp-Kkk_XVyDylNwLA</yt:channelId>
+  <title>Edwin Chen: Why Frontier Labs Are Diverging, RL Environments &amp; Developing Model Taste</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=FiskCZddREA"/>
+  <author>
+   <name>Unsupervised Learning: With Jacob Effron</name>
+   <uri>https://www.youtube.com/channel/UCUl-s_Vp-Kkk_XVyDylNwLA</uri>
+  </author>
+  <published>2025-12-15T14:00:07+00:00</published>
+  <updated>2026-05-28T21:50:42+00:00</updated>
+  <media:group>
+   <media:title>Edwin Chen: Why Frontier Labs Are Diverging, RL Environments &amp; Developing Model Taste</media:title>
+   <media:content url="https://www.youtube.com/v/FiskCZddREA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/FiskCZddREA/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Ask Jacob a Question: Question Form: https://docs.google.com/forms/d/1vHBYv0bTT_EgFWTjbKnLr_sn3pZnFmcFGWYVTltKEco/edit
+
+Edwin Chen is the founder and CEO of Surge AI, the data infrastructure company behind nearly every major frontier model. Surge works with OpenAI, Anthropic, Meta, and Google, providing the high-quality data and evaluation infrastructure that powers their models.
+
+Edwin reveals why optimizing for popular benchmarks like LMArena is &quot;basically optimizing for clickbait,&quot; how one frontier lab's models regressed for 6-12 months without anyone knowing, and why the industry's approach to measurement is fundamentally broken. Jacob and Edwin discuss what actually makes elite AI evaluators, why &quot;there's never going to be a one size fits all solution&quot; for AI models, and how frontier labs are taking surprisingly divergent paths to AGI.
+
+0:00 Intro
+0:56 The Pitfalls of Optimizing for LMArena
+4:34 Issues with Data Quality and Measurement
+9:44 The Importance of Human Evaluations
+13:40 The Rise of RL Environments
+17:21 Challenges and Lessons in Model Training
+19:59 Silicon Valley's Pivot Culture
+23:06 Technology-Driven Approach
+24:18 Quality Beyond Credentials
+27:51 Impact of Scale Acquisition
+28:35 Hiring for Research Culture
+30:48 Divergence in AI Training Paradigms
+34:16 Future of AI Models
+39:32 Multimodal AI and Quality
+43:44 Quickfire
+
+With your co-hosts: 
+@jacobeffron 
+- Partner at Redpoint, Former PM Flatiron Health 
+@patrickachase 
+- Partner at Redpoint, Former ML Engineer LinkedIn 
+@ericabrescia 
+- Former COO Github, Founder Bitnami (acq’d by VMWare) 
+@jordan_segall 
+- Partner at Redpoint</media:description>
+   <media:community>
+    <media:starRating count="97" average="5.00" min="1" max="5"/>
+    <media:statistics views="5062"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:8y6wJ-_FMSY</id>
+  <yt:videoId>8y6wJ-_FMSY</yt:videoId>
+  <yt:channelId>UCUl-s_Vp-Kkk_XVyDylNwLA</yt:channelId>
+  <title>OpenAI's Head of Product: How the Best Teams Build, Ship and Scale AI Products</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=8y6wJ-_FMSY"/>
+  <author>
+   <name>Unsupervised Learning: With Jacob Effron</name>
+   <uri>https://www.youtube.com/channel/UCUl-s_Vp-Kkk_XVyDylNwLA</uri>
+  </author>
+  <published>2025-12-10T14:00:30+00:00</published>
+  <updated>2026-04-28T16:38:05+00:00</updated>
+  <media:group>
+   <media:title>OpenAI's Head of Product: How the Best Teams Build, Ship and Scale AI Products</media:title>
+   <media:content url="https://www.youtube.com/v/8y6wJ-_FMSY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/8y6wJ-_FMSY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Question Form: https://docs.google.com/forms/d/1vHBYv0bTT_EgFWTjbKnLr_sn3pZnFmcFGWYVTltKEco/edit
+
+This episode features Olivier Godement, Head of Product for Business Products at OpenAI, discussing the current state and future of AI adoption in enterprises, with a particular focus on the recent releases of GPT 5.1 and Codex. The conversation explores how these models are achieving meaningful automation in specific domains like coding, customer support, and life sciences: where companies like Amgen are using AI to accelerate drug development timelines from months to weeks through automated regulatory documentation. Olivier reveals that while complete job automation remains challenging and requires substantial scaffolding, harnesses, and evaluation frameworks, certain use cases like coding are reaching a tipping point where engineers would &quot;riot&quot; if AI tools were taken away. The discussion covers the importance of cost reduction in unlocking new use cases, the emerging significance of reinforcement fine-tuning (RFT) for frontier customers, and OpenAI's philosophy of providing not just models but reference architectures and harnesses to maximize developer success. 
+
+0:00 Intro
+1:46 Discussing GPT-5.1
+2:57 Adoption and Impact of Codex
+4:09 Scientific Community's Use of GPT-5.1
+6:37 Challenges in AI Automation
+8:19 AI in Life Sciences and Pharma
+11:48 Enterprise AI Adoption and Ecosystem
+16:04 Future of AI Models and Continuous Learning 
+24:20 Cost and Efficiency in AI Deployment 
+27:10 Reinforcement Learning and Enterprise Use Cases 
+31:17 Key Factors Influencing Model Choice 
+34:21 Challenges in Model Deployment and Adaptation 
+38:29 Voice Technology: The Next Frontier 
+41:08 The Rise of AI in Software Engineering 
+52:09 Quickfire
+
+With your co-hosts: 
+@jacobeffron 
+- Partner at Redpoint, Former PM Flatiron Health 
+@patrickachase 
+- Partner at Redpoint, Former ML Engineer LinkedIn 
+@ericabrescia 
+- Former COO Github, Founder Bitnami (acq’d by VMWare) 
+@jordan_segall 
+- Partner at Redpoint</media:description>
+   <media:community>
+    <media:starRating count="57" average="5.00" min="1" max="5"/>
+    <media:statistics views="3160"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>

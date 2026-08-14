@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCjIMtrzxYc0lblGhmOgC_CA"/>
+ <id>yt:channel:jIMtrzxYc0lblGhmOgC_CA</id>
+ <yt:channelId>jIMtrzxYc0lblGhmOgC_CA</yt:channelId>
+ <title>Every</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UCjIMtrzxYc0lblGhmOgC_CA"/>
+ <author>
+  <name>Every</name>
+  <uri>https://www.youtube.com/channel/UCjIMtrzxYc0lblGhmOgC_CA</uri>
+ </author>
+ <published>2023-05-03T05:22:43+00:00</published>
+ <entry>
+  <id>yt:video:QRuNkagYwjg</id>
+  <yt:videoId>QRuNkagYwjg</yt:videoId>
+  <yt:channelId>UCjIMtrzxYc0lblGhmOgC_CA</yt:channelId>
+  <title>Why AI Agents and Users Should Share the Same UI, Not Just MCP</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/QRuNkagYwjg"/>
+  <author>
+   <name>Every</name>
+   <uri>https://www.youtube.com/channel/UCjIMtrzxYc0lblGhmOgC_CA</uri>
+  </author>
+  <published>2026-07-27T00:55:07+00:00</published>
+  <updated>2026-07-27T07:53:08+00:00</updated>
+  <media:group>
+   <media:title>Why AI Agents and Users Should Share the Same UI, Not Just MCP</media:title>
+   <media:content url="https://www.youtube.com/v/QRuNkagYwjg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/QRuNkagYwjg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Granola's Chris Pedregal on why the agent and the user should be working in the same UI at the same time, not just having the agent operate the app through MCP behind the scenes.⁣
+⁣
+His take: give the agent an MCP or CLI, give the user a web interface, and sync the state between them so either one can pick up the work. That's the actual architecture for building AI products people collaborate with instead of just delegate to. #shorts</media:description>
+   <media:community>
+    <media:starRating count="6" average="5.00" min="1" max="5"/>
+    <media:statistics views="387"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:1EU7qS_yL2Y</id>
+  <yt:videoId>1EU7qS_yL2Y</yt:videoId>
+  <yt:channelId>UCjIMtrzxYc0lblGhmOgC_CA</yt:channelId>
+  <title>Granola's Chris Pedregal Vibe-Coded His Own AI Email Client (Cards, Drafts, Approval)</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/1EU7qS_yL2Y"/>
+  <author>
+   <name>Every</name>
+   <uri>https://www.youtube.com/channel/UCjIMtrzxYc0lblGhmOgC_CA</uri>
+  </author>
+  <published>2026-07-26T20:48:12+00:00</published>
+  <updated>2026-07-27T07:14:17+00:00</updated>
+  <media:group>
+   <media:title>Granola's Chris Pedregal Vibe-Coded His Own AI Email Client (Cards, Drafts, Approval)</media:title>
+   <media:content url="https://www.youtube.com/v/1EU7qS_yL2Y?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/1EU7qS_yL2Y/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Granola's Chris Pedregal turned his email into cards: Codex reads each one, drafts the reply, and just asks him to approve. Not another &quot;AI will handle your inbox&quot; take — an actual interface pattern for working with an agent. #shorts</media:description>
+   <media:community>
+    <media:starRating count="6" average="5.00" min="1" max="5"/>
+    <media:statistics views="438"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:XD1SQB5mEBo</id>
+  <yt:videoId>XD1SQB5mEBo</yt:videoId>
+  <yt:channelId>UCjIMtrzxYc0lblGhmOgC_CA</yt:channelId>
+  <title>Granola's Chris Pedregal: The Hardest Part of Scaling From 12 to 70 People</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/XD1SQB5mEBo"/>
+  <author>
+   <name>Every</name>
+   <uri>https://www.youtube.com/channel/UCjIMtrzxYc0lblGhmOgC_CA</uri>
+  </author>
+  <published>2026-07-26T13:56:14+00:00</published>
+  <updated>2026-07-27T08:22:25+00:00</updated>
+  <media:group>
+   <media:title>Granola's Chris Pedregal: The Hardest Part of Scaling From 12 to 70 People</media:title>
+   <media:content url="https://www.youtube.com/v/XD1SQB5mEBo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/XD1SQB5mEBo/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Granola's Chris Pedregal on the hardest part of scaling from 12 to 70 people: it's not hiring, it's figuring out if PM, design, and engineering even work the same way anymore when you're trying to keep the product's &quot;soul&quot; intact. #shorts</media:description>
+   <media:community>
+    <media:starRating count="1" average="5.00" min="1" max="5"/>
+    <media:statistics views="96"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:8rG2ItOaJHY</id>
+  <yt:videoId>8rG2ItOaJHY</yt:videoId>
+  <yt:channelId>UCjIMtrzxYc0lblGhmOgC_CA</yt:channelId>
+  <title>Why Granola's Founder Wants You to &quot;Bring Your Own Agent&quot; to Every App</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/8rG2ItOaJHY"/>
+  <author>
+   <name>Every</name>
+   <uri>https://www.youtube.com/channel/UCjIMtrzxYc0lblGhmOgC_CA</uri>
+  </author>
+  <published>2026-07-26T02:00:20+00:00</published>
+  <updated>2026-07-26T06:47:53+00:00</updated>
+  <media:group>
+   <media:title>Why Granola's Founder Wants You to &quot;Bring Your Own Agent&quot; to Every App</media:title>
+   <media:content url="https://www.youtube.com/v/8rG2ItOaJHY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/8rG2ItOaJHY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Granola's Chris Pedregal on why apps shouldn't try to build their own agent — just save state, render UI, and let users bring the agent they already trust. &quot;Codex native apps&quot; might be the most useful framework for where product defensibility actually lives right now. #shorts</media:description>
+   <media:community>
+    <media:starRating count="4" average="5.00" min="1" max="5"/>
+    <media:statistics views="311"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:_gRIfPfXnvc</id>
+  <yt:videoId>_gRIfPfXnvc</yt:videoId>
+  <yt:channelId>UCjIMtrzxYc0lblGhmOgC_CA</yt:channelId>
+  <title>One Employee Almost Spent $1M on AI Credits — Granola's Founder on Tracking AI Costs</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/_gRIfPfXnvc"/>
+  <author>
+   <name>Every</name>
+   <uri>https://www.youtube.com/channel/UCjIMtrzxYc0lblGhmOgC_CA</uri>
+  </author>
+  <published>2026-07-25T20:59:08+00:00</published>
+  <updated>2026-07-26T07:25:37+00:00</updated>
+  <media:group>
+   <media:title>One Employee Almost Spent $1M on AI Credits — Granola's Founder on Tracking AI Costs</media:title>
+   <media:content url="https://www.youtube.com/v/_gRIfPfXnvc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/_gRIfPfXnvc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Granola's Chris Pedregal on the day they realized nobody knew what they were actually spending on AI.⁣
+⁣
+One person burns a couple thousand dollars in a day on Fable. Meanwhile Quora's on pace to spend a million in credits in a year. Sounds obvious in hindsight, but &quot;know your AI spend&quot; is the kind of basic thing teams miss when they're moving fast. #shorts</media:description>
+   <media:community>
+    <media:starRating count="9" average="5.00" min="1" max="5"/>
+    <media:statistics views="782"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:dcy1JPzaWx4</id>
+  <yt:videoId>dcy1JPzaWx4</yt:videoId>
+  <yt:channelId>UCjIMtrzxYc0lblGhmOgC_CA</yt:channelId>
+  <title>Why Claude Opus 5 Gets 0% of My AI Work</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/dcy1JPzaWx4"/>
+  <author>
+   <name>Every</name>
+   <uri>https://www.youtube.com/channel/UCjIMtrzxYc0lblGhmOgC_CA</uri>
+  </author>
+  <published>2026-07-25T20:39:25+00:00</published>
+  <updated>2026-07-26T06:24:22+00:00</updated>
+  <media:group>
+   <media:title>Why Claude Opus 5 Gets 0% of My AI Work</media:title>
+   <media:content url="https://www.youtube.com/v/dcy1JPzaWx4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/dcy1JPzaWx4/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Get the full Vibe Check from the entire Every team: https://every.to/vibe-check/opus-5?utm_source=youtube
+
+Every is the most AI-native startup on the internet. Through ideas, software and education, subscribers get the tools to work at the frontier of AI. Start your free trial today: https://every.to/subscribe?utm_source=youtube
+
+Follow Every: https://x.com/every
+Follow Dan Shipper: https://x.com/danshipper</media:description>
+   <media:community>
+    <media:starRating count="24" average="5.00" min="1" max="5"/>
+    <media:statistics views="1006"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:q7FV3F443Kw</id>
+  <yt:videoId>q7FV3F443Kw</yt:videoId>
+  <yt:channelId>UCjIMtrzxYc0lblGhmOgC_CA</yt:channelId>
+  <title>Stop Using Max Reasoning on Claude Opus 5</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/q7FV3F443Kw"/>
+  <author>
+   <name>Every</name>
+   <uri>https://www.youtube.com/channel/UCjIMtrzxYc0lblGhmOgC_CA</uri>
+  </author>
+  <published>2026-07-25T20:39:16+00:00</published>
+  <updated>2026-07-26T07:18:01+00:00</updated>
+  <media:group>
+   <media:title>Stop Using Max Reasoning on Claude Opus 5</media:title>
+   <media:content url="https://www.youtube.com/v/q7FV3F443Kw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/q7FV3F443Kw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Get the full Vibe Check from the entire Every team: https://every.to/vibe-check/opus-5?utm_source=youtube
+
+Every is the most AI-native startup on the internet. Through ideas, software and education, subscribers get the tools to work at the frontier of AI. Start your free trial today: https://every.to/subscribe?utm_source=youtube
+
+Follow Every: https://x.com/every
+Follow Dan Shipper: https://x.com/danshipper</media:description>
+   <media:community>
+    <media:starRating count="21" average="5.00" min="1" max="5"/>
+    <media:statistics views="1305"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Qv-CH5HBqWE</id>
+  <yt:videoId>Qv-CH5HBqWE</yt:videoId>
+  <yt:channelId>UCjIMtrzxYc0lblGhmOgC_CA</yt:channelId>
+  <title>How OpenAI is Winning Users Back</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/Qv-CH5HBqWE"/>
+  <author>
+   <name>Every</name>
+   <uri>https://www.youtube.com/channel/UCjIMtrzxYc0lblGhmOgC_CA</uri>
+  </author>
+  <published>2026-07-25T20:39:06+00:00</published>
+  <updated>2026-07-26T07:32:45+00:00</updated>
+  <media:group>
+   <media:title>How OpenAI is Winning Users Back</media:title>
+   <media:content url="https://www.youtube.com/v/Qv-CH5HBqWE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/Qv-CH5HBqWE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Get the full Vibe Check from the entire Every team: https://every.to/vibe-check/opus-5?utm_source=youtube
+
+Every is the most AI-native startup on the internet. Through ideas, software and education, subscribers get the tools to work at the frontier of AI. Start your free trial today: https://every.to/subscribe?utm_source=youtube
+
+Follow Every: https://x.com/every
+Follow Dan Shipper: https://x.com/danshipper</media:description>
+   <media:community>
+    <media:starRating count="19" average="5.00" min="1" max="5"/>
+    <media:statistics views="647"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:CSJW9b_iiRs</id>
+  <yt:videoId>CSJW9b_iiRs</yt:videoId>
+  <yt:channelId>UCjIMtrzxYc0lblGhmOgC_CA</yt:channelId>
+  <title>Claude Opus 5 Has the Attitude, Not the Genius</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/CSJW9b_iiRs"/>
+  <author>
+   <name>Every</name>
+   <uri>https://www.youtube.com/channel/UCjIMtrzxYc0lblGhmOgC_CA</uri>
+  </author>
+  <published>2026-07-25T20:38:56+00:00</published>
+  <updated>2026-07-26T06:35:41+00:00</updated>
+  <media:group>
+   <media:title>Claude Opus 5 Has the Attitude, Not the Genius</media:title>
+   <media:content url="https://www.youtube.com/v/CSJW9b_iiRs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/CSJW9b_iiRs/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Get the full Vibe Check from the entire Every team: https://every.to/vibe-check/opus-5?utm_source=youtube
+
+Every is the most AI-native startup on the internet. Through ideas, software and education, subscribers get the tools to work at the frontier of AI. Start your free trial today: https://every.to/subscribe?utm_source=youtube
+
+Follow Every: https://x.com/every
+Follow Dan Shipper: https://x.com/danshipper</media:description>
+   <media:community>
+    <media:starRating count="12" average="5.00" min="1" max="5"/>
+    <media:statistics views="632"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:fxqair07WL4</id>
+  <yt:videoId>fxqair07WL4</yt:videoId>
+  <yt:channelId>UCjIMtrzxYc0lblGhmOgC_CA</yt:channelId>
+  <title>Stop Rebuilding Internal Tools: Why You Should Trust the Stack (PostHog, Notion, Slack + MCP)</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/fxqair07WL4"/>
+  <author>
+   <name>Every</name>
+   <uri>https://www.youtube.com/channel/UCjIMtrzxYc0lblGhmOgC_CA</uri>
+  </author>
+  <published>2026-07-25T18:11:31+00:00</published>
+  <updated>2026-07-26T07:19:24+00:00</updated>
+  <media:group>
+   <media:title>Stop Rebuilding Internal Tools: Why You Should Trust the Stack (PostHog, Notion, Slack + MCP)</media:title>
+   <media:content url="https://www.youtube.com/v/fxqair07WL4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/fxqair07WL4/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Stop rebuilding your own CRM. Stop rebuilding your own dashboards. It sucks and it's not your job.⁣
+⁣
+The move is trusting best-in-class tools like PostHog, Notion, Slack, and Flora, then connecting them through MCP so your models can find the context and actually do the work. The jump from 5.5 to 5.6 made that context-finding (and keeping it through long tasks) way better.⁣
+⁣
+Specialization wins. Let the SaaS operators be great at their thing, let the model be great at using it.</media:description>
+   <media:community>
+    <media:starRating count="3" average="5.00" min="1" max="5"/>
+    <media:statistics views="141"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:aLDr39Kgsbc</id>
+  <yt:videoId>aLDr39Kgsbc</yt:videoId>
+  <yt:channelId>UCjIMtrzxYc0lblGhmOgC_CA</yt:channelId>
+  <title>Granola's CEO Let Codex Negotiate His Internet Plan For Him</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/aLDr39Kgsbc"/>
+  <author>
+   <name>Every</name>
+   <uri>https://www.youtube.com/channel/UCjIMtrzxYc0lblGhmOgC_CA</uri>
+  </author>
+  <published>2026-07-25T13:53:00+00:00</published>
+  <updated>2026-07-26T06:44:53+00:00</updated>
+  <media:group>
+   <media:title>Granola's CEO Let Codex Negotiate His Internet Plan For Him</media:title>
+   <media:content url="https://www.youtube.com/v/aLDr39Kgsbc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/aLDr39Kgsbc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Granola's CEO had Codex log into Verizon, negotiate a new internet plan, and haggle away hidden fees — all on its own. This is what agent-in-the-loop software actually looks like. #shorts</media:description>
+   <media:community>
+    <media:starRating count="6" average="5.00" min="1" max="5"/>
+    <media:statistics views="523"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:hsYOtt20aws</id>
+  <yt:videoId>hsYOtt20aws</yt:videoId>
+  <yt:channelId>UCjIMtrzxYc0lblGhmOgC_CA</yt:channelId>
+  <title>Granola's CEO on Why They're Burning AI Tokens on Purpose Right Now</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/hsYOtt20aws"/>
+  <author>
+   <name>Every</name>
+   <uri>https://www.youtube.com/channel/UCjIMtrzxYc0lblGhmOgC_CA</uri>
+  </author>
+  <published>2026-07-25T01:40:56+00:00</published>
+  <updated>2026-07-25T11:10:38+00:00</updated>
+  <media:group>
+   <media:title>Granola's CEO on Why They're Burning AI Tokens on Purpose Right Now</media:title>
+   <media:content url="https://www.youtube.com/v/hsYOtt20aws?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/hsYOtt20aws/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Granola pre-generates millions of AI briefs knowing only 10% ever get opened. Chris Pedregal on why they're deliberately ignoring token costs right now — and why chasing the right AI-native experience matters more than efficiency at this stage. #shorts</media:description>
+   <media:community>
+    <media:starRating count="2" average="5.00" min="1" max="5"/>
+    <media:statistics views="168"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:r4ukguXf7H8</id>
+  <yt:videoId>r4ukguXf7H8</yt:videoId>
+  <yt:channelId>UCjIMtrzxYc0lblGhmOgC_CA</yt:channelId>
+  <title>Dan Shipper: &quot;AI Is the Muscles, Software Is the Bones&quot; — Granola's AI Product Theory</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/r4ukguXf7H8"/>
+  <author>
+   <name>Every</name>
+   <uri>https://www.youtube.com/channel/UCjIMtrzxYc0lblGhmOgC_CA</uri>
+  </author>
+  <published>2026-07-24T20:03:50+00:00</published>
+  <updated>2026-07-25T11:10:49+00:00</updated>
+  <media:group>
+   <media:title>Dan Shipper: &quot;AI Is the Muscles, Software Is the Bones&quot; — Granola's AI Product Theory</media:title>
+   <media:content url="https://www.youtube.com/v/r4ukguXf7H8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/r4ukguXf7H8/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Dan Shipper's mental model for AI products: AI is the muscles, software is the bones.⁣
+⁣
+Using Granola as the example, he breaks down why a transcript alone is never enough — it can't capture identity, tone, or the nuance of why something was said. The structure software provides is what makes AI actually useful. #shorts</media:description>
+   <media:community>
+    <media:starRating count="4" average="5.00" min="1" max="5"/>
+    <media:statistics views="182"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:tqF8Ffv7tDs</id>
+  <yt:videoId>tqF8Ffv7tDs</yt:videoId>
+  <yt:channelId>UCjIMtrzxYc0lblGhmOgC_CA</yt:channelId>
+  <title>We Tested Claude Opus 5. It’s Frustrating with Flashes of Brilliance.</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=tqF8Ffv7tDs"/>
+  <author>
+   <name>Every</name>
+   <uri>https://www.youtube.com/channel/UCjIMtrzxYc0lblGhmOgC_CA</uri>
+  </author>
+  <published>2026-07-24T17:01:02+00:00</published>
+  <updated>2026-07-25T12:23:31+00:00</updated>
+  <media:group>
+   <media:title>We Tested Claude Opus 5. It’s Frustrating with Flashes of Brilliance.</media:title>
+   <media:content url="https://www.youtube.com/v/tqF8Ffv7tDs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/tqF8Ffv7tDs/hqdefault.jpg" width="480" height="360"/>
+   <media:description>We tested Claude Opus 5 for a week across coding and knowledge work. Dan Shipper breaks down where it struggled, why complex skills can make it stop early, and the counterintuitive setting that improved his results.
+
+The early verdict: Opus 5 is hard to love. It can be pushy, break workflows built for Opus 4.8, and quit before the work is finished. Lower thinking effort and simpler prompts helped, but Dan still prefers GPT-5.6 for daily work and Fable for the biggest assignments.
+
+Get the full Vibe Check from the entire Every team: https://every.to/vibe-check/opus-5
+
+Every is the most AI-native startup on the internet. Through ideas, software and education, subscribers get the tools to work at the frontier of AI. Start your free trial today: https://every.to/subscribe?utm_source=youtube
+
+Follow Every: https://x.com/every
+Follow Dan Shipper: https://x.com/danshipper</media:description>
+   <media:community>
+    <media:starRating count="464" average="5.00" min="1" max="5"/>
+    <media:statistics views="25513"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:qtKkzsQjAy0</id>
+  <yt:videoId>qtKkzsQjAy0</yt:videoId>
+  <yt:channelId>UCjIMtrzxYc0lblGhmOgC_CA</yt:channelId>
+  <title>How to Build a Multi-Agent Review Swarm</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=qtKkzsQjAy0"/>
+  <author>
+   <name>Every</name>
+   <uri>https://www.youtube.com/channel/UCjIMtrzxYc0lblGhmOgC_CA</uri>
+  </author>
+  <published>2026-07-24T15:35:00+00:00</published>
+  <updated>2026-07-24T16:24:28+00:00</updated>
+  <media:group>
+   <media:title>How to Build a Multi-Agent Review Swarm</media:title>
+   <media:content url="https://www.youtube.com/v/qtKkzsQjAy0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/qtKkzsQjAy0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Ryan Nystrom, a software engineer on Notion AI, shows Every CEO Dan Shipper how he turns a spoken brief into a sourced Notion task, working code, and a passing pull request.
+
+Ryan talks through a real model-picker migration, lets Notion AI explore the codebase and write the plan, then hands that plan to an agent. Before anyone reviews the code, a custom multi-agent review swarm checks the frontend and backend for accuracy and sustainability. The agent opens the pull request, watches the tests, and fixes failures while Ryan is in meetings. Ryan’s key to success: Defining the goal, constraints, tools, and verification system before the agent starts on the work.
+
+Every All Access members can get six months of Notion Business for eligible workspaces through the Builder Pack: https://every.to/builder-pack
+
+Chapters
+0:00 Intro
+1:01 Start every task by talking
+1:54 Give Notion AI a coding environment
+3:45 Turn research into a detailed task
+5:56 Build, review, and open a pull request
+7:06 Why planning beats one-shot prompting
+7:53 Use Notion as the source of truth
+9:49 Build a multi-agent review swarm
+11:23 Make a custom skill for your standards</media:description>
+   <media:community>
+    <media:starRating count="20" average="5.00" min="1" max="5"/>
+    <media:statistics views="855"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>
