@@ -12,11 +12,11 @@ method by how this project goes.
 
 ## State
 
-| Field        | Value                                                                                            |
-| ------------ | ------------------------------------------------------------------------------------------------ |
-| Status       | LIVE — build complete, 48h verifier window running passively                                     |
-| Last session | 2026-08-08 — Stanford CodeX Projects page added to page watch                                    |
-| Next action  | read 48h evidence (cycle.log), verify a cycle polls Brian Krebs & Stanford CodeX, write result.md |
+| Field        | Value                                                                                              |
+| ------------ | -------------------------------------------------------------------------------------------------- |
+| Status       | LIVE — recovered 2026-08-24 from a 9-day digest outage (revoked API key, Aug 15-24)                |
+| Last session | 2026-08-24 — outage fix, new Console key, 30-per-kind window, Articles/Videos toggle               |
+| Next action  | decide if the 48h verifier window restarts from 2026-08-24 (outage tainted it), then result.md     |
 
 state.md is the fine-grained snapshot; this table is the coarse one. Keep both
 honest at wind-down.

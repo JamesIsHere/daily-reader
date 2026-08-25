@@ -13,8 +13,9 @@ item id in state/summaries.json so replays and re-renders never re-spend API.
 
 Outputs:
     digest/YYYY-MM-DD-HHMM.md   dated archive file per run (the memory)
-    digest/latest.html          ephemeral rolling view (most recent 15,
-                                NEW markers for this run's items)
+    digest/latest.html          ephemeral rolling view (30 most recent per
+                                kind, Articles/Videos toggle defaulting to
+                                Articles, NEW markers for this run's items)
 """
 
 import argparse
@@ -33,7 +34,7 @@ ITEMS = STATE_DIR / "items.jsonl"
 DIGESTED = STATE_DIR / "digested.json"
 SUMMARIES = STATE_DIR / "summaries.json"
 DIGEST_DIR = ROOT / "digest"
-ROLLING_COUNT = 15
+ROLLING_COUNT = 30
 
 BULLET_MODEL = "claude-haiku-4-5"  # goal.md: cheapest adequate model for bullets
 BULLET_PROMPT = (
@@ -141,9 +142,9 @@ def added_local(it):
 
 
 def render_rolling(all_items, summaries, new_ids, stamp):
-    items = rolling_window(all_items)
-    rows = []
-    for it in items:
+    # One full window per kind (not a filtered mixed window): each toggle
+    # state shows ROLLING_COUNT items of that kind. Default view is Articles.
+    def row(it):
         new = '<span class="new">NEW</span> ' if it["id"] in new_ids else ""
         kind_label = "Video" if it["kind"] == "video" else "Article"
         kind_class = "kind-video" if it["kind"] == "video" else "kind-article"
@@ -152,7 +153,7 @@ def render_rolling(all_items, summaries, new_ids, stamp):
         added_html = f" &middot; added {added}" if added else ""
         bullet = summaries.get(it["id"], "")
         bullet_html = f'<div class="bullet">{html.escape(bullet)}</div>' if bullet else ""
-        rows.append(
+        return (
             f'<div class="item">{new}'
             f'<span class="creator">{html.escape(creator_short(it))}</span> '
             f'<span class="date">{pub}{added_html}</span><br>'
@@ -160,6 +161,11 @@ def render_rolling(all_items, summaries, new_ids, stamp):
             f'<span class="kind {kind_class}">{kind_label}</span>'
             f'{bullet_html}</div>'
         )
+
+    art_rows = "".join(row(i) for i in
+                       rolling_window([i for i in all_items if i["kind"] != "video"]))
+    vid_rows = "".join(row(i) for i in
+                       rolling_window([i for i in all_items if i["kind"] == "video"]))
     return f"""<!doctype html><meta charset="utf-8">
 <title>Daily Reader</title>
 <style>
@@ -177,9 +183,29 @@ body {{ font-family: Segoe UI, sans-serif; max-width: 720px; margin: 2rem auto;
 .bullet {{ color: #333; font-size: 0.95em; margin-top: 2px; }}
 a {{ color: #1a5276; text-decoration: none; }}
 .stamp {{ color: #888; font-size: 0.85em; }}
+.toggle {{ margin: 0 0 1.2rem; }}
+.toggle button {{ font-family: Segoe UI, sans-serif; font-size: 0.9em;
+        padding: 4px 14px; border: 1px solid #1a5276; background: #fff;
+        color: #1a5276; cursor: pointer; }}
+.toggle button:first-child {{ border-radius: 4px 0 0 4px; border-right: none; }}
+.toggle button:last-child {{ border-radius: 0 4px 4px 0; }}
+.toggle button.active {{ background: #1a5276; color: #fff; }}
 </style>
 <p class="stamp">Refreshed {stamp[:10]} at {stamp[11:]} US Eastern</p>
-{"".join(rows)}"""
+<div class="toggle">
+<button id="btn-articles" class="active" onclick="show('articles')">Articles</button>
+<button id="btn-videos" onclick="show('videos')">Videos</button>
+</div>
+<div id="articles">{art_rows}</div>
+<div id="videos" style="display:none">{vid_rows}</div>
+<script>
+function show(which) {{
+  document.getElementById('articles').style.display = which === 'articles' ? 'block' : 'none';
+  document.getElementById('videos').style.display = which === 'videos' ? 'block' : 'none';
+  document.getElementById('btn-articles').classList.toggle('active', which === 'articles');
+  document.getElementById('btn-videos').classList.toggle('active', which === 'videos');
+}}
+</script>"""
 
 
 def main():

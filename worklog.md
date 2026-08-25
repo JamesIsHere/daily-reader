@@ -581,3 +581,47 @@ Append-only. Newest at bottom.
 - Updated state tables in `CLAUDE.md` and `state.md` (37 feeds + 22 watched pages).
 
 
+
+## 2026-08-24 — Outage diagnosis + recovery, per-kind toggle view
+
+- User reported the reader "not refreshing". Evidence chain: poll.log/seen.json
+  current (cycle alive), but digested.json/latest.html/summaries.json frozen at
+  2026-08-15 10:00. cycle.log: 33 consecutive cycles failing at digest.py:77
+  with anthropic.AuthenticationError 401 "API key is invalid", first failure
+  2026-08-15 13:00. Key in .env tested directly this session: 401 confirmed.
+  Root cause: Console key revoked between the 10:00 and 13:00 cycles Aug 15.
+  Failure mode note: cycle.py treats digest failure as non-fatal, so
+  publish.py re-deployed the stale latest.html every cycle for nine days —
+  the mirror looked live while serving dead content.
+- Recovery: created Console key "daily-reader" (Default workspace, no expiry)
+  via browser session (James did the login; old key's row shows disabled in
+  Console as glean-2026-0...). Wrote to .env (same single-line format,
+  127 bytes), verified 200 on a live Haiku call. James chose full backlog
+  digest over cap/baseline: cycle.py digested 110 items (48 articles
+  bulleted, 62 videos title-only), 48 API calls, ~$0.0442. Undigested
+  count re-verified 0. One new item caught same cycle: Stanford CodeX
+  Projects page change (half of the pending Phase-4 poll verification;
+  Brian Krebs poll check still open).
+- Window doubled on James's ask: ROLLING_COUNT 15 -> 30 (digest.py),
+  newsletter COUNT 15 -> 30. Backtest PASS before republish.
+- Articles/Videos toggle (James: "sometimes I just want to see videos,
+  other times I want to read"): latest.html now renders TWO full 30-item
+  windows (rolling_window per kind) behind a two-button toggle, default
+  Articles. Design call flagged: per-kind windows over client-side filter
+  of the mixed window (filter would shrink the article view to whatever
+  fraction of 30 was articles). CREATOR_CAP left at 3, not scaled.
+- Bug shipped and fixed same session: first toggle version hid #videos via
+  stylesheet rule; JS "show" set style.display='' which falls back to the
+  stylesheet none — Videos tab rendered blank on the phone. Fix: inline
+  style="display:none" + explicit block/none. Verified by clicking the
+  toggle on the DEPLOYED mirror via browser JS: default articles=block/
+  videos=none; after click videos=block with 24 items; back to articles,
+  30 items. Screenshot confirmed rendered video rows.
+- newsletter.py docstring corrected at wind-down review: "email always
+  matches what latest.html shows" is no longer literally true (email =
+  mixed top-30 union; view = per-kind windows). Dry-run re-verified at
+  count 30 (preview renders 30 items). Restructuring the email into
+  article/video sections offered, not requested.
+- 48h verifier consequence recorded in state.md: evidence window
+  contaminated by the Aug 15-24 outage; restart decision parked for next
+  wind-down.

@@ -4,9 +4,16 @@ Snapshot of where things stand. Overwritten as state changes.
 
 - Status: BUILD COMPLETE 2026-07-27, LIVE on Task Scheduler ("daily-reader",
   07/10/13/16/19/22 daily). goal.md APPROVED; phases 0-3 done; backtest
-  verifier PASS (backtest\report.md). The 48h primary verifier is running
-  PASSIVELY now — evidence accrues in state\cycle.log and digest\ with no
-  further build work. result.md is NOT yet earned.
+  verifier PASS (backtest\report.md). result.md is NOT yet earned.
+- OUTAGE 2026-08-15 13:00 -> 2026-08-24 22:10 (found+fixed 2026-08-24): the
+  Console API key was revoked between the 10:00 and 13:00 cycles on Aug 15;
+  33 consecutive cycles ran poll/watch/publish fine but digest died on 401,
+  so the mirror re-published a frozen Aug 15 latest.html for nine days.
+  Recovery: new Console key "daily-reader" (Default workspace, no expiry)
+  written to .env; catch-up cycle digested the full 110-item backlog
+  (48 articles bulleted, 48 API calls, ~$0.04); undigested count verified 0.
+  CONSEQUENCE: the 48h live-verifier evidence window is contaminated —
+  decide at next wind-down whether it restarts from 2026-08-24.
 - To close the goal (next session, ~2026-07-29): verify Phase 3 exit (full
   unattended day of cycles in cycle.log), run Phase 4 checks 1-5 over the
   48h window, confirm the hot-edit test (DONE 2026-07-29: LangChain row
@@ -18,9 +25,13 @@ Snapshot of where things stand. Overwritten as state changes.
 - Built: poller.py, digest.py (Haiku-4-5 bullets, cached), backtest.py
   (fixtures frozen 2026-07-27T12:13:51Z — permanent regression set, NEVER
   refresh casually; replay is free), cycle.py + toast.ps1 (scheduled cycle).
-  Format for v1 (amended 2026-08-01): strict recency + per-creator cap
-  (dg.CREATOR_CAP=3; archives uncapped), 15-item window, NEW markers,
-  day-only dates, clean_title stripping, Shorts excluded.
+  Format for v1 (amended 2026-08-01; window re-amended 2026-08-24): strict
+  recency + per-creator cap (dg.CREATOR_CAP=3; archives uncapped), 30-item
+  window PER KIND — latest.html renders separate article and video windows
+  behind an Articles/Videos toggle, default Articles (James's ask: read mode
+  vs watch mode). CREATOR_CAP deliberately NOT scaled with the window (10%
+  vs former 20% share — flagged, accepted). NEW markers, day-only dates,
+  clean_title stripping, Shorts excluded.
 - Known issues (parked): toast fires but does NOT ding — audio element is
   in the XML; suspects: per-app sound for the PowerShell AppId, Focus
   Assist. Triage after the window.
@@ -41,7 +52,10 @@ Snapshot of where things stand. Overwritten as state changes.
   count (editable per goal.md), roster call. First data point for the
   parked per-source yield-tracking goal.
 - Credentials: .env ANTHROPIC_API_KEY, exclusive to this project; Console
-  per-key curve = project consumption. Spend to date ~$0.09.
+  per-key curve = project consumption (curve resets 2026-08-24 with the
+  replacement key "daily-reader"; the revoked key's row still shows in the
+  Console as glean-2026-0..., disabled). Spend to date ~$0.13 incl. the
+  $0.04 backlog catch-up.
 - Roster: 37 feed entries (29 article-table, 8 YouTube) + 22 watched
   pages. 2026-08-01 cohort add (James: "add them all, easy to remove"):
   feeds Dan Luu (atom.xml, UNTITLED by design — add.py would refuse it,
@@ -88,10 +102,13 @@ Snapshot of where things stand. Overwritten as state changes.
   in worklog wind-down entry, tagged METHOD: for retro-grep.
 - Newsletter (2026-08-01 session 5, BUILT, NOT YET LIVE): ship-the-product
   distribution ruled over frozen-binary after James's pivot — one runner,
-  N readers, nothing installed on theirs. newsletter.py renders the
-  rolling window's exact selection (digested + dated, newest 15) as plain
-  text + minimal HTML email via smtplib. Dry-run verified against live
-  state (15 items, format law holds). BLOCKED on: (1) .env.smtp creds —
+  N readers, nothing installed on theirs. newsletter.py renders the mixed
+  top-30 (digested + dated, newest first; raised from 15 on 2026-08-24).
+  Since the per-kind toggle, the email is the UNION view, not a literal
+  mirror of latest.html — docstring updated; restructuring the email into
+  article/video sections is an open offer, not done. Dry-run re-verified
+  2026-08-24 at count 30 (preview renders 30 items, header "Most recent 30
+  releases"). BLOCKED on: (1) .env.smtp creds —
   James must generate an app password (Yahoo: account security -> app
   passwords); NOT .env, digest.py reads .env as a single-line file;
   (2) brother's email (not in addresses.md); (3) verified test send to

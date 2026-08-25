@@ -1,4 +1,4 @@
-"""Weekly newsletter: email the rolling window (last 15 digested items).
+"""Weekly newsletter: email the rolling window (last 30 digested items).
 
 Usage:
     python newsletter.py --dry-run     render to digest/newsletter-preview.html
@@ -8,9 +8,10 @@ Usage:
     python newsletter.py --to a@b.c    override recipients (test sends)
 
 Ship-the-product distribution (ruled 2026-08-01): one runner (this machine),
-N readers, nothing to install on theirs. Item selection is exactly the
-rolling view's query — digested items with a published date, newest first,
-top 15 — so the email always matches what latest.html shows.
+N readers, nothing to install on theirs. Item selection: digested items with
+a published date, newest first, top 30, articles and videos mixed. Since
+2026-08-24 latest.html renders per-kind windows behind an Articles/Videos
+toggle, so the email is the union view, not a literal mirror of the page.
 
 Credentials live in .env.smtp (gitignored), NOT .env: digest.py reads .env
 as a single-line file and a second line would break get_client. Format,
@@ -49,7 +50,7 @@ SUMMARIES = STATE_DIR / "summaries.json"
 SMTP_ENV = ROOT / ".env.smtp"
 PREVIEW = ROOT / "digest" / "newsletter-preview.html"
 SEND_LOG = STATE_DIR / "newsletter.log"
-COUNT = 15
+COUNT = 30
 
 
 def load_config():
