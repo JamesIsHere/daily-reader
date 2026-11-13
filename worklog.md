@@ -648,3 +648,74 @@ Append-only. Newest at bottom.
 - Positive control: pythonw launching a flagless `cmd /c ping` under the same recorder caught 2
   windows (WindowsTerminal CASCADIA_HOSTING_WINDOW_CLASS + cmd.exe PseudoConsoleWindow).
 - archived\2026-11-13-toast\toast.xml left untracked: it holds a local file URI (public repo).
+
+## 2026-11-13 — Window ordering: DROPPED
+
+- Measured first (rolling_window on today's store): articles 30 items / 15 creators, one run
+  (Latent.Space x2); videos 24 items / 8 creators, runs AI Engineer x3, LangChain x2, Peter Yang
+  x2, Unsupervised Learning x2. CREATOR_CAP=3 already bounds any block at 3.
+- Offered: drop / break runs keeping date order / round-robin / per-day interleave. James: drop
+  ("fine with lightening these things up"). No code change.
+- Noted, not decided: the video window tops out at 24 (8 creators x cap 3), never 30.
+
+## 2026-11-13 — Teaser-only bodies: DROPPED
+
+- Re-measured (articles, last 30 days, stripped body < 300 chars): 89 of 273, of which Stanford
+  CodeX 87/89, Quanta 1/18, Gwern 1/1. The teaser count was the CodeX page-flip noise; with CodeX
+  removed today, 2 items a month remain. Every Substack/blog feed ships full text.
+- Found: CodeX "bodies" were the page footer, and Haiku invented bullet content from them (e.g.
+  "Keystone Initiative trains lawyers..." from a copyright line), a goal.md no-fabrication breach
+  that make_bullet's empty-body guard does not catch. Source gone, so moot.
+- Offered: drop / min-length guard (~2 lines) / full-page fetch. James: drop. No code change.
+
+## 2026-11-13 — 48-hour live verifier: DELETED
+
+- James: "old scaffolding... just delete that whole idea of the check." Removed the Primary
+  verifier (live) section from goal.md (tombstone line left), its two completion-proof bullets
+  (48h worklog record, toast), plan.md Phase 4, the parked item in CLAUDE.md, and the
+  contaminated-window note in state.md. The backtest verifier is now the only verifier.
+- Re-ran it: python backtest.py -> BACKTEST PASS, 74 items -> 84 cycles, coverage 74/74, 0 dupes,
+  0 form violations, 0 emoji, 0 Shorts, 0 API calls. exit 0.
+- Consequence, not acted on: with the live window gone, the remaining completion proof (backtest
+  PASS, registered task, digest archive) appears met, so result.md is now writable.
+
+## s9 -- 2026-11-13 -- Toast deleted, pop-ups fixed, 48h verifier deleted, goal COMPLETE
+
+Session numbering starts here: earlier entries use dated headers and
+"Session N" labels; s9 = the ninth distinct session date. The five dated
+entries above (Toast deleted; Pop-up fix; Window ordering DROPPED; Teaser-only
+bodies DROPPED; 48-hour live verifier DELETED) are this session's work.
+
+Final wind-down addenda (goal-method step 7):
+
+- Self-audit (goal.md never ratified the four questions; answered anyway):
+  (a) Compaction did not fire this session; no evidence either way for
+  earlier ones. (b) Resume: the fresh-session prompt pointed at a "How to
+  resume" section this CLAUDE.md lacks; resumed from CLAUDE.md State table,
+  state.md lines 1-60, worklog.md tail 40, state\cycle.log tail 5. The
+  signpost was current; state.md was three months stale (still described
+  6 runs a day and the August outage). (c) No blocker candidate reached
+  three turns. The newsletter is world-blocked (credentials, recipient),
+  not agent-blocked. (d) Log-don't-build was real-time this session (each
+  drop logged as it was ruled); not auditable for earlier sessions.
+- Completion-proof audit: result.md section 1, every item re-checked this
+  session. Backtest re-run: PASS, 74/74. Caveat carried: Thinking Machines
+  Lab feed 404 since 20:53Z today.
+- RETRO DEFERRED 2026-11-13. Trigger: the next goal-method retro James
+  convenes (fold into TRIALS.md). Harvest for it:
+  METHOD: the two-verifier rule's live half was never completed in 109 days
+  and James deleted it as "old scaffolding"; the project ran fine without
+  it. The backtest carried all the verification weight.
+  METHOD: a decision James experienced as made (delete the toast) was filed
+  as an open question in the signpost and never shipped; 612 toasts later
+  he asked why it was still there. Verdict-shaped statements should land
+  as DECIDED or ship in the same turn.
+  METHOD: state.md went three months stale while the CLAUDE.md signpost
+  stayed current, because the 2026-11-13 morning session updated only the
+  signpost. The signpost carried the resume.
+  METHOD: two of three open decisions dissolved on measurement (window
+  ordering bounded by the existing cap; the teaser count was CodeX noise).
+  Measure before presenting options.
+- Project verdict (James): not in use for lack of variety, a roster limit.
+
+RECEIPT s9: worklog appended; state rewritten; signpost updated; kill-sweep clean; rulings-sweep clean

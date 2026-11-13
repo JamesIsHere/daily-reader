@@ -41,9 +41,8 @@ Current strategy for reaching goal.md. Freely rewritten as we learn.
 
 ## Phase 3 — Schedule and surface
 
-- Task Scheduler job: every 3h, 07:00-22:00. Windows toast EVERY cycle (break
-  clock; empty cycles labeled); click opens the rendered rolling view (most
-  recent 15, NEW markers), closing leaves no state.
+- Task Scheduler job: every 3h, 07:00-22:00. No notification (removed
+  2026-11-13); the rendered rolling view is opened on demand.
 - Cycle output (incl. per-cycle API cost line) teed to state\cycle.log —
   stdout vanishes under Task Scheduler; the cost log is the local half of the
   owner's consumption-pattern experiment (Console per-key usage = other half;
@@ -54,9 +53,8 @@ Current strategy for reaching goal.md. Freely rewritten as we learn.
 
 ## Phase 4 — Verifier window
 
-- Run the goal.md primary verifier over 48 hours, including the roster
-  hot-edit test. Fix what fails, append evidence to worklog.md, write
-  result.md when it passes.
+- REMOVED 2026-11-13 (James): the live test window is deleted from
+  goal.md. No Phase 4.
 
 ## Future goals (not this goal.md)
 

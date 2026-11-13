@@ -45,9 +45,8 @@ adding a creator is adding a line, with no other registration step.
 - Dedupe at the creator level: a creator with multiple outlets (e.g. Nate B
   Jones on YouTube + Substack) appears once per piece of content, not once
   per feed.
-- The cycle fires on schedule even when empty, and so does the ding — the
-  pulse is also a break reminder. An empty cycle says so plainly; the view
-  still shows the rolling recent window.
+- The cycle fires on schedule even when empty. An empty cycle says so
+  plainly in its archive file; the view still shows the rolling recent window.
 - If article text cannot be retrieved (feed error, empty feed body), the item
   appears as title-only with the failure noted. Never fabricate a summary for
   content that was not actually fetched.
@@ -68,14 +67,8 @@ adding a creator is adding a line, with no other registration step.
 - Digest artifact: a dated markdown file per cycle in digest\ (the archive,
   source of truth). A rendered ephemeral view (browser tab opened on demand,
   holding no state) is generated from it for scanning.
-- Surfacing v1: Windows toast ding fires EVERY cycle — with new items it names
-  them; with none it says so plainly (the ding is also the break clock).
-  Clicking opens the rendered digest; closing it leaves nothing behind.
-  AMENDED 2026-11-13 (James: "delete everything toast", too annoying): the
-  toast is removed. No notification surface exists; the view, the Vercel
-  mirror and the archive are the surfaces. Every ding/toast clause in this
-  file (the empty-cycle pulse above, Phase 4 check 5's toast half, the
-  toast deliverable) is void from this date.
+- Surfacing: no notification (removed 2026-11-13, James: too annoying). The
+  rendered view, the Vercel mirror, and the archive are the surfaces.
   Email-to-self, phone text, and other channels are logged as future
   experiments — the channel question is explicitly iterate-over-time, not a
   v1 decision.
@@ -90,13 +83,13 @@ adding a creator is adding a line, with no other registration step.
 - Read public RSS feeds and public web pages for roster sources.
 - Install Python packages per-user; create and update files inside the project
   directory and scratchpad.
-- Register/modify the project's own scheduled task and toast notifications.
+- Register/modify the project's own scheduled task.
 - Call the Claude API for summarization within a small per-cycle budget.
 
 ## Approval required
 
-- Any outbound channel beyond a local toast (SMS, email, anything leaving the
-  machine).
+- Any outbound channel beyond the local view and the accepted Vercel mirror
+  (SMS, email, anything else leaving the machine).
 - Material API spend changes (new models, per-cycle cost growth).
 - System-wide installs or writes outside the project directory.
 - Dropping a roster source from coverage for implementation convenience.
@@ -135,20 +128,8 @@ only cycle bucketing.
 
 ## Primary verifier (live)
 
-Over a 48-hour test window with the scheduled task live:
-
-1. Every item published by a roster feed during the window appears in the next
-   digest after its publication, in its correct form (article: title + one
-   bullet; video: creator + title).
-2. Every digest item links correctly to its source (article page / video).
-3. A hot-edit test passes: add a new creator line to roster.md mid-window with
-   no other action; their next release appears in a subsequent digest.
-4. A cross-platform creator releasing one piece appears once, not twice.
-5. Every scheduled cycle in the window produced a dated digest file in the
-   archive (empty cycles included and labeled) and fired a toast ding (empty
-   cycles labeled as such); the ding's click opened the rendered rolling view
-   (most recent 15, NEW markers correct); closing that view left no
-   persistent state behind.
+REMOVED 2026-11-13 (James: "old scaffolding"). The live test window and
+its five checks are deleted; the backtest verifier above is the verifier.
 
 ## Supporting checks
 
@@ -167,10 +148,8 @@ Over a 48-hour test window with the scheduled task live:
   showing the replayed digest series and coverage results per source.
 - digest\ archive of dated markdown files covering at least one full day of
   real cycles, plus the rendered ephemeral view they generate.
-- Registered Task Scheduler job and working toast notification.
-- worklog.md recording the 48-hour verifier window, including the hot-edit
-  test.
-- result.md written only after the primary verifier passes.
+- Registered Task Scheduler job.
+- result.md written only after the backtest verifier passes.
 
 ## Iteration and recovery
 

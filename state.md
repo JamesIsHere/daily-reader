@@ -1,118 +1,51 @@
-# State — Daily Reader
+# State -- Daily Reader
 
-Snapshot of where things stand. Overwritten as state changes.
+Cache for cold resume. Overwritten each wind-down; never the authority.
 
-- Status: BUILD COMPLETE 2026-07-27, LIVE on Task Scheduler ("daily-reader",
-  07/10/13/16/19/22 daily). goal.md APPROVED; phases 0-3 done; backtest
-  verifier PASS (backtest\report.md). result.md is NOT yet earned.
-- OUTAGE 2026-08-15 13:00 -> 2026-08-24 22:10 (found+fixed 2026-08-24): the
-  Console API key was revoked between the 10:00 and 13:00 cycles on Aug 15;
-  33 consecutive cycles ran poll/watch/publish fine but digest died on 401,
-  so the mirror re-published a frozen Aug 15 latest.html for nine days.
-  Recovery: new Console key "daily-reader" (Default workspace, no expiry)
-  written to .env; catch-up cycle digested the full 110-item backlog
-  (48 articles bulleted, 48 API calls, ~$0.04); undigested count verified 0.
-  CONSEQUENCE: the 48h live-verifier evidence window is contaminated —
-  decide at next wind-down whether it restarts from 2026-08-24.
-- To close the goal (next session, ~2026-07-29): verify Phase 3 exit (full
-  unattended day of cycles in cycle.log), run Phase 4 checks 1-5 over the
-  48h window, confirm the hot-edit test (DONE 2026-07-29: LangChain row
-  added mid-window — verify a scheduled cycle polls it, 27 sources), then
-  write result.md quoting evidence.
-- Surfaces: toast every cycle (click opens view; confirmed working);
-  Ctrl+Alt+D / desktop "Daily Reader" shortcut = out-of-cycle peek;
-  schtasks /Run /TN daily-reader = full out-of-cycle run with fresh poll.
-- Built: poller.py, digest.py (Haiku-4-5 bullets, cached), backtest.py
-  (fixtures frozen 2026-07-27T12:13:51Z — permanent regression set, NEVER
-  refresh casually; replay is free), cycle.py + toast.ps1 (scheduled cycle).
-  Format for v1 (amended 2026-08-01; window re-amended 2026-08-24): strict
-  recency + per-creator cap (dg.CREATOR_CAP=3; archives uncapped), 30-item
-  window PER KIND — latest.html renders separate article and video windows
-  behind an Articles/Videos toggle, default Articles (James's ask: read mode
-  vs watch mode). CREATOR_CAP deliberately NOT scaled with the window (10%
-  vs former 20% share — flagged, accepted). NEW markers, day-only dates,
-  clean_title stripping, Shorts excluded.
-- Known issues (parked): toast fires but does NOT ding — audio element is
-  in the XML; suspects: per-app sound for the PowerShell AppId, Focus
-  Assist. Triage after the window.
-- FIXED mid-window (2026-07-27 session 3): 13:00 cycle WARN poller=1 was a
-  cp1252 UnicodeEncodeError on an emoji title in the captured-pipe report
-  print — no data loss, but the 13:00 toast wrongly said "nothing new".
-  run_step in cycle.py now sets PYTHONIOENCODING=utf-8 for children.
-  Verified: repro (rc 1 -> 0), backtest PASS post-change, manual cycle
-  22:54 exit=0. The 22:54 cycle.log entry is that manual run, not a
-  scheduled fire. Details in worklog session 3.
-- Watch (check at 07:00 cycle): all 7 YouTube feeds DEGRADED (404/500) at
-  22:54 after being OK at 22:00 — YouTube RSS endpoint flaking server-side
-  (probed: 404 with any UA). Degraded path handled it correctly; only
-  investigate if it persists across several cycles.
-- Observation (no action): AI Engineer's conference-batch uploads hold 9 of
-  15 window slots under strict recency (roster-wide 7d mix is balanced,
-  24 vid / 23 art). Levers if it grates: per-creator window cap, window
-  count (editable per goal.md), roster call. First data point for the
-  parked per-source yield-tracking goal.
-- Credentials: .env ANTHROPIC_API_KEY, exclusive to this project; Console
-  per-key curve = project consumption (curve resets 2026-08-24 with the
-  replacement key "daily-reader"; the revoked key's row still shows in the
-  Console as glean-2026-0..., disabled). Spend to date ~$0.13 incl. the
-  $0.04 backlog catch-up.
-- Roster: 37 feed entries (29 article-table, 8 YouTube) + 22 watched
-  pages. 2026-08-01 cohort add (James: "add them all, easy to remove"):
-  feeds Dan Luu (atom.xml, UNTITLED by design — add.py would refuse it,
-  poller doesn't care), antirez, Bret Victor; page-watch Norvig, Bellard,
-  Moxie, Taleb (homepages) + Gwern (changelog — BOTH his feeds died June
-  2021) + Paul Graham articles.html (Swartz pgessays.rss STALE since Oct
-  2023). Zombie-feed pattern is now 3-for-3 among feedless-by-choice
-  authors: probe freshness before trusting any feed. watch.py: whole-doc
-  extractor fallback, block-tag line breaks, snapshot slugs from URL not
-  page label (label collision bug caught in verification — four "Home"
-  rows shared one snapshot file). All 21 snapshots stable across
-  double-run (no dynamic-content false fires).
-  LangChain added 2026-07-29 (hot-edit test), baselined at add. Patrick
-  Collison Substack added 2026-08-01 via add.py — feed verified but has 0
-  posts (dormant tripwire; identity unconfirmable until he posts — if a
-  first post sounds wrong, re-check before trusting). Cross-platform
-  dedupe still N/A (all single-outlet). Thinking Machines Lab's
-  Connectionism RSS added 2026-08-03 and baselined at 7 entries.
-  Quanta Magazine RSS added 2026-08-05 and baselined at 5 entries.
-  Farid Zakaria RSS added 2026-08-05 and baselined at 10 entries.
-  Colin Scott Atom feed added 2026-08-05 and baselined at 14 entries.
-  Brian Krebs RSS (krebsonsecurity.com/feed) added 2026-08-06 and baselined at 10 entries.
-  Stanford CodeX Projects page (law.stanford.edu/codex-the-stanford-center-for-legal-informatics/codex-projects/#slsnav-current-projects) added 2026-08-08 as watched page and baselined.
-- New tool (2026-08-01 session 5): watch.py — feedless-page watcher for
-  patrickcollison.com (site verified feedless: catch-all router, 8 feed
-  paths probed, no feed links, openrss 404; pages are static topical HTML
-  that gets edited, not posted to). Reads '## Page watch' roster section
-  (15 pages), hashes each page's content div, diffs against
-  state\pages\<slug>.txt snapshots, emits added text as kind-"article"
-  items in the poller's exact schema — digest/toast/rolling view need no
-  changes. New rows auto-baseline on first sight (no backlog dump).
-  cycle.py touched (only live-pipeline change): watch step between poll
-  and digest, NEW lines merged into the toast parse, rc in exit/WARN.
-  Verified: 15 pages baselined; tamper test detected a rewound snapshot
-  (dry-run, 1 changed, correct diff body, nothing written); backtest PASS
-  post-change; manual cycle 2026-08-01 02:14 exit=0 with WATCH line in
-  cycle.log and toast rc=0.
-- New tool (2026-07-29 session 4): add.py — quick-add without a Claude
-  session (resolve -> verify -> dupe-check -> baseline -> append;
-  --backfill N / --dry-run / --name). New file; pipeline untouched.
-  roster.md header corrected: blank-URL resolution was promised but never
-  built — rows without a channel ID are skipped, not resolved.
-- Method trial: James's verdict "worked really well" — retro observations
-  in worklog wind-down entry, tagged METHOD: for retro-grep.
-- Newsletter (2026-08-01 session 5, BUILT, NOT YET LIVE): ship-the-product
-  distribution ruled over frozen-binary after James's pivot — one runner,
-  N readers, nothing installed on theirs. newsletter.py renders the mixed
-  top-30 (digested + dated, newest first; raised from 15 on 2026-08-24).
-  Since the per-kind toggle, the email is the UNION view, not a literal
-  mirror of latest.html — docstring updated; restructuring the email into
-  article/video sections is an open offer, not done. Dry-run re-verified
-  2026-08-24 at count 30 (preview renders 30 items, header "Most recent 30
-  releases"). BLOCKED on: (1) .env.smtp creds —
-  James must generate an app password (Yahoo: account security -> app
-  passwords); NOT .env, digest.py reads .env as a single-line file;
-  (2) brother's email (not in addresses.md); (3) verified test send to
-  self, then weekly Task Scheduler registration (e.g. schtasks weekly Sun
-  08:00, task "daily-reader-weekly", pythonw newsletter.py).
-- Open decisions: newsletter send account + recipient (above). Otherwise
-  the clock is the only dependency.
+## Status
+
+COMPLETE 2026-11-13 (result.md written, s9). In plain English:
+- Done: the reader is built and live. Every night at midnight, Task Scheduler
+  ("daily-reader", pythonw cycle.py, runs at next logon if midnight is missed)
+  polls the roster's feeds and watched pages, writes Haiku bullets for new
+  articles, archives a dated digest, rebuilds digest\latest.html
+  (Articles/Videos toggle, 30 per kind, max 3 per creator) and publishes it to
+  the Vercel mirror. No notification (removed 2026-11-13).
+- Verifier: the backtest (python backtest.py) is the only one. The live test
+  window was deleted 2026-11-13.
+- Remaining: nothing owed to the goal. The method retro is deferred (trigger
+  in worklog s9). The newsletter is built but parked.
+- Final goal (met): a hand-editable roster turned into a daily text digest
+  with no registration step.
+
+## Next actions
+
+- None required. The reader runs unattended.
+- If James picks it up again, the stated reason he stopped is too little
+  variety, which is a roster problem (curation), not a pipeline problem.
+
+## Watch items and caveats
+
+- Thinking Machines Lab feed (https://thinkingmachines.ai/blog/index.xml)
+  404 since 2026-11-13 20:53Z after OK at 15:00Z; the blog page loads but
+  links no feed. If it persists, the fallback is a '## Page watch' row for
+  /blog/ (a roster call for James).
+- Patrick Collison Substack: verified feed, 0 posts (dormant tripwire). If a
+  first post sounds wrong, re-check identity before trusting it.
+- The video window tops out at 24, not 30: 8 YouTube creators x CREATOR_CAP 3.
+- Three Stanford CodeX "Projects page updated" items stay in the article
+  window until newer items push them out (store is append-only).
+- Credentials: .env ANTHROPIC_API_KEY is the Console key "daily-reader"
+  (Default workspace, no expiry, created 2026-08-24). A revoked key fails
+  only the digest step; publish keeps re-deploying a stale page (the
+  2026-08-15 to 08-24 outage). Check cycle.log for digest 401s if the
+  mirror looks frozen.
+- Manual runs: schtasks /Run /TN daily-reader (the real path, pythonw);
+  Ctrl+Alt+D or the desktop "Daily Reader" shortcut opens the local view.
+
+## Open decisions
+
+- Newsletter (parked since 2026-08-01): needs a Yahoo app password in
+  .env.smtp (not .env) and the brother's email address; then a test send
+  --to self and a weekly task ("daily-reader-weekly", Sun 08:00, pythonw
+  newsletter.py). No rulings.md in this project (pre-dates the ledger).

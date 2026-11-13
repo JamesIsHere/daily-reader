@@ -5,8 +5,8 @@
 A release calendar for a hand-curated roster of creators (Substack + YouTube +
 feedless static pages via watch.py), run locally. Polls the roster's RSS feeds, detects new releases, and produces
 an all-text digest every ~3 waking hours (articles: title + exactly one
-bullet; videos: creator + title only). "Working" means the goal.md verifiers pass: backtest replay over
-the trailing two weeks, then a live 48-hour window. The project is also a
+bullet; videos: creator + title only). "Working" means the goal.md backtest verifier passes (replay over
+the trailing two weeks; the live test window was deleted 2026-11-13). The project is also a
 trial of the goal/plan/state/worklog method (Jason Liu, Codex) — judge the
 method by how this project goes.
 
@@ -14,25 +14,14 @@ method by how this project goes.
 
 | Field        | Value                                                                                              |
 | ------------ | -------------------------------------------------------------------------------------------------- |
-| Status       | LIVE, once a day at midnight (James, 2026-11-13; was 6 a day), healthy (611 runs logged; 4 WARNs since 10-14, all publish/watch, none fatal)  |
-| Last session | 2026-11-13 — CodeX page-watch removed; toast deleted; pop-ups fixed (0 windows on a task run)     |
-| Next action  | open decisions below, one at a time, starting with window ordering                                 |
+| Status       | COMPLETE 2026-11-13 (result.md); still LIVE, once a day at midnight, unattended                    |
+| Last session | s9, 2026-11-13: notification removed, pop-ups fixed, live window cut, goal closed (state.md)       |
+| Next action  | none required; newsletter parked (see state.md Open decisions)                                     |
 
 state.md is the fine-grained snapshot; this table is the coarse one. Keep both
-honest at wind-down. (state.md not yet rewritten for the 2026-11-13 session.)
+honest at wind-down.
 
-Open decisions (need James; one at a time, pop-up fix DONE 2026-11-13):
-- Window ordering: interleave sources so one source never sits in a block.
-- Teaser-only bodies (88 of 275 articles in 30 days under 300 chars): fetch full pages for bullets?
-- Older parked: restart of the 48h verifier window; newsletter send account and recipient.
-
-Unsure about:
-- Pop-ups RESOLVED 2026-11-13: toast deleted; publish.py runs vercel with CREATE_NO_WINDOW.
-  Verified by triggering the real task (schtasks /Run, pythonw) under a window recorder:
-  0 new windows; positive control (flagless cmd from pythonw) caught 2. The recorder
-  (EnumWindows every 100 ms, log handles not in the starting set) was session scratch.
-- The 3 existing CodeX items stay in the article window until newer items push them out; the
-  append-only store was not edited.
+Open decisions, watch items and caveats live in state.md.
 
 ## How to run
 
@@ -99,7 +88,7 @@ Current contents: pull_history.py (per-source publication history to
 explore\data\, Substack archive API + feeds, 24-month window, raw pulls
 cached in data\raw\ behind a REFRESH flag) and corpus_dashboard.py
 (-> corpus.html, tabbed self-contained HTML per the dashboard skill).
-Rebuild: python pull_history.py && python corpus_dashboard.py.
+Rebuild: python explore\pull_history.py && python explore\corpus_dashboard.py.
 
 ## rollout/
 
