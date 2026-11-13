@@ -110,7 +110,6 @@ content div there: watch.py falls back to whole-document text).
 | Moxie Marlinspike | Home       | https://moxie.org/                                                                                               | active |
 | Nassim Taleb      | Home       | https://fooledbyrandomness.com/                                                                                  | active |
 | Gwern             | Changelog  | https://gwern.net/changelog                                                                                      | active |
-| Stanford CodeX    | Projects   | https://law.stanford.edu/codex-the-stanford-center-for-legal-informatics/codex-projects/#slsnav-current-projects | active |
 
 ## Email newsletters / aggregators (transport TBD, mining = future goal)
 

@@ -14,12 +14,27 @@ method by how this project goes.
 
 | Field        | Value                                                                                              |
 | ------------ | -------------------------------------------------------------------------------------------------- |
-| Status       | LIVE — recovered 2026-08-24 from a 9-day digest outage (revoked API key, Aug 15-24)                |
-| Last session | 2026-08-24 — outage fix, new Console key, 30-per-kind window, Articles/Videos toggle               |
-| Next action  | decide if the 48h verifier window restarts from 2026-08-24 (outage tainted it), then result.md     |
+| Status       | LIVE, once a day at midnight (James, 2026-11-13; was 6 a day), healthy (611 runs logged; 4 WARNs since 10-14, all publish/watch, none fatal)  |
+| Last session | 2026-11-13 — review; Stanford CodeX page-watch removed (251 of 256 fires were the page flipping)   |
+| Next action  | pop-up fix (cause CONFIRMED 2026-11-13): CREATE_NO_WINDOW on the toast powershell call (cycle.py) and vercel.CMD call (publish.py); re-run the window recording during a manual run and expect zero new windows |
 
 state.md is the fine-grained snapshot; this table is the coarse one. Keep both
-honest at wind-down.
+honest at wind-down. (state.md not yet rewritten for the 2026-11-13 session.)
+
+Open decisions (need James; he asked to take these one at a time after the pop-up fix):
+- Toast every run even when nothing is new: with one run at midnight, the toast fires at midnight;
+  keep it, cut it, or move it.
+- Window ordering: interleave sources so one source never sits in a block.
+- Teaser-only bodies (88 of 275 articles in 30 days under 300 chars): fetch full pages for bullets?
+- Older parked: restart of the 48h verifier window; newsletter send account and recipient.
+
+Unsure about:
+- Pop-up cause no longer inferred: a window recording during the manual run at 2026-11-13 15:53
+  caught two Windows Terminal windows, "cmd.exe" at 15:54:22 (vercel.CMD from publish.py) and
+  "powershell.exe" at 15:54:27 (toast from cycle.py). The recorder script was session scratch;
+  rebuild it if needed (EnumWindows every 100 ms, log handles not in the starting set).
+- The 3 existing CodeX items stay in the article window until newer items push them out; the
+  append-only store was not edited.
 
 ## How to run
 
@@ -27,7 +42,9 @@ From the project root, in order:
 
     python cycle.py              one full scheduled cycle: poll + digest +
                                  cycle.log + toast (what Task Scheduler runs
-                                 as "daily-reader", 6x daily 07-22)
+                                 as "daily-reader", once daily at 00:00
+                                 since 2026-11-13; was 6x daily 07-22;
+                                 runs at next logon if midnight is missed)
     python poller.py             one poll cycle (fetch, diff, emit new items)
     python digest.py             digest undigested items: bullets + archive +
                                  rolling view (--max-items N caps; --baseline

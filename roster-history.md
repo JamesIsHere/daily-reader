@@ -62,12 +62,12 @@ hand.
 | Farid Zakaria                             | feed             | 2026-08-05 |
 | Colin Scott                               | feed             | 2026-08-05 |
 | Brian Krebs (Krebs on Security)           | feed             | 2026-08-06 |
-| Stanford CodeX                            | pages            | 2026-08-08 |
 
 ## No longer following
 
-Nobody yet. When the first cut happens, it moves here as a row — the
-Following row is deleted, not edited.
+When a cut happens, it moves here as a row — the Following row is
+deleted, not edited.
 
-| Creator | Followed since | Removed | Why (short) |
-| ------- | -------------- | ------- | ----------- |
+| Creator        | Followed since | Removed    | Why (short)                                                                   |
+| -------------- | -------------- | ---------- | ----------------------------------------------------------------------------- |
+| Stanford CodeX | 2026-08-08     | 2026-11-13 | page flips between two versions; 251 of 256 fires false, 5 real in 3 months |
