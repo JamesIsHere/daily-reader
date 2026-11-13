@@ -625,3 +625,26 @@ Append-only. Newest at bottom.
 - 48h verifier consequence recorded in state.md: evidence window
   contaminated by the Aug 15-24 outage; restart decision parked for next
   wind-down.
+
+## 2026-11-13 — Toast deleted
+
+- James: "delete everything toast", too annoying; he believed it was already gone. It was not:
+  cycle.py fired it every cycle (612 toast lines in state\cycle.log, last at 15:54 today).
+- Removed: toast_payload/fire_toast and the toast log line from cycle.py; toast.ps1 (git mv) and
+  state\toast.xml moved to archived\2026-11-13-toast\. Stale comments fixed in publish.py and
+  watch.py. goal.md amended (dated block under Surfacing v1) voiding every toast/ding clause.
+  CLAUDE.md: the toast open decision is closed; the pop-up fix shrinks to the vercel.CMD half.
+- Verified: python cycle.py exit=0 at 15:57:38; that log block has no toast line.
+- Not touched: the Ctrl+Alt+D / desktop "Daily Reader" shortcut (a view opener, not a toast).
+
+## 2026-11-13 — Pop-up fix (vercel.CMD)
+
+- publish.py deploy(): subprocess.run for vercel (a .CMD shim -> cmd.exe) now passes
+  creationflags=subprocess.CREATE_NO_WINDOW. Under pythonw there is no console to inherit, so
+  Windows was opening one each cycle.
+- Verified on the real path: schtasks /Run /TN daily-reader (pythonw.exe cycle.py) at 16:04:14
+  under a window recorder (EnumWindows every 100 ms, new handles vs starting set): 0 new windows
+  through 16:04:51; cycle.log block 16:04:14 shows poll/watch/digest/publish complete.
+- Positive control: pythonw launching a flagless `cmd /c ping` under the same recorder caught 2
+  windows (WindowsTerminal CASCADIA_HOSTING_WINDOW_CLASS + cmd.exe PseudoConsoleWindow).
+- archived\2026-11-13-toast\toast.xml left untracked: it holds a local file URI (public repo).

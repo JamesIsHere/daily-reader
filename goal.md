@@ -71,6 +71,11 @@ adding a creator is adding a line, with no other registration step.
 - Surfacing v1: Windows toast ding fires EVERY cycle — with new items it names
   them; with none it says so plainly (the ding is also the break clock).
   Clicking opens the rendered digest; closing it leaves nothing behind.
+  AMENDED 2026-11-13 (James: "delete everything toast", too annoying): the
+  toast is removed. No notification surface exists; the view, the Vercel
+  mirror and the archive are the surfaces. Every ding/toast clause in this
+  file (the empty-cycle pulse above, Phase 4 check 5's toast half, the
+  toast deliverable) is void from this date.
   Email-to-self, phone text, and other channels are logged as future
   experiments — the channel question is explicitly iterate-over-time, not a
   v1 decision.

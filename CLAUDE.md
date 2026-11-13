@@ -15,24 +15,22 @@ method by how this project goes.
 | Field        | Value                                                                                              |
 | ------------ | -------------------------------------------------------------------------------------------------- |
 | Status       | LIVE, once a day at midnight (James, 2026-11-13; was 6 a day), healthy (611 runs logged; 4 WARNs since 10-14, all publish/watch, none fatal)  |
-| Last session | 2026-11-13 — review; Stanford CodeX page-watch removed (251 of 256 fires were the page flipping)   |
-| Next action  | pop-up fix (cause CONFIRMED 2026-11-13): CREATE_NO_WINDOW on the toast powershell call (cycle.py) and vercel.CMD call (publish.py); re-run the window recording during a manual run and expect zero new windows |
+| Last session | 2026-11-13 — CodeX page-watch removed; toast deleted; pop-ups fixed (0 windows on a task run)     |
+| Next action  | open decisions below, one at a time, starting with window ordering                                 |
 
 state.md is the fine-grained snapshot; this table is the coarse one. Keep both
 honest at wind-down. (state.md not yet rewritten for the 2026-11-13 session.)
 
-Open decisions (need James; he asked to take these one at a time after the pop-up fix):
-- Toast every run even when nothing is new: with one run at midnight, the toast fires at midnight;
-  keep it, cut it, or move it.
+Open decisions (need James; one at a time, pop-up fix DONE 2026-11-13):
 - Window ordering: interleave sources so one source never sits in a block.
 - Teaser-only bodies (88 of 275 articles in 30 days under 300 chars): fetch full pages for bullets?
 - Older parked: restart of the 48h verifier window; newsletter send account and recipient.
 
 Unsure about:
-- Pop-up cause no longer inferred: a window recording during the manual run at 2026-11-13 15:53
-  caught two Windows Terminal windows, "cmd.exe" at 15:54:22 (vercel.CMD from publish.py) and
-  "powershell.exe" at 15:54:27 (toast from cycle.py). The recorder script was session scratch;
-  rebuild it if needed (EnumWindows every 100 ms, log handles not in the starting set).
+- Pop-ups RESOLVED 2026-11-13: toast deleted; publish.py runs vercel with CREATE_NO_WINDOW.
+  Verified by triggering the real task (schtasks /Run, pythonw) under a window recorder:
+  0 new windows; positive control (flagless cmd from pythonw) caught 2. The recorder
+  (EnumWindows every 100 ms, log handles not in the starting set) was session scratch.
 - The 3 existing CodeX items stay in the article window until newer items push them out; the
   append-only store was not edited.
 
@@ -41,7 +39,7 @@ Unsure about:
 From the project root, in order:
 
     python cycle.py              one full scheduled cycle: poll + digest +
-                                 cycle.log + toast (what Task Scheduler runs
+                                 cycle.log (what Task Scheduler runs
                                  as "daily-reader", once daily at 00:00
                                  since 2026-11-13; was 6x daily 07-22;
                                  runs at next logon if midnight is missed)

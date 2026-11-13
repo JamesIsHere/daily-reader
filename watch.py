@@ -18,8 +18,8 @@ Rows with status 'active' are watched. A page not yet in state is baselined
 silently on first sight, so hand-adding a row stays a one-line edit and never
 dumps a backlog — same law as feeds.
 
-Emitted items use kind "article" and the poller's exact schema, so digest,
-toast, and the rolling view treat them natively; the body is the text ADDED
+Emitted items use kind "article" and the poller's exact schema, so digest
+and the rolling view treat them natively; the body is the text ADDED
 since the last snapshot, so the digest bullet can say what changed. A
 deletion-only edit emits with an empty body and falls back to title-only
 (never fabricate).
@@ -218,7 +218,7 @@ def main():
     print(f"{mode}: {len(pages)} pages checked, {degraded} degraded, "
           f"{armed} baselined, {changed} changed")
     for it in new_items:
-        # exact poller NEW format: cycle.py's toast regex parses these lines
+        # exact poller NEW format (cycle.log readers rely on it)
         print(f"  NEW [{it['kind']}] {it['creator']}: {it['title']}")
 
     if degraded == len(pages):

@@ -9,7 +9,7 @@ Usage:
 Called by cycle.py after digest (guarded: skipped until publish\.vercel\
 project.json exists, i.e. until `vercel link` has been run once). A publish
 failure is logged by cycle.py but never breaks the cycle -- the local
-archive, view, and toast are already done by then.
+archive and view are already done by then.
 
 One-time setup (interactive, done 2026-08-01):
     vercel login
@@ -103,7 +103,11 @@ def deploy():
         sys.exit("ERROR: vercel CLI not on PATH (npm install -g vercel)")
     p = subprocess.run([exe, "deploy", "--prod", "--yes"], cwd=PUB,
                        capture_output=True, text=True, encoding="utf-8",
-                       errors="replace", timeout=TIMEOUT)
+                       errors="replace", timeout=TIMEOUT,
+                       # vercel is a .CMD shim -> cmd.exe; under pythonw
+                       # (Task Scheduler) it has no console to inherit and
+                       # Windows pops a new one. Suppress it.
+                       creationflags=subprocess.CREATE_NO_WINDOW)
     out = (p.stdout or "") + (p.stderr or "")
     if p.returncode:
         print(f"ERROR: vercel deploy rc={p.returncode}\n{out[-800:]}")
